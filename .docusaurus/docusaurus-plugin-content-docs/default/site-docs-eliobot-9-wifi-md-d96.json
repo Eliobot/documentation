@@ -1,0 +1,27 @@
+{
+  "id": "eliobot/wifi",
+  "title": "WiFi",
+  "description": "Utilisation avec Elioblocs",
+  "source": "@site/docs/eliobot/9-wifi.md",
+  "sourceDirName": "eliobot",
+  "slug": "/eliobot/wifi",
+  "permalink": "/docs/eliobot/wifi",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/eliobot/9-wifi.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Batterie",
+    "permalink": "/docs/eliobot/battery"
+  },
+  "next": {
+    "title": "Backpacks",
+    "permalink": "/docs/eliobot/backpacks"
+  }
+}
