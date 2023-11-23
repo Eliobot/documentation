@@ -1,0 +1,16 @@
+{
+  "title": "Elioblocs",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/elioblocs",
+  "permalink": "/docs/category/elioblocs",
+  "navigation": {
+    "previous": {
+      "title": "Backpacks",
+      "permalink": "/docs/eliobot/backpacks"
+    },
+    "next": {
+      "title": "Assembler Eliobot",
+      "permalink": "/docs/elioblocs/assembly"
+    }
+  }
+}

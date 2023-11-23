@@ -1,0 +1,27 @@
+{
+  "id": "examples/python/basic-movements-elioblocs",
+  "title": "Mouvements de base",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/examples/python/basic-movements-elioblocs.md",
+  "sourceDirName": "examples/python",
+  "slug": "/examples/python/basic-movements-elioblocs",
+  "permalink": "/docs/examples/python/basic-movements-elioblocs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/examples/python/basic-movements-elioblocs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Faire clignoter la LED",
+    "permalink": "/docs/examples/python/blink-led-elioblocs"
+  },
+  "next": {
+    "title": "Eviter les obstacles",
+    "permalink": "/docs/examples/python/avoid-obstacles-elioblocs"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "eliobot/button",
+  "title": "Bouton",
+  "description": "Utilisation avec Elioblocs",
+  "source": "@site/docs/eliobot/3-button.md",
+  "sourceDirName": "eliobot",
+  "slug": "/eliobot/button",
+  "permalink": "/docs/eliobot/button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/eliobot/3-button.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LED",
+    "permalink": "/docs/eliobot/led"
+  },
+  "next": {
+    "title": "Buzzer",
+    "permalink": "/docs/eliobot/buzzer"
+  }
+}

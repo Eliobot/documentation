@@ -1,0 +1,27 @@
+{
+  "id": "eliobot/sensors-proximity",
+  "title": "Capteurs d'obstacles",
+  "description": "Utilisation avec Elioblocs",
+  "source": "@site/docs/eliobot/5-sensors-proximity.md",
+  "sourceDirName": "eliobot",
+  "slug": "/eliobot/sensors-proximity",
+  "permalink": "/docs/eliobot/sensors-proximity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/eliobot/5-sensors-proximity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Buzzer",
+    "permalink": "/docs/eliobot/buzzer"
+  },
+  "next": {
+    "title": "Capteurs de ligne",
+    "permalink": "/docs/eliobot/sensors-line"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Eliobot",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/eliobot",
+  "permalink": "/docs/category/eliobot",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Assembler Eliobot",
+      "permalink": "/docs/eliobot/assembly"
+    }
+  }
+}

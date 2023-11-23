@@ -1,0 +1,27 @@
+{
+  "id": "docusaurus/intro docu",
+  "title": "Docusaurus Introduction",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/docusaurus/intro docu.md",
+  "sourceDirName": "docusaurus",
+  "slug": "/docusaurus/intro docu",
+  "permalink": "/docs/docusaurus/intro docu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/intro docu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Suivre une ligne",
+    "permalink": "/docs/examples/python/line-following-elioblocs"
+  },
+  "next": {
+    "title": "Docusaurus - Basics",
+    "permalink": "/docs/category/docusaurus---basics"
+  }
+}
