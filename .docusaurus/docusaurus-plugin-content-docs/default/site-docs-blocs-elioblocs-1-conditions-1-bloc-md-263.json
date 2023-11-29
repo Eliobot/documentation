@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/conditions/bloc",
+  "title": "BLOC",
+  "description": "Utilisation",
+  "source": "@site/docs/blocs_elioblocs/1-conditions/1-bloc.md",
+  "sourceDirName": "blocs_elioblocs/1-conditions",
+  "slug": "/blocs_elioblocs/conditions/bloc",
+  "permalink": "/docs/blocs_elioblocs/conditions/bloc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/1-conditions/1-bloc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conditions",
+    "permalink": "/docs/category/conditions"
+  },
+  "next": {
+    "title": "Boucles",
+    "permalink": "/docs/category/boucles"
+  }
+}

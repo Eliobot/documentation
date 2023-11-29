@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Eliobot",
-    "permalink": "/docs/category/eliobot"
+    "title": "Assembler Eliobot",
+    "permalink": "/docs/eliobot-assembly"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "python_lib/intro",
+  "title": "Introduction",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/python_lib/intro.md",
+  "sourceDirName": "python_lib",
+  "slug": "/python_lib/intro",
+  "permalink": "/docs/python_lib/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/python_lib/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Librairie Python",
+    "permalink": "/docs/category/librairie-python"
+  },
+  "next": {
+    "title": "Exemples",
+    "permalink": "/docs/category/exemples"
+  }
+}

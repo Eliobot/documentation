@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/functions/bloc",
+  "title": "BLOC",
+  "description": "Utilisation",
+  "source": "@site/docs/blocs_elioblocs/6-functions/1-bloc.md",
+  "sourceDirName": "blocs_elioblocs/6-functions",
+  "slug": "/blocs_elioblocs/functions/bloc",
+  "permalink": "/docs/blocs_elioblocs/functions/bloc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/6-functions/1-bloc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fonctions",
+    "permalink": "/docs/category/fonctions"
+  },
+  "next": {
+    "title": "Couleurs",
+    "permalink": "/docs/category/couleurs"
+  }
+}

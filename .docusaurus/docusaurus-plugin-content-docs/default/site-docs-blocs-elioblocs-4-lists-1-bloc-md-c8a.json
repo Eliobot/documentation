@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/lists/bloc",
+  "title": "BLOC",
+  "description": "Utilisation",
+  "source": "@site/docs/blocs_elioblocs/4-lists/1-bloc.md",
+  "sourceDirName": "blocs_elioblocs/4-lists",
+  "slug": "/blocs_elioblocs/lists/bloc",
+  "permalink": "/docs/blocs_elioblocs/lists/bloc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/4-lists/1-bloc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Listes",
+    "permalink": "/docs/category/listes"
+  },
+  "next": {
+    "title": "Variables",
+    "permalink": "/docs/category/variables"
+  }
+}

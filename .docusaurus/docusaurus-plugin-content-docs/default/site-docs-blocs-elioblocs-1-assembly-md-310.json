@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/assembly",
+  "title": "Assembler Eliobot",
+  "description": "Introduction",
+  "source": "@site/docs/blocs_elioblocs/1-assembly.md",
+  "sourceDirName": "blocs_elioblocs",
+  "slug": "/blocs_elioblocs/assembly",
+  "permalink": "/docs/blocs_elioblocs/assembly",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/1-assembly.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les blocs Elioblocs",
+    "permalink": "/docs/category/les-blocs-elioblocs"
+  },
+  "next": {
+    "title": "Conditions",
+    "permalink": "/docs/category/conditions"
+  }
+}

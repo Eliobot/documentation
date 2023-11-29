@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '17a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '07b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '4c6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '532'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'b5d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'f6e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '583'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', '6d9'),
     exact: true
@@ -99,25 +64,103 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '117'),
+    component: ComponentCreator('/docs', '769'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e20'),
+        component: ComponentCreator('/docs', 'e9f'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '820'),
+            component: ComponentCreator('/docs', '505'),
             routes: [
               {
-                path: '/docs/category/docusaurus---basics',
-                component: ComponentCreator('/docs/category/docusaurus---basics', '997'),
+                path: '/docs/blocs_elioblocs/colors/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/colors/bloc', '53f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/docusaurus---extras',
-                component: ComponentCreator('/docs/category/docusaurus---extras', '54b'),
+                path: '/docs/blocs_elioblocs/conditions/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/conditions/bloc', '44d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/functions/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/functions/bloc', '2ef'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/line/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/line/bloc', '882'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/lists/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/lists/bloc', 'f48'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/loops/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/loops/bloc', '573'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/maths/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/maths/bloc', 'da5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/movements/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/movements/bloc', 'c1c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/obstacles/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/obstacles/bloc', 'fc9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/sounds/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/sounds/bloc', 'd0b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/utilities/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/utilities/bloc', '25c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/blocs_elioblocs/variables/bloc',
+                component: ComponentCreator('/docs/blocs_elioblocs/variables/bloc', 'ceb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/boucles',
+                component: ComponentCreator('/docs/category/boucles', 'fd5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/conditions',
+                component: ComponentCreator('/docs/category/conditions', '23a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/couleurs',
+                component: ComponentCreator('/docs/category/couleurs', '00d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -128,20 +171,56 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/elioblocs-1',
-                component: ComponentCreator('/docs/category/elioblocs-1', 'bd5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/eliobot',
-                component: ComponentCreator('/docs/category/eliobot', '168'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/exemples',
                 component: ComponentCreator('/docs/category/exemples', 'e4c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/fonctions',
+                component: ComponentCreator('/docs/category/fonctions', '2b6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/les-blocs-elioblocs',
+                component: ComponentCreator('/docs/category/les-blocs-elioblocs', '45a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/les-fonctionnalités-de-eliobot',
+                component: ComponentCreator('/docs/category/les-fonctionnalités-de-eliobot', 'a42'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/librairie-python',
+                component: ComponentCreator('/docs/category/librairie-python', 'd8b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/listes',
+                component: ComponentCreator('/docs/category/listes', 'e3c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/maths',
+                component: ComponentCreator('/docs/category/maths', '34d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/mouvements',
+                component: ComponentCreator('/docs/category/mouvements', '55e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/obstacles',
+                component: ComponentCreator('/docs/category/obstacles', '8dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -152,68 +231,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docusaurus/intro docu',
-                component: ComponentCreator('/docs/docusaurus/intro docu', '907'),
+                path: '/docs/category/sons',
+                component: ComponentCreator('/docs/category/sons', '084'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docusaurus/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/docusaurus/tutorial-basics/congratulations', '710'),
+                path: '/docs/category/suivi-de-ligne',
+                component: ComponentCreator('/docs/category/suivi-de-ligne', '726'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docusaurus/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/docusaurus/tutorial-basics/create-a-blog-post', '61f'),
+                path: '/docs/category/utilitaires',
+                component: ComponentCreator('/docs/category/utilitaires', '4ca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docusaurus/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/docusaurus/tutorial-basics/create-a-document', '800'),
+                path: '/docs/category/variables',
+                component: ComponentCreator('/docs/category/variables', '19d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docusaurus/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/docusaurus/tutorial-basics/create-a-page', '4b0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docusaurus/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/docusaurus/tutorial-basics/deploy-your-site', 'eaa'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docusaurus/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/docusaurus/tutorial-basics/markdown-features', '08c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docusaurus/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/docusaurus/tutorial-extras/manage-docs-versions', '35e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docusaurus/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/docusaurus/tutorial-extras/translate-your-site', '454'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/elioblocs/assembly',
-                component: ComponentCreator('/docs/elioblocs/assembly', 'a8e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/eliobot/assembly',
-                component: ComponentCreator('/docs/eliobot/assembly', 'f04'),
+                path: '/docs/eliobot-assembly',
+                component: ComponentCreator('/docs/eliobot-assembly', '2b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -322,6 +365,12 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', 'aed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/python_lib/intro',
+                component: ComponentCreator('/docs/python_lib/intro', 'f34'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

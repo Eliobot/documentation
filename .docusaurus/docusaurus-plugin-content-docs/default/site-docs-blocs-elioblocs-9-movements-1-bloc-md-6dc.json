@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/movements/bloc",
+  "title": "BLOC",
+  "description": "Utilisation",
+  "source": "@site/docs/blocs_elioblocs/9-movements/1-bloc.md",
+  "sourceDirName": "blocs_elioblocs/9-movements",
+  "slug": "/blocs_elioblocs/movements/bloc",
+  "permalink": "/docs/blocs_elioblocs/movements/bloc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/9-movements/1-bloc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mouvements",
+    "permalink": "/docs/category/mouvements"
+  },
+  "next": {
+    "title": "Suivi de ligne",
+    "permalink": "/docs/category/suivi-de-ligne"
+  }
+}

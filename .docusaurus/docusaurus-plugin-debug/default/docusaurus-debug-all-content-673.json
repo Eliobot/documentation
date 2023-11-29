@@ -20,124 +20,16 @@
           "contentPathLocalized": "/Users/romain/documentation/i18n/fr/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "docusaurus/intro docu",
-              "title": "Docusaurus Introduction",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/docusaurus/intro docu.md",
-              "sourceDirName": "docusaurus",
-              "slug": "/docusaurus/intro docu",
-              "permalink": "/docs/docusaurus/intro docu",
+              "id": "blocs_elioblocs/colors/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/7-colors/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/7-colors",
+              "slug": "/blocs_elioblocs/colors/bloc",
+              "permalink": "/docs/blocs_elioblocs/colors/bloc",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/intro docu.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 11,
-              "frontMatter": {
-                "sidebar_position": 11
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Suivre une ligne",
-                "permalink": "/docs/examples/python/line-following-elioblocs"
-              },
-              "next": {
-                "title": "Docusaurus - Basics",
-                "permalink": "/docs/category/docusaurus---basics"
-              }
-            },
-            {
-              "id": "docusaurus/tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/docusaurus/tutorial-basics/congratulations.md",
-              "sourceDirName": "docusaurus/tutorial-basics",
-              "slug": "/docusaurus/tutorial-basics/congratulations",
-              "permalink": "/docs/docusaurus/tutorial-basics/congratulations",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/docusaurus/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Docusaurus - Extras",
-                "permalink": "/docs/category/docusaurus---extras"
-              }
-            },
-            {
-              "id": "docusaurus/tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/docusaurus/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "docusaurus/tutorial-basics",
-              "slug": "/docusaurus/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/docusaurus/tutorial-basics/create-a-blog-post",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/docusaurus/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/docusaurus/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "id": "docusaurus/tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/docusaurus/tutorial-basics/create-a-document.md",
-              "sourceDirName": "docusaurus/tutorial-basics",
-              "slug": "/docusaurus/tutorial-basics/create-a-document",
-              "permalink": "/docs/docusaurus/tutorial-basics/create-a-document",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/docusaurus/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/docusaurus/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "id": "docusaurus/tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/docusaurus/tutorial-basics/create-a-page.md",
-              "sourceDirName": "docusaurus/tutorial-basics",
-              "slug": "/docusaurus/tutorial-basics/create-a-page",
-              "permalink": "/docs/docusaurus/tutorial-basics/create-a-page",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/7-colors/1-bloc.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -146,79 +38,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Docusaurus - Basics",
-                "permalink": "/docs/category/docusaurus---basics"
+                "title": "Couleurs",
+                "permalink": "/docs/category/couleurs"
               },
               "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/docusaurus/tutorial-basics/create-a-document"
+                "title": "Sons",
+                "permalink": "/docs/category/sons"
               }
             },
             {
-              "id": "docusaurus/tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/docusaurus/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "docusaurus/tutorial-basics",
-              "slug": "/docusaurus/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/docusaurus/tutorial-basics/deploy-your-site",
+              "id": "blocs_elioblocs/conditions/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/1-conditions/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/1-conditions",
+              "slug": "/blocs_elioblocs/conditions/bloc",
+              "permalink": "/docs/blocs_elioblocs/conditions/bloc",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/docusaurus/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/docusaurus/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "id": "docusaurus/tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/docusaurus/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "docusaurus/tutorial-basics",
-              "slug": "/docusaurus/tutorial-basics/markdown-features",
-              "permalink": "/docs/docusaurus/tutorial-basics/markdown-features",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/docusaurus/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/docusaurus/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "id": "docusaurus/tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/docusaurus/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "docusaurus/tutorial-extras",
-              "slug": "/docusaurus/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/docusaurus/tutorial-extras/manage-docs-versions",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/1-conditions/1-bloc.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -227,48 +65,295 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Docusaurus - Extras",
-                "permalink": "/docs/category/docusaurus---extras"
+                "title": "Conditions",
+                "permalink": "/docs/category/conditions"
               },
               "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/docusaurus/tutorial-extras/translate-your-site"
+                "title": "Boucles",
+                "permalink": "/docs/category/boucles"
               }
             },
             {
-              "id": "docusaurus/tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/docusaurus/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "docusaurus/tutorial-extras",
-              "slug": "/docusaurus/tutorial-extras/translate-your-site",
-              "permalink": "/docs/docusaurus/tutorial-extras/translate-your-site",
+              "id": "blocs_elioblocs/functions/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/6-functions/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/6-functions",
+              "slug": "/blocs_elioblocs/functions/bloc",
+              "permalink": "/docs/blocs_elioblocs/functions/bloc",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/docusaurus/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/6-functions/1-bloc.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/docusaurus/tutorial-extras/manage-docs-versions"
+                "title": "Fonctions",
+                "permalink": "/docs/category/fonctions"
+              },
+              "next": {
+                "title": "Couleurs",
+                "permalink": "/docs/category/couleurs"
               }
             },
             {
-              "id": "elioblocs/assembly",
+              "id": "blocs_elioblocs/line/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/11-line/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/11-line",
+              "slug": "/blocs_elioblocs/line/bloc",
+              "permalink": "/docs/blocs_elioblocs/line/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/11-line/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Suivi de ligne",
+                "permalink": "/docs/category/suivi-de-ligne"
+              },
+              "next": {
+                "title": "Utilitaires",
+                "permalink": "/docs/category/utilitaires"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/lists/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/4-lists/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/4-lists",
+              "slug": "/blocs_elioblocs/lists/bloc",
+              "permalink": "/docs/blocs_elioblocs/lists/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/4-lists/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Listes",
+                "permalink": "/docs/category/listes"
+              },
+              "next": {
+                "title": "Variables",
+                "permalink": "/docs/category/variables"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/loops/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/2-loops/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/2-loops",
+              "slug": "/blocs_elioblocs/loops/bloc",
+              "permalink": "/docs/blocs_elioblocs/loops/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/2-loops/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Boucles",
+                "permalink": "/docs/category/boucles"
+              },
+              "next": {
+                "title": "Maths",
+                "permalink": "/docs/category/maths"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/maths/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/3-maths/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/3-maths",
+              "slug": "/blocs_elioblocs/maths/bloc",
+              "permalink": "/docs/blocs_elioblocs/maths/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/3-maths/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Maths",
+                "permalink": "/docs/category/maths"
+              },
+              "next": {
+                "title": "Listes",
+                "permalink": "/docs/category/listes"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/movements/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/9-movements/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/9-movements",
+              "slug": "/blocs_elioblocs/movements/bloc",
+              "permalink": "/docs/blocs_elioblocs/movements/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/9-movements/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Mouvements",
+                "permalink": "/docs/category/mouvements"
+              },
+              "next": {
+                "title": "Suivi de ligne",
+                "permalink": "/docs/category/suivi-de-ligne"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/obstacles/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/10-obstacles/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/10-obstacles",
+              "slug": "/blocs_elioblocs/obstacles/bloc",
+              "permalink": "/docs/blocs_elioblocs/obstacles/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/10-obstacles/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Obstacles",
+                "permalink": "/docs/category/obstacles"
+              },
+              "next": {
+                "title": "Mouvements",
+                "permalink": "/docs/category/mouvements"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/sounds/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/8-sounds/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/8-sounds",
+              "slug": "/blocs_elioblocs/sounds/bloc",
+              "permalink": "/docs/blocs_elioblocs/sounds/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/8-sounds/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sons",
+                "permalink": "/docs/category/sons"
+              },
+              "next": {
+                "title": "Obstacles",
+                "permalink": "/docs/category/obstacles"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/utilities/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/12-utilities/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/12-utilities",
+              "slug": "/blocs_elioblocs/utilities/bloc",
+              "permalink": "/docs/blocs_elioblocs/utilities/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/12-utilities/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Utilitaires",
+                "permalink": "/docs/category/utilitaires"
+              },
+              "next": {
+                "title": "Librairie Python",
+                "permalink": "/docs/category/librairie-python"
+              }
+            },
+            {
+              "id": "blocs_elioblocs/variables/bloc",
+              "title": "BLOC",
+              "description": "Utilisation",
+              "source": "@site/docs/blocs_elioblocs/5-variables/1-bloc.md",
+              "sourceDirName": "blocs_elioblocs/5-variables",
+              "slug": "/blocs_elioblocs/variables/bloc",
+              "permalink": "/docs/blocs_elioblocs/variables/bloc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/5-variables/1-bloc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Variables",
+                "permalink": "/docs/category/variables"
+              },
+              "next": {
+                "title": "Fonctions",
+                "permalink": "/docs/category/fonctions"
+              }
+            },
+            {
+              "id": "eliobot-assembly",
               "title": "Assembler Eliobot",
               "description": "Introduction",
-              "source": "@site/docs/elioblocs/1-assembly.md",
-              "sourceDirName": "elioblocs",
-              "slug": "/elioblocs/assembly",
-              "permalink": "/docs/elioblocs/assembly",
+              "source": "@site/docs/eliobot-assembly.md",
+              "sourceDirName": ".",
+              "slug": "/eliobot-assembly",
+              "permalink": "/docs/eliobot-assembly",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/elioblocs/1-assembly.md",
+              "editUrl": "https://github.com/Eliobot/documentation/docs/eliobot-assembly.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -277,39 +362,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Elioblocs",
-                "permalink": "/docs/category/elioblocs"
+                "title": "Introduction",
+                "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Exemples",
-                "permalink": "/docs/category/exemples"
-              }
-            },
-            {
-              "id": "eliobot/assembly",
-              "title": "Assembler Eliobot",
-              "description": "Introduction",
-              "source": "@site/docs/eliobot/1-assembly.md",
-              "sourceDirName": "eliobot",
-              "slug": "/eliobot/assembly",
-              "permalink": "/docs/eliobot/assembly",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/Eliobot/documentation/docs/eliobot/1-assembly.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Eliobot",
-                "permalink": "/docs/category/eliobot"
-              },
-              "next": {
-                "title": "LED",
-                "permalink": "/docs/eliobot/led"
+                "title": "Les fonctionnalités de Eliobot",
+                "permalink": "/docs/category/les-fonctionnalités-de-eliobot"
               }
             },
             {
@@ -335,8 +393,8 @@
                 "permalink": "/docs/eliobot/wifi"
               },
               "next": {
-                "title": "Elioblocs",
-                "permalink": "/docs/category/elioblocs"
+                "title": "Les blocs Elioblocs",
+                "permalink": "/docs/category/les-blocs-elioblocs"
               }
             },
             {
@@ -439,8 +497,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Assembler Eliobot",
-                "permalink": "/docs/eliobot/assembly"
+                "title": "Les fonctionnalités de Eliobot",
+                "permalink": "/docs/category/les-fonctionnalités-de-eliobot"
               },
               "next": {
                 "title": "Bouton",
@@ -629,7 +687,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Elioblocs",
-                "permalink": "/docs/category/elioblocs-1"
+                "permalink": "/docs/category/elioblocs"
               },
               "next": {
                 "title": "Mouvements de base",
@@ -765,10 +823,6 @@
               "previous": {
                 "title": "Eviter les obstacles",
                 "permalink": "/docs/examples/python/avoid-obstacles-elioblocs"
-              },
-              "next": {
-                "title": "Docusaurus Introduction",
-                "permalink": "/docs/docusaurus/intro docu"
               }
             },
             {
@@ -790,8 +844,35 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Eliobot",
-                "permalink": "/docs/category/eliobot"
+                "title": "Assembler Eliobot",
+                "permalink": "/docs/eliobot-assembly"
+              }
+            },
+            {
+              "id": "python_lib/intro",
+              "title": "Introduction",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/python_lib/intro.md",
+              "sourceDirName": "python_lib",
+              "slug": "/python_lib/intro",
+              "permalink": "/docs/python_lib/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Eliobot/documentation/docs/python_lib/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Librairie Python",
+                "permalink": "/docs/category/librairie-python"
+              },
+              "next": {
+                "title": "Exemples",
+                "permalink": "/docs/category/exemples"
               }
             }
           ],
@@ -803,15 +884,15 @@
                 "id": "intro"
               },
               {
+                "type": "doc",
+                "id": "eliobot-assembly"
+              },
+              {
                 "type": "category",
-                "label": "Eliobot",
+                "label": "Les fonctionnalités de Eliobot",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "eliobot/assembly"
-                  },
                   {
                     "type": "doc",
                     "id": "eliobot/led"
@@ -851,27 +932,257 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "5 minutes to learn the most important Docusaurus concepts.",
-                  "slug": "/category/eliobot",
-                  "permalink": "/docs/category/eliobot"
+                  "description": "Eliobot est livré avec plein de fonctionnalités, découvrons-les ensemble :",
+                  "slug": "/category/les-fonctionnalités-de-eliobot",
+                  "permalink": "/docs/category/les-fonctionnalités-de-eliobot"
                 }
               },
               {
                 "type": "category",
-                "label": "Elioblocs",
+                "label": "Les blocs Elioblocs",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "elioblocs/assembly"
+                    "type": "category",
+                    "label": "Conditions",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/conditions/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/conditions",
+                      "permalink": "/docs/category/conditions"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Boucles",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/loops/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/boucles",
+                      "permalink": "/docs/category/boucles"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Maths",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/maths/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/maths",
+                      "permalink": "/docs/category/maths"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Listes",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/lists/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/listes",
+                      "permalink": "/docs/category/listes"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Variables",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/variables/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/variables",
+                      "permalink": "/docs/category/variables"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Fonctions",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/functions/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/fonctions",
+                      "permalink": "/docs/category/fonctions"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Couleurs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/colors/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/couleurs",
+                      "permalink": "/docs/category/couleurs"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Sons",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/sounds/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/sons",
+                      "permalink": "/docs/category/sons"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Obstacles",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/obstacles/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/obstacles",
+                      "permalink": "/docs/category/obstacles"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Mouvements",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/movements/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/mouvements",
+                      "permalink": "/docs/category/mouvements"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Suivi de ligne",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/line/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/suivi-de-ligne",
+                      "permalink": "/docs/category/suivi-de-ligne"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Utilitaires",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "blocs_elioblocs/utilities/bloc"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "5 minutes to learn the most important Docusaurus concepts.",
+                      "slug": "/category/utilitaires",
+                      "permalink": "/docs/category/utilitaires"
+                    }
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
-                  "slug": "/category/elioblocs",
-                  "permalink": "/docs/category/elioblocs"
+                  "slug": "/category/les-blocs-elioblocs",
+                  "permalink": "/docs/category/les-blocs-elioblocs"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Librairie Python",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "python_lib/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/librairie-python",
+                  "permalink": "/docs/category/librairie-python"
                 }
               },
               {
@@ -906,8 +1217,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "5 minutes to learn the most important Docusaurus concepts.",
-                      "slug": "/category/elioblocs-1",
-                      "permalink": "/docs/category/elioblocs-1"
+                      "slug": "/category/elioblocs",
+                      "permalink": "/docs/category/elioblocs"
                     }
                   },
                   {
@@ -947,77 +1258,6 @@
                   "slug": "/category/exemples",
                   "permalink": "/docs/category/exemples"
                 }
-              },
-              {
-                "type": "category",
-                "label": "docusaurus",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "docusaurus/intro docu"
-                  },
-                  {
-                    "type": "category",
-                    "label": "Docusaurus - Basics",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-basics/create-a-page"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-basics/create-a-document"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-basics/create-a-blog-post"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-basics/markdown-features"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-basics/deploy-your-site"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-basics/congratulations"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "5 minutes to learn the most important Docusaurus concepts.",
-                      "slug": "/category/docusaurus---basics",
-                      "permalink": "/docs/category/docusaurus---basics"
-                    }
-                  },
-                  {
-                    "type": "category",
-                    "label": "Docusaurus - Extras",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-extras/manage-docs-versions"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "docusaurus/tutorial-extras/translate-your-site"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/docusaurus---extras",
-                      "permalink": "/docs/category/docusaurus---extras"
-                    }
-                  }
-                ]
               }
             ]
           }

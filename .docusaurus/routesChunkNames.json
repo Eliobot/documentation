@@ -1,353 +1,366 @@
 {
-  "/__docusaurus/debug-17a": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    }
-  },
-  "/__docusaurus/debug/config-07b": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    }
-  },
-  "/__docusaurus/debug/content-4c6": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-532": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    }
-  },
-  "/__docusaurus/debug/metadata-b5d": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    }
-  },
-  "/__docusaurus/debug/registry-f6e": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    }
-  },
-  "/__docusaurus/debug/routes-583": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-36-64c"
-    }
-  },
   "/blog-6d9": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/archive-fdb": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "archive": "b2f554cd"
   },
   "/blog/first-blog-post-85a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/blog/long-blog-post-a9a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/blog/mdx-blog-post-ba7": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/blog/tags-936": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
   },
   "/blog/tags/docusaurus-b89": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "tag": "tag---blog-tags-docusaurusa-80-728",
-    "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
+    "tag": "a80da1cf",
+    "listMetadata": "608ae6a4"
   },
   "/blog/tags/facebook-9ae": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "tag": "tag---blog-tags-facebook-031-c52",
-    "listMetadata": "listMetadata---blog-tags-facebook-096-d31"
+    "tag": "031793e1",
+    "listMetadata": "096bfee4"
   },
   "/blog/tags/hello-c52": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       }
     ],
-    "tag": "tag---blog-tags-hello-30-a-bed",
-    "listMetadata": "listMetadata---blog-tags-hello-664-70a"
+    "tag": "30a24c52",
+    "listMetadata": "66406991"
   },
   "/blog/tags/hola-3bc": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "tag": "tag---blog-tags-holae-16-18a",
-    "listMetadata": "listMetadata---blog-tags-hola-4-c-9-a24"
+    "tag": "e16015ca",
+    "listMetadata": "4c9e35b1"
   },
   "/blog/welcome-35c": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-76-32e"
+      "plugin": "f76f12e4"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/markdown-page-a84": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-paged-8-f-c4d"
+      "plugin": "d8fb5040"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
-  "/docs-117": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/docs-769": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docs-21-b-a18"
+      "plugin": "21be639c"
     }
   },
-  "/docs-e20": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---docs-935-398"
+  "/docs-e9f": {
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
   },
-  "/docs-820": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/docs-505": {
+    "__comp": "a94703ab"
   },
-  "/docs/category/docusaurus---basics-997": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-docusaurus-basics-199-f00"
+  "/docs/blocs_elioblocs/colors/bloc-53f": {
+    "__comp": "17896441",
+    "content": "9507a622"
   },
-  "/docs/category/docusaurus---extras-54b": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-docusaurus-extrasda-8-00c"
+  "/docs/blocs_elioblocs/conditions/bloc-44d": {
+    "__comp": "17896441",
+    "content": "263ff372"
+  },
+  "/docs/blocs_elioblocs/functions/bloc-2ef": {
+    "__comp": "17896441",
+    "content": "6bf68e51"
+  },
+  "/docs/blocs_elioblocs/line/bloc-882": {
+    "__comp": "17896441",
+    "content": "a90c1d8b"
+  },
+  "/docs/blocs_elioblocs/lists/bloc-f48": {
+    "__comp": "17896441",
+    "content": "c8ab858a"
+  },
+  "/docs/blocs_elioblocs/loops/bloc-573": {
+    "__comp": "17896441",
+    "content": "1b0c44a2"
+  },
+  "/docs/blocs_elioblocs/maths/bloc-da5": {
+    "__comp": "17896441",
+    "content": "98e2d572"
+  },
+  "/docs/blocs_elioblocs/movements/bloc-c1c": {
+    "__comp": "17896441",
+    "content": "6dc3d563"
+  },
+  "/docs/blocs_elioblocs/obstacles/bloc-fc9": {
+    "__comp": "17896441",
+    "content": "9401c336"
+  },
+  "/docs/blocs_elioblocs/sounds/bloc-d0b": {
+    "__comp": "17896441",
+    "content": "d0ad1a25"
+  },
+  "/docs/blocs_elioblocs/utilities/bloc-25c": {
+    "__comp": "17896441",
+    "content": "03751836"
+  },
+  "/docs/blocs_elioblocs/variables/bloc-ceb": {
+    "__comp": "17896441",
+    "content": "74b93e9c"
+  },
+  "/docs/category/boucles-fd5": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "2814814c"
+  },
+  "/docs/category/conditions-23a": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "1afe8f5a"
+  },
+  "/docs/category/couleurs-00d": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "383c32c6"
   },
   "/docs/category/elioblocs-37c": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-elioblocs-152-e87"
-  },
-  "/docs/category/elioblocs-1-bd5": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-elioblocs-1499-8a5"
-  },
-  "/docs/category/eliobot-168": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-eliobota-32-d8e"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "1524e71e"
   },
   "/docs/category/exemples-e4c": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-exemplesc-36-81d"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "c3684f50"
+  },
+  "/docs/category/fonctions-2b6": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "f304ccd6"
+  },
+  "/docs/category/les-blocs-elioblocs-45a": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "0e7d78bf"
+  },
+  "/docs/category/les-fonctionnalités-de-eliobot-a42": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "80a2d8e6"
+  },
+  "/docs/category/librairie-python-d8b": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "42a33d04"
+  },
+  "/docs/category/listes-e3c": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "3b5121ae"
+  },
+  "/docs/category/maths-34d": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "6962c775"
+  },
+  "/docs/category/mouvements-55e": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "0c88e6b5"
+  },
+  "/docs/category/obstacles-8dc": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "c887f456"
   },
   "/docs/category/python-5ff": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-python-295-074"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "295c7fd1"
   },
-  "/docs/docusaurus/intro docu-907": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-intro-docu-7-a-5-d85"
+  "/docs/category/sons-084": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "684bbd6b"
   },
-  "/docs/docusaurus/tutorial-basics/congratulations-710": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-basics-congratulations-61-e-c2b"
+  "/docs/category/suivi-de-ligne-726": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "5bd1e611"
   },
-  "/docs/docusaurus/tutorial-basics/create-a-blog-post-61f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-basics-create-a-blog-post-5-f-7-e0b"
+  "/docs/category/utilitaires-4ca": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "89ebd4d0"
   },
-  "/docs/docusaurus/tutorial-basics/create-a-document-800": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-basics-create-a-documentb-4-b-521"
+  "/docs/category/variables-19d": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "cbd96bba"
   },
-  "/docs/docusaurus/tutorial-basics/create-a-page-4b0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-basics-create-a-pagef-7-a-40c"
-  },
-  "/docs/docusaurus/tutorial-basics/deploy-your-site-eaa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-basics-deploy-your-site-425-2f4"
-  },
-  "/docs/docusaurus/tutorial-basics/markdown-features-08c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-basics-markdown-featuresa-29-c64"
-  },
-  "/docs/docusaurus/tutorial-extras/manage-docs-versions-35e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-extras-manage-docs-versions-508-848"
-  },
-  "/docs/docusaurus/tutorial-extras/translate-your-site-454": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-tutorial-extras-translate-your-site-9-b-8-688"
-  },
-  "/docs/elioblocs/assembly-a8e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-elioblocs-assembly-26-f-02a"
-  },
-  "/docs/eliobot/assembly-f04": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-assemblycc-2-648"
+  "/docs/eliobot-assembly-2b4": {
+    "__comp": "17896441",
+    "content": "495d058a"
   },
   "/docs/eliobot/backpacks-a10": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-backpacks-576-237"
+    "__comp": "17896441",
+    "content": "57640c93"
   },
   "/docs/eliobot/battery-014": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-batteryece-04f"
+    "__comp": "17896441",
+    "content": "eceb2981"
   },
   "/docs/eliobot/button-5a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-buttond-4-a-aeb"
+    "__comp": "17896441",
+    "content": "d4a81492"
   },
   "/docs/eliobot/buzzer-716": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-buzzerb-9-e-9ae"
+    "__comp": "17896441",
+    "content": "b9eb6dfd"
   },
   "/docs/eliobot/led-72e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-led-191-8ed"
+    "__comp": "17896441",
+    "content": "191c1fd2"
   },
   "/docs/eliobot/motors-530": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-motors-18-a-080"
+    "__comp": "17896441",
+    "content": "18a2f86e"
   },
   "/docs/eliobot/sensors-line-d0d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-sensors-line-043-acd"
+    "__comp": "17896441",
+    "content": "0433b416"
   },
   "/docs/eliobot/sensors-proximity-b2e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-sensors-proximity-5-aa-4cb"
+    "__comp": "17896441",
+    "content": "5aa508f1"
   },
   "/docs/eliobot/wifi-c33": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-eliobot-wifid-96-8c2"
+    "__comp": "17896441",
+    "content": "d960f1a0"
   },
   "/docs/examples/elioblocs/avoid-obstacles-elioblocs-61b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-elioblocs-avoid-obstacles-elioblocse-4-b-357"
+    "__comp": "17896441",
+    "content": "e4b38a88"
   },
   "/docs/examples/elioblocs/basic-movements-elioblocs-d8e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-elioblocs-basic-movements-elioblocs-1-df-522"
+    "__comp": "17896441",
+    "content": "1dff04e1"
   },
   "/docs/examples/elioblocs/blink-led-elioblocs-afc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-elioblocs-blink-led-elioblocsca-7-526"
+    "__comp": "17896441",
+    "content": "ca7b2906"
   },
   "/docs/examples/elioblocs/line-following-elioblocs-cf2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-elioblocs-line-following-elioblocsd-89-df2"
+    "__comp": "17896441",
+    "content": "d894aecb"
   },
   "/docs/examples/python/avoid-obstacles-elioblocs-5e7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-python-avoid-obstacles-elioblocsf-7-c-14f"
+    "__comp": "17896441",
+    "content": "f7c106dc"
   },
   "/docs/examples/python/basic-movements-elioblocs-92f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-python-basic-movements-elioblocs-318-c2a"
+    "__comp": "17896441",
+    "content": "3189f68f"
   },
   "/docs/examples/python/blink-led-elioblocs-706": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-python-blink-led-elioblocsa-12-068"
+    "__comp": "17896441",
+    "content": "a120bf49"
   },
   "/docs/examples/python/line-following-elioblocs-4aa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-python-line-following-elioblocs-985-a67"
+    "__comp": "17896441",
+    "content": "9856576d"
   },
   "/docs/intro-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/docs/python_lib/intro-f34": {
+    "__comp": "17896441",
+    "content": "8f8ee896"
   },
   "/-2fb": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-paged-8-f-c4d"
+      "plugin": "d8fb5040"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

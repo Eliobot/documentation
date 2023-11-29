@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/loops/bloc",
+  "title": "BLOC",
+  "description": "Utilisation",
+  "source": "@site/docs/blocs_elioblocs/2-loops/1-bloc.md",
+  "sourceDirName": "blocs_elioblocs/2-loops",
+  "slug": "/blocs_elioblocs/loops/bloc",
+  "permalink": "/docs/blocs_elioblocs/loops/bloc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/2-loops/1-bloc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boucles",
+    "permalink": "/docs/category/boucles"
+  },
+  "next": {
+    "title": "Maths",
+    "permalink": "/docs/category/maths"
+  }
+}

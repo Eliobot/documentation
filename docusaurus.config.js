@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Elio', // Usually your GitHub org/user name.
+  organizationName: 'Eliobot', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',

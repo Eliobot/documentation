@@ -5,12 +5,12 @@
   "permalink": "/docs/category/eliobot",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/docs/intro"
+      "title": "Assembler Eliobot",
+      "permalink": "/docs/eliobot-assembly"
     },
     "next": {
-      "title": "Assembler Eliobot",
-      "permalink": "/docs/eliobot/assembly"
+      "title": "LED",
+      "permalink": "/docs/eliobot/led"
     }
   }
 }

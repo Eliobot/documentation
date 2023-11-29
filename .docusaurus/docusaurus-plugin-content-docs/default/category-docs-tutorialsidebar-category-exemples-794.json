@@ -5,12 +5,12 @@
   "permalink": "/docs/category/exemples",
   "navigation": {
     "previous": {
-      "title": "Assembler Eliobot",
-      "permalink": "/docs/elioblocs/assembly"
+      "title": "Introduction",
+      "permalink": "/docs/python_lib/intro"
     },
     "next": {
       "title": "Elioblocs",
-      "permalink": "/docs/category/elioblocs-1"
+      "permalink": "/docs/category/elioblocs"
     }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "blocs_elioblocs/conditions/led",
+  "title": "LED",
+  "description": "Utilisation avec Elioblocs",
+  "source": "@site/docs/blocs_elioblocs/1-conditions/2-led.md",
+  "sourceDirName": "blocs_elioblocs/1-conditions",
+  "slug": "/blocs_elioblocs/conditions/led",
+  "permalink": "/docs/blocs_elioblocs/conditions/led",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/blocs_elioblocs/1-conditions/2-led.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conditions",
+    "permalink": "/docs/category/conditions"
+  },
+  "next": {
+    "title": "Exemples",
+    "permalink": "/docs/category/exemples"
+  }
+}

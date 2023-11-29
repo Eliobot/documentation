@@ -9,7 +9,7 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://docs.eliobot.com",
   "baseUrl": "/",
-  "organizationName": "Elio",
+  "organizationName": "Eliobot",
   "projectName": "documentation",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",

@@ -5,12 +5,12 @@
   "permalink": "/docs/category/elioblocs",
   "navigation": {
     "previous": {
-      "title": "Backpacks",
-      "permalink": "/docs/eliobot/backpacks"
+      "title": "Exemples",
+      "permalink": "/docs/category/exemples"
     },
     "next": {
-      "title": "Assembler Eliobot",
-      "permalink": "/docs/elioblocs/assembly"
+      "title": "Faire clignoter la LED",
+      "permalink": "/docs/examples/elioblocs/blink-led-elioblocs"
     }
   }
 }
