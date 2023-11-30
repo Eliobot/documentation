@@ -32,3 +32,17 @@
 html[data-theme='dark'] .navbar .navbar__logo {
   content: url(/static/img/logo-dark.svg)
 }
+
+
+img[src*='#left'] {
+  float: left;
+}
+img[src*='#right'] {
+  width: 50%;
+  float: right;
+  display: block;
+}
+img[src*='#center'] {
+  display: block;
+  margin: auto;
+}
