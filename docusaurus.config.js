@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Eliobot/documentation/',
+            'https://github.com/Eliobot/documentation/tree/main/',
           },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Eliobot/documentation/',
+            'https://github.com/Eliobot/documentation/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
