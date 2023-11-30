@@ -6,8 +6,16 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   object-fit: contain;
   display: inline-block;
+}
+
+a {
+  color: black;
+}
+
+[data-theme='dark'] a {
+  color: white;
 }

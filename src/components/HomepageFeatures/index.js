@@ -6,20 +6,20 @@ const FeatureList = [
   {
     title: 'Elioblocs',
     Svg: require('@site/static/img/elioblocs.svg').default,
+    link: 'docs/category/programmer-avec-elioblocs-1',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Outil de programmation par blocs, idéal pour débuter sans se soucier de la syntaxe du code.
       </>
     ),
   },
   {
     title: 'Python',
     Svg: require('@site/static/img/python.svg').default,
+    link: 'docs/category/programmer-en-python-1',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Le langage le plus utilisé au monde actuellement, il conviendra parfaitement a ceux qui veulent commencer le code.
       </>
     ),
   },
@@ -28,35 +28,39 @@ const FeatureList = [
     Svg: require('@site/static/img/arduino.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Pour ceux qui veulent aller plus loin en programmation, tout en bénéficiant d'un écosystème étendu.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
+      <a className={clsx('col col--4 featureCol')} href= {link}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
+      </a>
   );
 }
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <section>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h2">1 robot, 3 façons de le programmer</Heading>
+      </div>
+      <div className={styles.features}>
+        <div className="container">
+          <div className="row featureRow">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
