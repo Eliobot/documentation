@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Python",
-    "permalink": "/docs/category/python"
-  },
-  "next": {
-    "title": "Mouvements de base",
-    "permalink": "/docs/examples/python/basic-movements-elioblocs"
   }
 }

@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 7
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Capteurs de ligne",
     "permalink": "/docs/eliobot/sensors-line"

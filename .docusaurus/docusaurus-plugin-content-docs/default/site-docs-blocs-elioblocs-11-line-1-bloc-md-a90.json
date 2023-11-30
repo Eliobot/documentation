@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Suivi de ligne",
     "permalink": "/docs/category/suivi-de-ligne"

@@ -1,0 +1,16 @@
+{
+  "title": "Python",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/python-3",
+  "permalink": "/docs/category/python-3",
+  "navigation": {
+    "previous": {
+      "title": "Suivre une ligne",
+      "permalink": "/docs/tutorial/elioblocs/line-following-elioblocs"
+    },
+    "next": {
+      "title": "Faire clignoter la LED",
+      "permalink": "/docs/tutorial/python/blink-led-elioblocs"
+    }
+  }
+}

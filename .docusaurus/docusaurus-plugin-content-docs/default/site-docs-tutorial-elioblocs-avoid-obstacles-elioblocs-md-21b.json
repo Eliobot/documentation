@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/elioblocs/avoid-obstacles-elioblocs",
+  "title": "Eviter les obstacles",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/tutorial/elioblocs/avoid-obstacles-elioblocs.md",
+  "sourceDirName": "tutorial/elioblocs",
+  "slug": "/tutorial/elioblocs/avoid-obstacles-elioblocs",
+  "permalink": "/docs/tutorial/elioblocs/avoid-obstacles-elioblocs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/tutorial/elioblocs/avoid-obstacles-elioblocs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mouvements de base",
+    "permalink": "/docs/tutorial/elioblocs/basic-movements-elioblocs"
+  },
+  "next": {
+    "title": "Suivre une ligne",
+    "permalink": "/docs/tutorial/elioblocs/line-following-elioblocs"
+  }
+}

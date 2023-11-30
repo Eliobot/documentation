@@ -1,0 +1,23 @@
+{
+  "id": "tutorial/intro",
+  "title": "Introduction",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/tutorial/intro.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/intro",
+  "permalink": "/docs/tutorial/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/tutorial/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Assembler Eliobot",
+    "permalink": "/docs/tutorial/eliobot-assembly"
+  }
+}

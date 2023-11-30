@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/elioblocs/blink-led-elioblocs",
+  "title": "Faire clignoter la LED",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/tutorial/elioblocs/blink-led-elioblocs.md",
+  "sourceDirName": "tutorial/elioblocs",
+  "slug": "/tutorial/elioblocs/blink-led-elioblocs",
+  "permalink": "/docs/tutorial/elioblocs/blink-led-elioblocs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/tutorial/elioblocs/blink-led-elioblocs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Programmer avec Elioblocs",
+    "permalink": "/docs/category/programmer-avec-elioblocs-1"
+  },
+  "next": {
+    "title": "Mouvements de base",
+    "permalink": "/docs/tutorial/elioblocs/basic-movements-elioblocs"
+  }
+}

@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Sons",
     "permalink": "/docs/category/sons"

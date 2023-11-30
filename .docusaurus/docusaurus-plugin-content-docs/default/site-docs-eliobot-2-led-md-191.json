@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 2
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Les fonctionnalités de Eliobot",
     "permalink": "/docs/category/les-fonctionnalités-de-eliobot"

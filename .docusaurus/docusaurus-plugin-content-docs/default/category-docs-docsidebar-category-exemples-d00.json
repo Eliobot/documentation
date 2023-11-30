@@ -1,0 +1,16 @@
+{
+  "title": "Exemples",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/exemples",
+  "permalink": "/docs/category/exemples",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/python_lib/intro"
+    },
+    "next": {
+      "title": "Assembler Eliobot",
+      "permalink": "/docs/tutorial/eliobot-assembly"
+    }
+  }
+}

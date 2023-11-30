@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Elio',
-  tagline: 'Toute la documentation',
+  title: 'Le monde de Eliobot',
+  tagline: '  Tu débutes ? Suis-moi pour découvrir l’assemblage et la programmation de ton nouveau compagnon !',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,11 +74,26 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'docSidebar',
+            position: 'left',
+            label: 'Docs',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutoriels',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://app.eliobot.com',
+            label: 'Elioblocs',
+            position: 'left',
+          },
+          {
+            href: 'https://eliobot.com',
+            label: 'Boutique',
+            position: 'left',
+          },
           {
             href: 'https://github.com/Eliobot/documentation',
             label: 'GitHub',
@@ -93,8 +108,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Tutoriels',
+                to: '/docs/tutorial/intro',
               },
             ],
           },
@@ -118,10 +137,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/Eliobot/',

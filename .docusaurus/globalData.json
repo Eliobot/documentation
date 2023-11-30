@@ -13,260 +13,276 @@
             {
               "id": "blocs_elioblocs/colors/bloc",
               "path": "/docs/blocs_elioblocs/colors/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/conditions/bloc",
               "path": "/docs/blocs_elioblocs/conditions/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/functions/bloc",
               "path": "/docs/blocs_elioblocs/functions/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/line/bloc",
               "path": "/docs/blocs_elioblocs/line/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/lists/bloc",
               "path": "/docs/blocs_elioblocs/lists/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/loops/bloc",
               "path": "/docs/blocs_elioblocs/loops/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/maths/bloc",
               "path": "/docs/blocs_elioblocs/maths/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/movements/bloc",
               "path": "/docs/blocs_elioblocs/movements/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/obstacles/bloc",
               "path": "/docs/blocs_elioblocs/obstacles/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/sounds/bloc",
               "path": "/docs/blocs_elioblocs/sounds/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/utilities/bloc",
               "path": "/docs/blocs_elioblocs/utilities/bloc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "blocs_elioblocs/variables/bloc",
               "path": "/docs/blocs_elioblocs/variables/bloc",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "eliobot-assembly",
-              "path": "/docs/eliobot-assembly",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/backpacks",
               "path": "/docs/eliobot/backpacks",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/battery",
               "path": "/docs/eliobot/battery",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/button",
               "path": "/docs/eliobot/button",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/buzzer",
               "path": "/docs/eliobot/buzzer",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/led",
               "path": "/docs/eliobot/led",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/motors",
               "path": "/docs/eliobot/motors",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/sensors-line",
               "path": "/docs/eliobot/sensors-line",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/sensors-proximity",
               "path": "/docs/eliobot/sensors-proximity",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "eliobot/wifi",
               "path": "/docs/eliobot/wifi",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/elioblocs/avoid-obstacles-elioblocs",
-              "path": "/docs/examples/elioblocs/avoid-obstacles-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/elioblocs/basic-movements-elioblocs",
-              "path": "/docs/examples/elioblocs/basic-movements-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/elioblocs/blink-led-elioblocs",
-              "path": "/docs/examples/elioblocs/blink-led-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/elioblocs/line-following-elioblocs",
-              "path": "/docs/examples/elioblocs/line-following-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/python/avoid-obstacles-elioblocs",
-              "path": "/docs/examples/python/avoid-obstacles-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/python/basic-movements-elioblocs",
-              "path": "/docs/examples/python/basic-movements-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/python/blink-led-elioblocs",
-              "path": "/docs/examples/python/blink-led-elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "examples/python/line-following-elioblocs",
-              "path": "/docs/examples/python/line-following-elioblocs",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "python_lib/intro",
               "path": "/docs/python_lib/intro",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "tutorial/elioblocs/avoid-obstacles-elioblocs",
+              "path": "/docs/tutorial/elioblocs/avoid-obstacles-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/elioblocs/basic-movements-elioblocs",
+              "path": "/docs/tutorial/elioblocs/basic-movements-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/elioblocs/blink-led-elioblocs",
+              "path": "/docs/tutorial/elioblocs/blink-led-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/elioblocs/line-following-elioblocs",
+              "path": "/docs/tutorial/elioblocs/line-following-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/eliobot-assembly",
+              "path": "/docs/tutorial/eliobot-assembly",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/python/avoid-obstacles-elioblocs",
+              "path": "/docs/tutorial/python/avoid-obstacles-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/python/basic-movements-elioblocs",
+              "path": "/docs/tutorial/python/basic-movements-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/python/blink-led-elioblocs",
+              "path": "/docs/tutorial/python/blink-led-elioblocs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/python/line-following-elioblocs",
+              "path": "/docs/tutorial/python/line-following-elioblocs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/les-fonctionnalités-de-eliobot",
               "path": "/docs/category/les-fonctionnalités-de-eliobot",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/les-blocs-elioblocs",
               "path": "/docs/category/les-blocs-elioblocs",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/conditions",
               "path": "/docs/category/conditions",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/boucles",
               "path": "/docs/category/boucles",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/maths",
               "path": "/docs/category/maths",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/listes",
               "path": "/docs/category/listes",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/variables",
               "path": "/docs/category/variables",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/fonctions",
               "path": "/docs/category/fonctions",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/couleurs",
               "path": "/docs/category/couleurs",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/sons",
               "path": "/docs/category/sons",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/obstacles",
               "path": "/docs/category/obstacles",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/mouvements",
               "path": "/docs/category/mouvements",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/suivi-de-ligne",
               "path": "/docs/category/suivi-de-ligne",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/utilitaires",
               "path": "/docs/category/utilitaires",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/librairie-python",
               "path": "/docs/category/librairie-python",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docSidebar"
             },
             {
               "id": "/category/exemples",
               "path": "/docs/category/exemples",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/programmer-avec-elioblocs",
+              "path": "/docs/category/programmer-avec-elioblocs",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/programmer-en-python",
+              "path": "/docs/category/programmer-en-python",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/programmer-avec-elioblocs-1",
+              "path": "/docs/category/programmer-avec-elioblocs-1",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/elioblocs",
-              "path": "/docs/category/elioblocs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/python",
-              "path": "/docs/category/python",
+              "id": "/category/programmer-en-python-1",
+              "path": "/docs/category/programmer-en-python-1",
               "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "docSidebar": {
               "link": {
                 "path": "/docs/intro",
                 "label": "intro"
+              }
+            },
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/tutorial/eliobot-assembly",
+                "label": "tutorial/eliobot-assembly"
               }
             }
           }

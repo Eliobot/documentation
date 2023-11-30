@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Elioblocs",
-    "permalink": "/docs/category/elioblocs"
-  },
-  "next": {
-    "title": "Mouvements de base",
-    "permalink": "/docs/examples/elioblocs/basic-movements-elioblocs"
   }
 }

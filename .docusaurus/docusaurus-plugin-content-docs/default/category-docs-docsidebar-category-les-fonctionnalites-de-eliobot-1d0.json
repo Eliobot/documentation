@@ -1,0 +1,16 @@
+{
+  "title": "Les fonctionnalités de Eliobot",
+  "description": "Eliobot est livré avec plein de fonctionnalités, découvrons-les ensemble :",
+  "slug": "/category/les-fonctionnalités-de-eliobot",
+  "permalink": "/docs/category/les-fonctionnalités-de-eliobot",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "LED",
+      "permalink": "/docs/eliobot/led"
+    }
+  }
+}

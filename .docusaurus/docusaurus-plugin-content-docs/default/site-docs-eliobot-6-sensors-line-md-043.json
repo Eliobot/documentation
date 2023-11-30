@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 6
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Capteurs d'obstacles",
     "permalink": "/docs/eliobot/sensors-proximity"

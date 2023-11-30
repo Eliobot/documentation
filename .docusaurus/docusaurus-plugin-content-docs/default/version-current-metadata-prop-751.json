@@ -8,19 +8,12 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
+    "docSidebar": [
       {
         "type": "link",
         "label": "Introduction",
         "href": "/docs/intro",
         "docId": "intro",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Assembler Eliobot",
-        "href": "/docs/eliobot-assembly",
-        "docId": "eliobot-assembly",
         "unlisted": false
       },
       {
@@ -319,81 +312,171 @@
         "collapsed": true,
         "items": [
           {
-            "type": "category",
-            "label": "Elioblocs",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Faire clignoter la LED",
-                "href": "/docs/examples/elioblocs/blink-led-elioblocs",
-                "docId": "examples/elioblocs/blink-led-elioblocs",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Mouvements de base",
-                "href": "/docs/examples/elioblocs/basic-movements-elioblocs",
-                "docId": "examples/elioblocs/basic-movements-elioblocs",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Eviter les obstacles",
-                "href": "/docs/examples/elioblocs/avoid-obstacles-elioblocs",
-                "docId": "examples/elioblocs/avoid-obstacles-elioblocs",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Suivre une ligne",
-                "href": "/docs/examples/elioblocs/line-following-elioblocs",
-                "docId": "examples/elioblocs/line-following-elioblocs",
-                "unlisted": false
-              }
-            ],
-            "href": "/docs/category/elioblocs"
+            "type": "link",
+            "label": "Assembler Eliobot",
+            "href": "/docs/tutorial/eliobot-assembly",
+            "docId": "tutorial/eliobot-assembly",
+            "unlisted": false
           },
           {
             "type": "category",
-            "label": "Python",
+            "label": "Programmer avec Elioblocs",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
                 "label": "Faire clignoter la LED",
-                "href": "/docs/examples/python/blink-led-elioblocs",
-                "docId": "examples/python/blink-led-elioblocs",
+                "href": "/docs/tutorial/elioblocs/blink-led-elioblocs",
+                "docId": "tutorial/elioblocs/blink-led-elioblocs",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Mouvements de base",
-                "href": "/docs/examples/python/basic-movements-elioblocs",
-                "docId": "examples/python/basic-movements-elioblocs",
+                "href": "/docs/tutorial/elioblocs/basic-movements-elioblocs",
+                "docId": "tutorial/elioblocs/basic-movements-elioblocs",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Eviter les obstacles",
-                "href": "/docs/examples/python/avoid-obstacles-elioblocs",
-                "docId": "examples/python/avoid-obstacles-elioblocs",
+                "href": "/docs/tutorial/elioblocs/avoid-obstacles-elioblocs",
+                "docId": "tutorial/elioblocs/avoid-obstacles-elioblocs",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Suivre une ligne",
-                "href": "/docs/examples/python/line-following-elioblocs",
-                "docId": "examples/python/line-following-elioblocs",
+                "href": "/docs/tutorial/elioblocs/line-following-elioblocs",
+                "docId": "tutorial/elioblocs/line-following-elioblocs",
                 "unlisted": false
               }
             ],
-            "href": "/docs/category/python"
+            "href": "/docs/category/programmer-avec-elioblocs"
+          },
+          {
+            "type": "category",
+            "label": "Programmer en Python",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Faire clignoter la LED",
+                "href": "/docs/tutorial/python/blink-led-elioblocs",
+                "docId": "tutorial/python/blink-led-elioblocs",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Mouvements de base",
+                "href": "/docs/tutorial/python/basic-movements-elioblocs",
+                "docId": "tutorial/python/basic-movements-elioblocs",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Eviter les obstacles",
+                "href": "/docs/tutorial/python/avoid-obstacles-elioblocs",
+                "docId": "tutorial/python/avoid-obstacles-elioblocs",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Suivre une ligne",
+                "href": "/docs/tutorial/python/line-following-elioblocs",
+                "docId": "tutorial/python/line-following-elioblocs",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/category/programmer-en-python"
           }
         ],
         "href": "/docs/category/exemples"
+      }
+    ],
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Assembler Eliobot",
+        "href": "/docs/tutorial/eliobot-assembly",
+        "docId": "tutorial/eliobot-assembly",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Programmer avec Elioblocs",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Faire clignoter la LED",
+            "href": "/docs/tutorial/elioblocs/blink-led-elioblocs",
+            "docId": "tutorial/elioblocs/blink-led-elioblocs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Mouvements de base",
+            "href": "/docs/tutorial/elioblocs/basic-movements-elioblocs",
+            "docId": "tutorial/elioblocs/basic-movements-elioblocs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Eviter les obstacles",
+            "href": "/docs/tutorial/elioblocs/avoid-obstacles-elioblocs",
+            "docId": "tutorial/elioblocs/avoid-obstacles-elioblocs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Suivre une ligne",
+            "href": "/docs/tutorial/elioblocs/line-following-elioblocs",
+            "docId": "tutorial/elioblocs/line-following-elioblocs",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/programmer-avec-elioblocs-1"
+      },
+      {
+        "type": "category",
+        "label": "Programmer en Python",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Faire clignoter la LED",
+            "href": "/docs/tutorial/python/blink-led-elioblocs",
+            "docId": "tutorial/python/blink-led-elioblocs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Mouvements de base",
+            "href": "/docs/tutorial/python/basic-movements-elioblocs",
+            "docId": "tutorial/python/basic-movements-elioblocs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Eviter les obstacles",
+            "href": "/docs/tutorial/python/avoid-obstacles-elioblocs",
+            "docId": "tutorial/python/avoid-obstacles-elioblocs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Suivre une ligne",
+            "href": "/docs/tutorial/python/line-following-elioblocs",
+            "docId": "tutorial/python/line-following-elioblocs",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/programmer-en-python-1"
       }
     ]
   },
@@ -402,192 +485,192 @@
       "id": "blocs_elioblocs/colors/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/conditions/bloc": {
       "id": "blocs_elioblocs/conditions/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/functions/bloc": {
       "id": "blocs_elioblocs/functions/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/line/bloc": {
       "id": "blocs_elioblocs/line/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/lists/bloc": {
       "id": "blocs_elioblocs/lists/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/loops/bloc": {
       "id": "blocs_elioblocs/loops/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/maths/bloc": {
       "id": "blocs_elioblocs/maths/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/movements/bloc": {
       "id": "blocs_elioblocs/movements/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/obstacles/bloc": {
       "id": "blocs_elioblocs/obstacles/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/sounds/bloc": {
       "id": "blocs_elioblocs/sounds/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/utilities/bloc": {
       "id": "blocs_elioblocs/utilities/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "blocs_elioblocs/variables/bloc": {
       "id": "blocs_elioblocs/variables/bloc",
       "title": "BLOC",
       "description": "Utilisation",
-      "sidebar": "tutorialSidebar"
-    },
-    "eliobot-assembly": {
-      "id": "eliobot-assembly",
-      "title": "Assembler Eliobot",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/backpacks": {
       "id": "eliobot/backpacks",
       "title": "Backpacks",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/battery": {
       "id": "eliobot/battery",
       "title": "Batterie",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/button": {
       "id": "eliobot/button",
       "title": "Bouton",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/buzzer": {
       "id": "eliobot/buzzer",
       "title": "Buzzer",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/led": {
       "id": "eliobot/led",
       "title": "LED",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/motors": {
       "id": "eliobot/motors",
       "title": "Moteurs",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/sensors-line": {
       "id": "eliobot/sensors-line",
       "title": "Capteurs de ligne",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/sensors-proximity": {
       "id": "eliobot/sensors-proximity",
       "title": "Capteurs d'obstacles",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "eliobot/wifi": {
       "id": "eliobot/wifi",
       "title": "WiFi",
       "description": "Utilisation avec Elioblocs",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/elioblocs/avoid-obstacles-elioblocs": {
-      "id": "examples/elioblocs/avoid-obstacles-elioblocs",
-      "title": "Eviter les obstacles",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/elioblocs/basic-movements-elioblocs": {
-      "id": "examples/elioblocs/basic-movements-elioblocs",
-      "title": "Mouvements de base",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/elioblocs/blink-led-elioblocs": {
-      "id": "examples/elioblocs/blink-led-elioblocs",
-      "title": "Faire clignoter la LED",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/elioblocs/line-following-elioblocs": {
-      "id": "examples/elioblocs/line-following-elioblocs",
-      "title": "Suivre une ligne",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/python/avoid-obstacles-elioblocs": {
-      "id": "examples/python/avoid-obstacles-elioblocs",
-      "title": "Eviter les obstacles",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/python/basic-movements-elioblocs": {
-      "id": "examples/python/basic-movements-elioblocs",
-      "title": "Mouvements de base",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/python/blink-led-elioblocs": {
-      "id": "examples/python/blink-led-elioblocs",
-      "title": "Faire clignoter la LED",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "examples/python/line-following-elioblocs": {
-      "id": "examples/python/line-following-elioblocs",
-      "title": "Suivre une ligne",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "intro": {
       "id": "intro",
       "title": "Introduction",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "docSidebar"
     },
     "python_lib/intro": {
       "id": "python_lib/intro",
       "title": "Introduction",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "docSidebar"
+    },
+    "tutorial/elioblocs/avoid-obstacles-elioblocs": {
+      "id": "tutorial/elioblocs/avoid-obstacles-elioblocs",
+      "title": "Eviter les obstacles",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/elioblocs/basic-movements-elioblocs": {
+      "id": "tutorial/elioblocs/basic-movements-elioblocs",
+      "title": "Mouvements de base",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/elioblocs/blink-led-elioblocs": {
+      "id": "tutorial/elioblocs/blink-led-elioblocs",
+      "title": "Faire clignoter la LED",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/elioblocs/line-following-elioblocs": {
+      "id": "tutorial/elioblocs/line-following-elioblocs",
+      "title": "Suivre une ligne",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/eliobot-assembly": {
+      "id": "tutorial/eliobot-assembly",
+      "title": "Assembler Eliobot",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/python/avoid-obstacles-elioblocs": {
+      "id": "tutorial/python/avoid-obstacles-elioblocs",
+      "title": "Eviter les obstacles",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/python/basic-movements-elioblocs": {
+      "id": "tutorial/python/basic-movements-elioblocs",
+      "title": "Mouvements de base",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/python/blink-led-elioblocs": {
+      "id": "tutorial/python/blink-led-elioblocs",
+      "title": "Faire clignoter la LED",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/python/line-following-elioblocs": {
+      "id": "tutorial/python/line-following-elioblocs",
+      "title": "Suivre une ligne",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -14,14 +14,5 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Eviter les obstacles",
-    "permalink": "/docs/examples/elioblocs/avoid-obstacles-elioblocs"
-  },
-  "next": {
-    "title": "Python",
-    "permalink": "/docs/category/python"
   }
 }

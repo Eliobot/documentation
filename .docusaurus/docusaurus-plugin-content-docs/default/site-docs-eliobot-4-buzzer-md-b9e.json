@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 4
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Bouton",
     "permalink": "/docs/eliobot/button"

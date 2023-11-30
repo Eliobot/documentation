@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Elio",
-  "tagline": "Toute la documentation",
+  "title": "Le monde de Eliobot",
+  "tagline": "  Tu débutes ? Suis-moi pour découvrir l’assemblage et la programmation de ton nouveau compagnon !",
   "favicon": "img/favicon.ico",
   "url": "https://docs.eliobot.com",
   "baseUrl": "/",
@@ -49,13 +49,24 @@ export default {
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "docSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
+          "position": "left",
+          "label": "Tutoriels"
+        },
+        {
+          "href": "https://app.eliobot.com",
+          "label": "Elioblocs",
+          "position": "left"
+        },
+        {
+          "href": "https://eliobot.com",
+          "label": "Boutique",
           "position": "left"
         },
         {
@@ -73,8 +84,12 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Documentation",
               "to": "/docs/intro"
+            },
+            {
+              "label": "Tutoriels",
+              "to": "/docs/tutorial/intro"
             }
           ]
         },
@@ -98,10 +113,6 @@ export default {
         {
           "title": "More",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/Eliobot/"

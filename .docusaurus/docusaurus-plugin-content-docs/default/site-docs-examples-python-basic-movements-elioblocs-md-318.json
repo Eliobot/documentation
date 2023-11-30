@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Faire clignoter la LED",
-    "permalink": "/docs/examples/python/blink-led-elioblocs"
-  },
-  "next": {
-    "title": "Eviter les obstacles",
-    "permalink": "/docs/examples/python/avoid-obstacles-elioblocs"
   }
 }

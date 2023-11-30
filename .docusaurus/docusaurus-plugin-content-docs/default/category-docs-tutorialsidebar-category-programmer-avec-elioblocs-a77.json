@@ -1,0 +1,16 @@
+{
+  "title": "Programmer avec Elioblocs",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/programmer-avec-elioblocs-1",
+  "permalink": "/docs/category/programmer-avec-elioblocs-1",
+  "navigation": {
+    "previous": {
+      "title": "Assembler Eliobot",
+      "permalink": "/docs/tutorial/eliobot-assembly"
+    },
+    "next": {
+      "title": "Faire clignoter la LED",
+      "permalink": "/docs/tutorial/elioblocs/blink-led-elioblocs"
+    }
+  }
+}

@@ -1,16 +1,16 @@
 {
   "title": "Elioblocs",
   "description": "5 minutes to learn the most important Docusaurus concepts.",
-  "slug": "/category/elioblocs",
-  "permalink": "/docs/category/elioblocs",
+  "slug": "/category/elioblocs-1",
+  "permalink": "/docs/category/elioblocs-1",
   "navigation": {
     "previous": {
-      "title": "Exemples",
-      "permalink": "/docs/category/exemples"
+      "title": "Assembler Eliobot",
+      "permalink": "/docs/tutorial/eliobot-assembly"
     },
     "next": {
       "title": "Faire clignoter la LED",
-      "permalink": "/docs/examples/elioblocs/blink-led-elioblocs"
+      "permalink": "/docs/tutorial/elioblocs/blink-led-elioblocs"
     }
   }
 }

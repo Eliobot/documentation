@@ -1,0 +1,23 @@
+{
+  "id": "tutorial/python/line-following-elioblocs",
+  "title": "Suivre une ligne",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/tutorial/python/line-following-elioblocs.md",
+  "sourceDirName": "tutorial/python",
+  "slug": "/tutorial/python/line-following-elioblocs",
+  "permalink": "/docs/tutorial/python/line-following-elioblocs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Eliobot/documentation/docs/tutorial/python/line-following-elioblocs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Eviter les obstacles",
+    "permalink": "/docs/tutorial/python/avoid-obstacles-elioblocs"
+  }
+}

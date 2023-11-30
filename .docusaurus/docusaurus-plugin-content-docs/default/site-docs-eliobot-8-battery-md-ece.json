@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 8
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docSidebar",
   "previous": {
     "title": "Moteurs",
     "permalink": "/docs/eliobot/motors"
