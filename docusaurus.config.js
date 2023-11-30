@@ -45,7 +45,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Eliobot/documentation/',
-        },
+          },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -65,6 +65,12 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         // title: 'Elio',
         logo: {
