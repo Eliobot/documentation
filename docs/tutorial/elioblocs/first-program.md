@@ -4,8 +4,6 @@ sidebar_position: 0
 
 # Premier programme
 
-## Introduction :
-
 Maintenant que tu as assemblé ton Eliobot, tu vas pouvoir le programmer !
 
 Dans ce tutoriel, nous allons te guider pour créer ton premier programme. Il s’agit d’un programme de test très simple qui te permettra de prendre en main l’interface et de suivre la ligne au dos de ta notice.
