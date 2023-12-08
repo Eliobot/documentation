@@ -28,6 +28,53 @@ function HomepageHeader() {
   );
 }
 
+function HomepageAppSection() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.elioblocsBanner)}>
+      <div className="container">
+        <Heading as="h1" className="hero__title">
+          Tu es prêt à te lancer ?
+        </Heading>
+        <p className="hero__subtitle">
+          Retrouve ton application de programmation par blocs préférée <br></br> et libère ton imagination pour jouer avec Eliobot.  
+        </p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://app.eliobot.com">
+            Elioblocs
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+function HomepageCommunitySection() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.discordBanner)}>
+      <div className="container">
+        <Heading as="h1" className="hero__title">
+          Rejoins la communauté
+        </Heading>
+        <p className="hero__subtitle">
+          Partage tes créations, tes défis et tes idées les plus folles avec <br></br> les membres de la communauté sur notre serveur Discord
+        </p>
+        <a href="https://discord.com/invite/abq2t9vdMN"><img src={require('@site/static/img/discord-eliobot.png').default}></img></a>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://discord.com/invite/abq2t9vdMN">
+            Discord
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -37,6 +84,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageAppSection />
+        <HomepageCommunitySection />
       </main>
     </Layout>
   );

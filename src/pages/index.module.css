@@ -30,3 +30,27 @@
 }
 
 
+.elioblocsBanner {
+  height: 70vh;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url("@site/static/img/explosion-elioblocs.png");
+  background-size: cover;
+  background-position: 75% 50%;
+  color: white;
+}
+
+.discordBanner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+}
+
+[data-theme='dark'] .discordBanner {
+  color: white;
+  background-color: #1b1b1d;
+}
