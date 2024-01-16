@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.eliobot.com',
+  url: 'https://eliobot.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,6 +25,8 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -78,12 +80,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
+          /*{
             type: 'docSidebar',
             sidebarId: 'docSidebar',
             position: 'left',
             label: 'Docs',
-          },
+          },*/
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

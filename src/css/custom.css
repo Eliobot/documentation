@@ -46,3 +46,8 @@ img[src*='#center'] {
   display: block;
   margin: auto;
 }
+
+.youtube-iframe {
+  width: 100%; 
+  aspect-ratio: 16 / 9;
+}

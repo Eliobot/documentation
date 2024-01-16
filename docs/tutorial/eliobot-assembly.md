@@ -13,7 +13,9 @@ Tu es prêt ? 😃
 
 Cette vidéo te montre tout le montage de Eliobot, et tu retrouveras toutes les étapes pas à pas en dessous
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YcfWWAqkqIs?si=hvlmNyHcUA_F4GI3" title="Assemblage Eliobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+> La vidéo n'est peut être plus à jour, vérifie bien les étapes ci-dessous
+
+<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/YcfWWAqkqIs?si=hvlmNyHcUA_F4GI3" title="Assemblage Eliobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Le tutoriel pas à pas : 
@@ -34,95 +36,150 @@ En ouvrant la boite, tu trouveras tous les éléments qui constituent ton nouvea
 
 Le câble USB fourni sera utilisé pour la programmation, ainsi que pour recharger la batterie.
 
-Le lexique pratique avant de débuter la construction
+![Alt text](../../static/img/tutorial/assembly/1-1024x683.png)
 
-1️⃣ Câble USB
-2️⃣ Moteurs
-3️⃣ Carte électronique
-4️⃣ Roues
-5️⃣ Batterie
 
-6️⃣ Roue folle
-7️⃣ Supports moteurs
-8️⃣ Pare-chocs arrière
-9️⃣ Vis
-🔟 Pare-chocs avant
+#### Le lexique pratique avant de débuter la construction
 
-### Étape 2 : L'assemblage roues - moteurs
+![Alt text](../../static/img/tutorial/assembly/pieces-Eliobot-1024x768.png)
 
-Pour cette étape tu auras besoin des roues et des moteurs.
+1. Câble USB
+2. Moteurs
+3. Carte électronique
+4. Roues
+5. Batterie
+6. Roue folle
+7. Supports moteurs
+8. Pare-chocs arrière
+9. Vis
+10. Pare-chocs avant
 
-Pose la roue à plat sur la table (la surface bombée vers le haut) et insères l'axe du moteur au centre de la roue. 
-Il y a une partie plate sur l'axe du moteur qui doit s'aligner avec la surface plate de la roue.
 
-Vérifie que l'axe du moteur soit correctement insérée jusqu'au bout dans la roue.
+### Étape 2 : Assemblage Moteur
 
-Attention : si les roues sont montées à l’envers, elles peuvent frotter sur le corps du robot.
+Pour cette étape tu auras besoin du support moteur et des moteurs.
 
-### Étape 3 : L'assemblage moteurs - carte électronique 
+![Alt text](../../static/img/tutorial/assembly/2-1024x683.png)
 
-En plus des roues et moteurs que tu as assemblé à l'étape précédente, tu auras besoin de 4 vis, des 2 supports moteurs, ainsi que de la carte électronique.
+Insère les moteurs dans leur support en faisant attention à ce qu’il soit bien alignés et ne dépassent pas.
 
-C'est également le moment de sortir ton tournevis préféré !
+<p align="middle">
+    <img src={require('@site/static/img/tutorial/assembly/3-1-1024x683.png').default} width="49%" />
+    <img src={require('@site/static/img/blank.png').default} width="2%"/>
+    <img src={require('@site/static/img/tutorial/assembly/4-1024x683.png').default} width="49%" />
+</p>
 
-Clipses les supports sur les moteurs.
-Ils doivent parfaitement recouvrir la partie dorée pour protéger les petits engrenages.
 
-Glisse le câble du moteur dans l'ouverture de la carte électronique. Ils se glisseront facilement. 
+### Étape 3 : L’assemblage Moteurs – Carte électronique
 
-Insères puis visses les 4 premières vis depuis la face supérieure de la carte électronique. Il y en a 2 par moteur.
+Pour cette étape, tu auras besoin du support moteur, de la carte électronique, de 4 vis ainsi que d’un tournevis.
 
-Toujours sur la face supérieure de Eliobot, connectes les fils des moteurs à la carte. 
+![Alt text](../../static/img/tutorial/assembly/5-1024x683.png)
 
-Attention à bien connecter le moteur droit sur le connecteur droit et le gauche à gauche.
+Glisse le câble du moteur dans l’ouverture de la carte électronique. Ils se glisseront facilement.
 
-Si les câbles sont inversés, Eliobot risquera de reculer au lieu d'avancer et de tourner dans la mauvaise direction
+![Alt text](../../static/img/tutorial/assembly/6-1-1024x683.png)
 
-### Étape 4 : L'assemblage roue folle - carte électronique
+Insère puis visse les 4 premières vis depuis la face supérieure de la carte électronique. Il y en a 2 par côté.
 
-La roue folle est constituée de 2 parties qui se vissent ensemble et d'une petite bille en acier.
+![Alt text](../../static/img/tutorial/assembly/7-1-1024x683.png)
 
-Attention, la bille aime bien s'échapper !
+Toujours sur la face supérieure de Eliobot, connecte les fils des moteurs à la carte.
 
-Insères complètement la partie supérieur dans trou à l'arriere de la carte électronique.
+![Alt text](../../static/img/tutorial/assembly/8-3.png)
 
-Pour faciliter le vissage, la vis doit rentrer dans les 2 petites encoches situées de chaque coté du trou.
+> Attention à bien connecter le moteur droit sur le connecteur droit et le gauche à gauche. Si les câbles sont inversés, Eliobot va alors reculer au lieu d’avancer et tourner dans le sens opposé.
 
-Pour vérifier que la vis est bien insérée, tu peux regarder sur le côté qu'elle arrive bien à plat contre la carte.
 
-Tu peux ensuite mettre la bille dans la partie inférieure de la roue folle, puis la visser dessous la carte, sur la vis que tu viens d'insérer
+### Étape 4 : L’assemblage Roues – Carte électronique
 
-Attention : la bille peut s'échapper une deuxième fois :) 
+Il y a une partie plate sur l’axe du moteur qui doit s’aligner avec la partie droite au centre de la roue.
 
-### Étape 5 : Installation des pare-chocs
+![Alt text](../../static/img/tutorial/assembly/9-1024x683.png)
 
-Pour protéger ton nouveau compagnon et s'assurer qu'il fonctionne correctement le plus longtemps possible, il est livré avec deux pare-chocs (ou bumpers), un grand à l'avant et un plus petit à l'arrière.
+Pose la roue à plat sur la table (la surface bombée vers le haut) et insère l’axe du moteur au centre de la roue.
 
-En plus de protéger le robot, les bumpers sont nécessaires au bon fonctionnement des capteurs d'obstacles.
+![Alt text](../../static/img/tutorial/assembly/10-1024x683.png)
 
-Pour les assembler il suffit de poser un bumper dessus le robot en bord de carte, puis de le visser par dessous avec 2 vis. On recommence ensuite avec le deuxième.
+Vérifie que l’axe du moteur soit correctement inséré jusqu’au bout dans la roue.
 
-### Étape 6 : L'assemblage batterie - carte électronique
+![Alt text](../../static/img/tutorial/assembly/11-1024x683.png)
 
-La batterie s'insère comme une pile classique, vérifies bien la polarité ( + et - ) avant de la mettre.
 
-Bien que la batterie ressemble à une pile AA, elles sont pourtant différentes et ne sont pas compatibles.
+### Étape 5 : L’assemblage Roue folle – Carte électronique
 
-### Étape 7 : Le démarrage du robot
+La roue folle est constituée de 2 parties qui se vissent ensemble et d’une petite bille en acier.
 
-Pour allumer Eliobot, il y a un interrupteur sur le bord arrière gauche de la carte.
+![Alt text](../../static/img/tutorial/assembly/12-1024x683.png)
 
-Pousse la languette vers ON. Un indicateur visuel t'indiquera que Eliobot est allumé. Pour l'éteindre, tires la languette vers OFF.
+Insère complètement la partie supérieure dans le trou à l’arrière de la carte électronique. Pour faciliter le vissage, la vis doit rentrer dans les 2 petites encoches situées de chaque coté du trou.
+
+<p align="middle">
+    <img src={require('@site/static/img/tutorial/assembly/13-1-1024x683.png').default} width="49%" />
+    <img src={require('@site/static/img/blank.png').default} width="2%"/>
+    <img src={require('@site/static/img/tutorial/assembly/14-1024x683.png').default} width="49%" />
+</p>
+
+Tu peux ensuite mettre la bille dans la partie inférieure de la roue folle, puis la visser dessous la carte, sur la vis que tu viens d’insérer
+
+![Alt text](../../static/img/tutorial/assembly/15-1024x683.png)
+
+Pour vérifier que la vis est bien insérée, tu peux regarder sur le côté qu’elle arrive bien à plat contre la carte.
+
+![Alt text](../../static/img/tutorial/assembly/16-1024x683.png)
+
+
+### Étape 6 : Installation des pare-chocs
+
+Pour protéger ton nouveau compagnon et s’assurer qu’il fonctionne correctement le plus longtemps possible, il est livré avec deux pare-chocs (ou bumpers), un grand à l’avant et un plus petit à l’arrière.
+
+![Alt text](../../static/img/tutorial/assembly/17-1024x683.png)
+
+Pour les assembler il suffit de poser un bumper dessus le robot en bord de carte.
+
+![Alt text](../../static/img/tutorial/assembly/18-1024x683.png)
+
+Puis de le visser par dessous avec 2 vis. On recommence ensuite avec le deuxième.
+
+![Alt text](../../static/img/tutorial/assembly/19.png)
+
+
+### Étape 7 : Installation du capteur de ligne
+
+Insère les broches du capteur dans le connecteur dessous Eliobot, en orientant bien la partie arrondie du capteur vers l'avant.
+
+![Alt text](../../static/img/tutorial/assembly/20-1024x683.png)
+
+Vérifie que le capteur soit inséré jusqu'au bout et bien aligné pour qu'il fonctionne correctement.
+
+![Alt text](../../static/img/tutorial/assembly/21-1024x683.png)
+
+
+### Étape 8 : Installation de la batterie
+
+La batterie s’insère comme une pile classique, vérifie bien la polarité ( + et – ) avant de la mettre.
+
+![Alt text](../../static/img/tutorial/assembly/22-1024x683.png)
+
+
+## Tadam ! Voilà Eliobot
+
+![Alt text](../../static/img/tutorial/assembly/25-1024x683.png)
 
 Attention à tenir Eliobot dans le bon sens !
-L'avant du robot est la partie plus large et l'arrière la partie plus étroite. 
+L’avant est la partie plus large et l’arrière la partie plus étroite.
 
-Astuce : pour charger la batterie, connectes le câble USB à la carte de Eliobot dotée d’un circuit de charge de batterie.
+Pour l'allumer, il y a un interrupteur sur le bord arrière gauche de la carte (juste à côté de la prise USB).
 
-### Envie de voir Eliobot en action ? 
+![Alt text](../../static/img/tutorial/assembly/23.png)
 
-Appuies sur le bouton sur le côté droit pour lancer le programme qui permettra à Eliobot de se déplacer tout en évitant les obstacles.
+Pour charger la batterie, c'est comme avec un téléphone. Connecte simplement le câble USB de Eliobot et tu verras une petite LED s'allumer a côté de la prise. Lorsqu'elle s'éteint cela veut dire qu'il a fini de charger !
 
-Bravo, tu as réussi à assembler et allumer ton Eliobot ! Tu es maintenant prêt à passer à l'étape suivant : la programmation.Pour cela, rendez-vous sur notre tutoriel suivant : Premier programme.
-Penses à partager ton expérience sur les réseaux sociaux et sur notre serveur Discord. Nous nous ferons un plaisir de partager tes créations et d'échanger ensemble.
-À très vite :)
+![Alt text](../../static/img/tutorial/assembly/24-1024x683.png)
+
+Bravo, tu as réussi à assembler et allumer ton Eliobot ! Tu es maintenant prêt à passer à l’étape suivante : la programmation.
+Pour cela, rendez-vous sur notre tutoriel suivant : Premier programme.
+
+Pense à partager ton expérience sur les réseaux sociaux et sur notre serveur Discord. Nous nous ferons un plaisir de partager tes créations et d’échanger ensemble.
+
+À très vite 🙂
