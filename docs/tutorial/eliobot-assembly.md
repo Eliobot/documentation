@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # Assembler Eliobot
 
-
 ## Introduction
 
 Bienvenue sur la plateforme de tutoriel Eliobot, aujourd'hui nous allons apprendre à assembler ton nouveau robot. 
