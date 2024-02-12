@@ -4,26 +4,25 @@ sidebar_position: 3
 
 # Eviter les obstacles
 
-Si vous êtes arrivé jusqu’ici, c’est que vous avez déjà accompli de belles choses avec Eliobot. Vous avez appris à le faire clignoter, avancer, reculer et tourner. Alors soyez fier de vous pour ce beau chemin déjà parcouru 👏
+Dans ce quatrième tutoriel, nous allons apprendre à utiliser des capteurs pour utiliser Eliobot en toute autonomie et lui faire éviter un obstacle 😉
 
-Dans ce quatrième tutoriel, nous allons vous apprendre le dernier mouvement à maitriser pour utiliser Eliobot en toute autonomie : savoir contourner un obstacle 😉
-Les essentiels : le fonctionnement des capteurs infrarouges
+
+## Fonctionnement des capteurs infrarouges
 
 Eliobot est doté de 4 capteurs infrarouges (voir le schéma ci-dessous) qui lui permettent de détecter des obstacles.
 
 Mais techniquement ça marche comment ? 🤔
 
-Chaque capteur est composé d’un émetteur et d’un récepteur. Le rôle de l’émetteur est d’envoyer de la lumière pour éclairer les obstacles. Le rôle du récepteur est de mesurer la quantité de lumière réfléchie par l’obstacle pour déterminer sa distance.
+Chaque capteur est composé d’un émetteur et d’un récepteur. Le rôle de l’émetteur est d’envoyer de la lumière pour éclairer les obstacles. La lumière va alors être réfléchie en direction du récepteur, qui va nous permettre de connaitre la quantité de lumière reçu et donc en déduire une distance.
 
 Plus la quantité de lumière est importante, plus l’obstacle est proche.
-Étape 1 : Détecter un obstacle
-Se rendre sur l’application Eliobot
+
+
+## Détecter un obstacle
 
 Pour débuter ce tutoriel, rendez-vous sur notre interface de programmation https://app.eliobot.com/.
 
-    Nous souhaitons qu’Eliobot détecte les obstacles qu’il rencontre. Le programme que vous allez créer dans ce tutoriel vous permettra de savoir si Eliobot détecte un obstacle.
-
-Si Eliobot détecte un obstacle devant lui, la LED rouge s’allume. Si Eliobot ne détecte aucun obstacle, la LED s’éteint 💡
+On commence avec un premier exemple simple : si Eliobot détecte un obstacle devant lui, la LED rouge s’allume. Si Eliobot ne détecte aucun obstacle, la LED s’éteint 💡
 
     Nous souhaitons que le robot réalise plusieurs actions. La première est d’allumer une LED lorsqu’un obstacle est détecté, la deuxième d’éteindre la LED quand il n’y a aucun obstacle. Pour cela, sélectionnez dans « Conditions », le bloc « Si… faire » et placez-le dans votre espace de travail.
 
