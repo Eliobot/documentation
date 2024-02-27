@@ -62,7 +62,7 @@ function HomepageCommunitySection() {
         <p className="hero__subtitle">
           Partage tes créations, tes défis et tes idées les plus folles avec <br></br> les membres de la communauté sur notre serveur Discord
         </p>
-        <a href="https://discord.com/invite/abq2t9vdMN"><img src={require('@site/static/img/discord-eliobot.png').default}></img></a>
+        <a href="https://discord.com/invite/abq2t9vdMN"><img src={require('@site/static/img/homepage/discord-eliobot.png').default}></img></a>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

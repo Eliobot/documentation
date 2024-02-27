@@ -79,7 +79,7 @@ const config = {
         // title: 'Elio',
         logo: {
           alt: 'Elio Logo',
-          src: 'img/logo.svg',
+          src: 'img/logos/logo.svg',
         },
         items: [
           {
