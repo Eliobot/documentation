@@ -82,12 +82,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          /*{
+          {
             type: 'docSidebar',
             sidebarId: 'docSidebar',
             position: 'left',
             label: 'Documentation',
-          },*/
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
