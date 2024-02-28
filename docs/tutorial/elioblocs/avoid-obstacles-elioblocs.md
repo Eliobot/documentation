@@ -4,19 +4,22 @@ sidebar_position: 3
 
 # Eviter les obstacles
 
-Dans ce quatrième tutoriel, nous allons apprendre à utiliser des capteurs pour utiliser Eliobot en toute autonomie et lui faire éviter un obstacle 😉
+Dans ce tutoriel, nous allons apprendre à utiliser des capteurs pour utiliser Eliobot en toute autonomie et lui faire éviter un obstacle 😉
 
 
 ## Fonctionnement des capteurs infrarouges
 
 Eliobot est doté de 4 capteurs infrarouges (voir le schéma ci-dessous) qui lui permettent de détecter des obstacles.
 
-Mais techniquement ça marche comment ? 🤔
+![alt text](../../../static/img/tutorial/elioblocs/avoid-obstacles-elioblocs/eliobot-sensors-position.png)
+
+Mais techniquement ça fonctionne comment ? 🤔
 
 Chaque capteur est composé d’un émetteur et d’un récepteur. Le rôle de l’émetteur est d’envoyer de la lumière pour éclairer les obstacles. La lumière va alors être réfléchie en direction du récepteur, qui va nous permettre de connaitre la quantité de lumière reçu et donc en déduire une distance.
 
 Plus la quantité de lumière est importante, plus l’obstacle est proche.
 
+![alt text](../../../static/img/tutorial/elioblocs/avoid-obstacles-elioblocs/infrared-sensor.png)
 
 ## Détecter un obstacle
 
@@ -24,56 +27,37 @@ Pour débuter ce tutoriel, rendez-vous sur notre interface de programmation http
 
 On commence avec un premier exemple simple : si Eliobot détecte un obstacle devant lui, la LED rouge s’allume. Si Eliobot ne détecte aucun obstacle, la LED s’éteint 💡
 
-    Nous souhaitons que le robot réalise plusieurs actions. La première est d’allumer une LED lorsqu’un obstacle est détecté, la deuxième d’éteindre la LED quand il n’y a aucun obstacle. Pour cela, sélectionnez dans « Conditions », le bloc « Si… faire » et placez-le dans votre espace de travail.
+![alt text](../../../static/img/tutorial/elioblocs/avoid-obstacles-elioblocs/obstacle-light-example.png)
 
-    Afin que le robot puisse détecter un obstacle, sélectionnez l’action de détection d’obstacle. Pour cela, cliquez dans « Obstacles » puis insérer le bloc « un obstacle est devant ». Placez-le en face de « si ».
+La première étape est de sélectionner l’action de détection d’obstacle. Pour cela, rend-toi dans l'onglet ```Obstacles``` puis séléctionne le bloc ```un obstacle est devant```.
 
-    Pour que l’on puisse voir qu’un obstacle a été détecté, on peut afficher une couleur. Pour cela, sélectionnez la couleur qui va s’afficher quand un obstacle sera détecté. Cliquez dans « Couleurs » puis insérer le bloc « Afficher la couleur » en face de « faire ».
+Il est possible de choisir quel capteur utiliser, dans notre cas ce sera le capteur avant.
 
-Sélectionnez la couleur de votre choix, c’est vous l’artiste 😉
+Tu as sans doute remarqué que ce nouveau bloc à une forme différente et ne peut pas être utilisé en l'état avec les blocs utilisé jusque là. Il s'agit d'un booléen que nous allons pouvoir utiliser en tant que condition dans le bloc ```Si... faire... Sinon``` .
 
-    Cliquez sur le petit onglet de couleur bleue marqué par une roue grise situé à l’intérieur du bloc « Si… faire ». Un rectangle va s’afficher sur l’écran. Sélectionnez la modalité « sinon » présente dans la partie gauche du rectangle et glissez-là dans la partie de droite.
+Enfin pour bien identifier quand un obstacle a été détecté, on affiche une couleur avec le bloc ```Afficher la couleur``` en face de ```faire ```, et ```Eteindre la lumière``` en face de "sinon```
 
-Pour fermer l’onglet, il vous suffit de cliquer sur l’onglet bleu en forme de roue.
+Sélectionne la couleur de ton choix, c’est toi l’artiste ! 😉
 
-    Nous souhaitons demander au robot d’éteindre la lumière quand aucun obstacle est détecté. Allez dans « Couleurs », sélectionnez le bloc « Éteindre la lumière » et glissez-le dans le « sinon ».
+![alt text](../../../static/img/tutorial/elioblocs/avoid-obstacles-elioblocs/color-when-obstacle.png)
 
-    Pour finir, pour que le programme se répète à l’infini, nous devons lui ajouter une boucle. Cliquez sur « Boucles » puis insérez le bloc « répéter tant que ». Nous souhaitons que la boucle se répète tant que la condition est vraie. Pour cela, ajoutez-lui la condition « vraie ».
+## Contourner l’obstacle
 
-Étape 2 : Donner l’action de contourner l’obstacle
+Maintenant que Eliobot est capable de détecter un obstacle, on va pouvoir lui dire quoi faire lorsqu'il en rencontre un. L'action la plus simple est tout simplement de changer de direction en pivotant à droite ou à gauche.
 
-Pour cette étape, nous allons donner une action à Eliobot pour qu’il contourne l’obstacle qu’il a détecté. Cette action sera de réaliser un virage d’un quart de tour sur la droite.
+![alt text](../../../static/img/tutorial/elioblocs/avoid-obstacles-elioblocs/obstacle-turn-example.png)
 
-    Tout comme dans la première étape de ce tuto, sélectionnez dans « Conditions », le bloc « Si… faire » et placez-le dans votre espace de travail.
+La plus grand partie du travail étant déjà faite avec le programme ci-dessus, nous allons le reprendre en y ajoutant des déplacement en plus des commandes pour la LED.
 
-    Afin que le robot puisse détecter un obstacle, sélectionnez l’action de détection d’obstacle. Pour cela, cliquez dans « Obstacles » puis insérer le bloc « un obstacle est devant ». Placez-le en face de « si ».
+Dans un premier temps on définit le mouvement à effectuer lorsque Eliobot rencontre un obstacle, dans notre cas faire un quart de tour à droite. Pour cela tu peux prendre le bloc ```Pivoter vers la droite de 90 degrés``` dans l'onglet ```Mouvements``` et l'ajouter en dessous de la couleur rouge.
 
-    Le robot doit réaliser un mouvement pour contourner l’obstacle. Ce mouvement est une rotation d’un quart de tour vers la droite. Cliquez sur « Mouvements » puis insérez le bloc « Tourner le robot vers la droite ».
+Ensuite on définit le mouvement à effectuer lorsqu'il n'y a pas d'osbtacle, soit avancer. Tu trouveras le bloc ```Se déplacer vers l'avant``` dans l'onglet ```Mouvements``` également, qui viendra se placer dans la partie ```sinon```
 
-    Pour que le robot se déplace sur un quart de tour vers la droite, nous allons ajouter une temporisation au mouvement en glissant le bloc « attendre 1 seconde » présent dans « Utilitaire ». Modifiez la temporisation du mouvement en insérant 270 millisecondes dans le bloc.
+![alt text](../../../static/img/tutorial/elioblocs/avoid-obstacles-elioblocs/turn-when-obstacle.png)
 
-Un quart de tour = 270 millisecondes.
 
-    Cliquez sur le petit onglet de couleur bleue dans le bloc « Si… faire ». Faites la même manipulation que l’étape 1 : sélectionnez la modalité « sinon » présente dans la partie gauche et glissez-là dans la partie de droite.
+### Transfert du programme
 
-Cliquez sur l’onglet une deuxième fois pour le fermer.
+Pour tester le programme sur Eliobot, branche-le à l’ordinateur avec le câble USB et clique sur le bouton « Programmer ».
 
-    Pour demander au robot de se déplacer vers l’avant lorsque aucun obstacle n’est détecté, cliquez dans « Mouvements » et insérez le bloc « Déplacer le robot vers l’avant ». Glissez-le dans la condition « sinon ».
-
-    Pour que le programme se répète à l’infini, nous devons lui ajouter une boucle. Cliquez sur « Boucles » puis insérez le bloc « répéter tant que ». Nous souhaitons que la boucle se répète tant que la condition est vraie. Pour cela, ajoutez-lui la condition « vraie ».
-
-Étape 3 : Transfert du programme
-
-    Pensez à brancher Eliobot à votre ordinateur à l’aide du câble USB. Pour télécharger le programme que vous venez de créer, cliquez sur l’onglet en haut à droite « Programmer ».
-
-    Vérifiez que le fichier « main.py » est présent dans vos téléchargements et transférez-le dans le périphérique ELIO.
-
-    C’est le moment de débrancher Eliobot et de l’allumer pour le voir exécuter son programme 🙂
-
-Mot de fin
-
-Félicitation pour ce nouveau pas de franchi jeune créateur ! 🤩​ Vous êtes maintenant prêt à naviguer avec votre Eliobot en toute autonomie (mais il vous reste beaucoup de choses à découvrir).
-
-Pensez à partager votre expérience sur nos réseaux sociaux. Nous vous ferons un plaisir de partager vos créations et d’échanger avec vous.
-
-À très vite 🙂
+Tu verras alors la LED clignoter et une fois fini tu peux débrancher Eliobot pour voir le résultat ! 🙂
