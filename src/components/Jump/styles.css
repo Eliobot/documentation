@@ -12,6 +12,7 @@
   height: 100%;
   line-height: var(--ifm-heading-line-height);
   padding: var(--ifm-global-spacing);
+  margin-bottom: 1rem;
   transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
 }
 

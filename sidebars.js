@@ -20,7 +20,7 @@ const sidebars = {
   // But you can create a sidebar manually
   
   docSidebar: [
-    'intro',
+    //'intro',
     {
       type: 'category',
       label: 'Les fonctionalités de Eliobot',
@@ -34,7 +34,7 @@ const sidebars = {
         "eliobot/sensors-line",
         "eliobot/battery",
         "eliobot/wifi",
-        "eliobot/backpacks",
+        //"eliobot/backpacks",
       ],
     },
     {
@@ -52,7 +52,7 @@ const sidebars = {
             "elioblocs/blocs/loops",
             "elioblocs/blocs/maths",
             "elioblocs/blocs/lists",
-            "elioblocs/blocs/text",
+            //"elioblocs/blocs/text",
             "elioblocs/blocs/variables",
             "elioblocs/blocs/functions",
             "elioblocs/blocs/colors",
@@ -61,7 +61,7 @@ const sidebars = {
             "elioblocs/blocs/obstacles",
             "elioblocs/blocs/line",
             "elioblocs/blocs/utilities",
-            "elioblocs/blocs/backpacks",
+            //"elioblocs/blocs/backpacks",
           ],
         }
       ],
@@ -70,20 +70,35 @@ const sidebars = {
       type: 'category',
       label: 'Librairie Python',
       items: [
-        "python_lib/intro",
+        {
+          type: 'link',
+          label: 'Librairie Python',
+          href: 'https://github.com/Eliobot/Eliobot-Python-Library'
+        },
       ],
     },
-    {
+    /*{
       type: 'category',
       label: 'Librairie Arduino',
       items: [
         "arduino_lib/intro",
       ],
-    },
+    },*/
     {
       type: 'category',
       label: 'Liens Utiles',
+      collapsible: false,
       items: [
+        {
+          type: 'link',
+          label: 'Boutique',
+          href: 'https://eliobot.com'
+        },
+        {
+          type: 'link',
+          label: 'Communauté',
+          href: 'https://discord.com/invite/abq2t9vdMN'
+        },
         {
           type: 'link',
           label: 'Fichiers 3D',
