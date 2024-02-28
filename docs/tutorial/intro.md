@@ -16,11 +16,11 @@ Si c'est la première fois que tu viens ici tu as peut être encore ton Eliobot 
 
 Dans ce cas prend ton meilleur tournevis 🪛 et laisse toi guider dans l'assemblage de ton nouveau compagnon.
 
-<Jump to="tutorial/eliobot-assembly">Assembler Eliobot</Jump>
+<Jump to="/docs/tutorial/eliobot-assembly">Assembler Eliobot</Jump>
 
 Tu trouveras également un assemblage bonus au fond de ta boite :
 
-<Jump to="tutorial/gates-assembly">Construire des obstacles</Jump>
+<Jump to="/docs/tutorial/gates-assembly">Construire des obstacles</Jump>
 
 
 ## Programmation par blocs
@@ -30,13 +30,13 @@ Maintenant que ton Eliobot est assemblé, tu vas pouvoir commencer à le program
 Tu ne sais pas coder ???
 Pas de soucis ! Nous t'avons préparer une suite de tutoriels pour y arriver sans avoir à taper la moindre ligne de code 🤩
 
-<Jump to="tutorial/elioblocs/first-program">Premier programme - Suivi de ligne</Jump>
+<Jump to="/docs/tutorial/elioblocs/first-program">Premier programme - Suivi de ligne</Jump>
 
-<Jump to="tutorial/elioblocs/blink-led-elioblocs">Faire clignoter la LED multicolore</Jump>
+<Jump to="/docs/tutorial/elioblocs/blink-led-elioblocs">Faire clignoter la LED multicolore</Jump>
 
-<Jump to="tutorial/elioblocs/basic-movements-elioblocs">Les mouvements de base</Jump>
+<Jump to="/docs/tutorial/elioblocs/basic-movements-elioblocs">Les mouvements de base</Jump>
 
-<Jump to="tutorial/elioblocs/avoid-obstacles-elioblocs">Eviter un obstacle</Jump>
+<Jump to="/docs/tutorial/elioblocs/avoid-obstacles-elioblocs">Eviter un obstacle</Jump>
 
 
 ## Programmation en Python
@@ -45,9 +45,9 @@ Elioblocs n'a plus de secrets pour toi et tu as envie d'aller plus loin dans la 
 
 Voici une liste de tutoriel pour débuter ton apprentissage du langage Python :
 
-<Jump to="tutorial/python/python-setup">Première configuration de Python</Jump>
+<Jump to="/docs/tutorial/python/python-setup">Première configuration de Python</Jump>
 
-<Jump to="tutorial/python/python-blink-led">Faire clignoter la LED avec Python</Jump>
+<Jump to="/docs/tutorial/python/python-blink-led">Faire clignoter la LED avec Python</Jump>
 
 
 
