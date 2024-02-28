@@ -79,15 +79,15 @@ const config = {
         // title: 'Elio',
         logo: {
           alt: 'Elio Logo',
-          src: 'img/logo.svg',
+          src: 'img/logos/logo.svg',
         },
         items: [
-          /*{
+          {
             type: 'docSidebar',
             sidebarId: 'docSidebar',
             position: 'left',
             label: 'Documentation',
-          },*/
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

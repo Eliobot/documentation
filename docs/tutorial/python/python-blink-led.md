@@ -9,7 +9,7 @@ sidebar_position: 2
 En électronique il existe une version un peu plus lumineuse du “Hello world!” que l’on appelle “Blink” (clignoter en anglais) qui, son nom l’indique, a pour but de faire clignoter une LED sur la carte que l’on a entre les mains.
 Et ça tombe bien puisque Eliobot est justement équipé d’une LED, qui plus est multicolore, ce qui va te permettre d’afficher la couleur de ton choix !
 
-![Alt text](hxoh8cut.bmp)
+![alt text](../../../static/img/tutorial/python/python-blink-led/led-turned-on.bmp)
 
 Nous allons commencer notre code en intégrant quelques bibliothèques. Ce sont des ensembles de codes déjà écrits nous permettant de rajouter des fonctions facilement.
 

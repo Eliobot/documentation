@@ -16,7 +16,7 @@ Dans ce tutoriel, nous allons te guider pour créer ton premier programme. Il s�
 
 Voici comment se compose l’interface. Cette partie d’explication te servira pour la suite du tutoriel.
 
-![Alt text](../../../static/img/first_program_1.png)
+![Alt text](../../../static/img/tutorial/elioblocs/first-program/first_program_1.png)
 
 > 1. La boîte à outils (l’espace où tu retrouveras l’ensemble des blocs nécessaires pour la programmation).
 > 
@@ -40,7 +40,7 @@ Ce programme « test » te permettra de suivre la ligne qui se trouve au dos de 
 
 La première étape consiste à sélectionner une ligne. Va dans ta boîte à outils et cliquez sur le bloc « Suivi de ligne ». Sélectionne le bloc « Suivre une ligne noire » et glisse-le dans ton espace de travail.
 
-![Alt text](../../../static/img/first_program_2.gif)
+![Alt text](../../../static/img/tutorial/elioblocs/first-program/first_program_2.gif)
 
 #### B. Création d’une boucle
 
@@ -48,7 +48,7 @@ Cette étape consiste à créer une boucle afin que Eliobot suive la ligne tout 
 
 Clique sur la catégorie « Boucles » puis prends le bloc « Répéter indéfiniment ». Glisse-le autour des blocs déjà présents.
 
-![Alt text](../../../static/img/first_program_3.gif)
+![Alt text](../../../static/img/tutorial/elioblocs/first-program/first_program_3.gif)
 
 ### Étape 3 : La programmation du robot
 
@@ -56,7 +56,7 @@ Clique sur la catégorie « Boucles » puis prends le bloc « Répéter indéfin
 
 C’est le moment de brancher ton robot Eliobot à l’aide du câble USB si ce n’est pas encore fait.
 
-![Alt text](../../../static/img/first_program_4.gif)
+![Alt text](../../../static/img/tutorial/elioblocs/first-program/first_program_4.gif)
 
 > Tu peux voir une petite LED s’allumer juste à côté de la prise pour t’indiquer que Eliobot recharge sa batterie.
 
@@ -64,7 +64,7 @@ C’est le moment de brancher ton robot Eliobot à l’aide du câble USB si ce 
 
 Envoie ton programme à Eliobot en cliquant sur le bouton « Programmer » en haut à droite.
 
-![Alt text](../../../static/img/first_program_5.gif)
+![Alt text](../../../static/img/tutorial/elioblocs/first-program/first_program_5.gif)
 
 > Tu peux aussi sauvegarder tes blocs pour les utiliser plus tard grâce au bouton « Sauvegarder ».
 
@@ -72,7 +72,7 @@ Envoie ton programme à Eliobot en cliquant sur le bouton « Programmer » en ha
 
 Le programme est désormais envoyé à Eliobot. Allume-le, pose le sur la ligne noire au dos de la notice et admirez le faire des tours en suivant la ligne !
 
-![Alt text](../../../static/img/first_program_6.gif)
+![Alt text](../../../static/img/tutorial/elioblocs/first-program/first_program_6.gif)
 
 Félicitations pour ce premier pas vers la programmation. Prochaine étape, faire clignoter Eliobot de toutes les couleurs !
 

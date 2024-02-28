@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Elioblocs',
-    Svg: require('@site/static/img/elioblocs.svg').default,
+    Svg: require('@site/static/img/logos/elioblocs.svg').default,
     link: 'docs/category/programmer-avec-elioblocs',
     description: (
       <>
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Python',
-    Svg: require('@site/static/img/python.svg').default,
+    Svg: require('@site/static/img/logos/python.svg').default,
     link: 'docs/category/programmer-en-python',
     description: (
       <>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Arduino',
-    Svg: require('@site/static/img/arduino.svg').default,
+    Svg: require('@site/static/img/logos/arduino.svg').default,
     description: (
       <>
         Pour ceux qui veulent aller plus loin en programmation, tout en bénéficiant d'un écosystème étendu.

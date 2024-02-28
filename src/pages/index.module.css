@@ -11,7 +11,7 @@
   overflow: hidden;
   margin-bottom: 50px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                  url("@site/static/img/eliobot_labyrinthe.jpg");
+                  url("@site/static/img/homepage/eliobot_labyrinthe.jpg");
   background-size: cover;
   background-position: 75% 50%;
   color: white;
@@ -36,7 +36,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url("@site/static/img/explosion-elioblocs.png");
+  background-image: url("@site/static/img/homepage/explosion-elioblocs.png");
   background-size: cover;
   background-position: 75% 50%;
   color: white;
