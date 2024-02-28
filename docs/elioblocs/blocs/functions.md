@@ -24,9 +24,9 @@ description: "Elioblocs - Fonctions"
 
 ## Ajouter des valeurs en entrée de la fonction
 
-![Add input to a function](../../../static/img/elioblocs/blocs/loops/add-input-functions.png)
+![Add input to a function](../../../static/img/elioblocs/blocs/functions/add-input-functions.png)
 
-![Declare function inputs](../../../static/img/elioblocs/blocs/loops/fonctionA-input.png)
+![Declare function inputs](../../../static/img/elioblocs/blocs/functions/fonctionA-input.png)
 
 ## Sortir d'une fonction
 
