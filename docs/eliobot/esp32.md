@@ -1,11 +1,11 @@
 ---
 last_modified_on: "2024-02-26"
-title: "WiFi"
-description: "Eliobot component - WiFi"
+title: "ESP32"
+description: "Eliobot component - ESP32"
 ---
 
 
-![Eliobot WiFi](<../../static/img/eliobot/wifi/Eliobot - WiFi.png>)
+![alt text](<../../static/img/eliobot/esp32/Eliobot - ESP32.png>)
 
 ## Utilisation avec Elioblocs
 

@@ -5,6 +5,8 @@ description: "Eliobot component - Capteurs de ligne"
 ---
 
 
+![Eliobot line sensor](<../../static/img/eliobot/senors-line/Eliobot - Line.png>)
+
 ## Utilisation avec Elioblocs
 
 ## Utilisation avec Python

@@ -5,6 +5,8 @@ description: "Eliobot component - Buzzer"
 ---
 
 
+![Eliobot buzzer](<../../static/img/eliobot/buzzer/Eliobot - Buzzer.png>)
+
 ## Utilisation avec Elioblocs
 
 ## Utilisation avec Python

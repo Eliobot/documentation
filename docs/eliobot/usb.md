@@ -1,11 +1,11 @@
 ---
 last_modified_on: "2024-02-26"
-title: "WiFi"
-description: "Eliobot component - WiFi"
+title: "USB"
+description: "Eliobot component - USB"
 ---
 
 
-![Eliobot WiFi](<../../static/img/eliobot/wifi/Eliobot - WiFi.png>)
+![Eliobot USB port](<../../static/img/eliobot/usb/Eliobot - USB.png>)
 
 ## Utilisation avec Elioblocs
 

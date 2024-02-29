@@ -5,6 +5,8 @@ description: "Eliobot component - LED"
 ---
 
 
+![Eliobot LED](<../../static/img/eliobot/led/Eliobot - LED.png>)
+
 ## Utilisation avec Elioblocs
 
 ## Utilisation avec Python

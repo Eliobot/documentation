@@ -5,6 +5,8 @@ description: "Eliobot component - Batterie"
 ---
 
 
+![Eliobot battery](<../../static/img/eliobot/battery/Eliobot - Battery.png>)
+
 ## Utilisation avec Elioblocs
 
 ## Utilisation avec Python

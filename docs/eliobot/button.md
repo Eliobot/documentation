@@ -5,6 +5,8 @@ description: "Eliobot component - Bouton"
 ---
 
 
+![Eliobot button](<../../static/img/eliobot/button/Eliobot - Button.png>)
+
 ## Utilisation avec Elioblocs
 
 ## Utilisation avec Python
