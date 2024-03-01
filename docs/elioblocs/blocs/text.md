@@ -5,6 +5,23 @@ description: "Elioblocs - Texte"
 ---
 
 
-## BLOC 1
+## Commentaire
 
-## BLOC 2
+## Ecrire un message
+
+## Variable de texte
+
+## Ajouter le texte
+
+## Modifier la casse
+
+## Inverser le texte
+
+## Compter les occurences
+
+## Supprimer les espaces
+
+## Nettoyer le terminal
+
+
+
