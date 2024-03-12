@@ -5,7 +5,8 @@ description: "Eliobot component - USB"
 ---
 
 
-![Eliobot USB port](<../../static/img/eliobot/usb/Eliobot - USB.png>)
+<img src={require("@site/static/img/eliobot/usb/Eliobot - USB.png").default} alt="Eliobot USB port" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

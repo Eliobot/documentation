@@ -5,7 +5,8 @@ description: "Eliobot component - Power"
 ---
 
 
-![Eliobot power](<../../static/img/eliobot/power/Eliobot - Power.png>)
+<img src={require('@site/static/img/eliobot/power/Eliobot - Power.png').default} alt="Eliobot power" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

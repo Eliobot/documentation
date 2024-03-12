@@ -5,7 +5,8 @@ description: "Eliobot component - Batterie"
 ---
 
 
-![Eliobot battery](<../../static/img/eliobot/battery/Eliobot - Battery.png>)
+<img src={require("@site/static/img/eliobot/battery/Eliobot - Battery.png").default} alt="Eliobot battery" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

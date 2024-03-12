@@ -5,7 +5,8 @@ description: "Eliobot component - Buzzer"
 ---
 
 
-![Eliobot buzzer](<../../static/img/eliobot/buzzer/Eliobot - Buzzer.png>)
+<img src={require("@site/static/img/eliobot/buzzer/Eliobot - Buzzer.png").default} alt="Eliobot buzzer" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

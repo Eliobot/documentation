@@ -42,7 +42,7 @@ const sidebars = {
     {
       type: 'category',
       label: "L'application Elioblocs",
-      link: {type: 'doc', id: 'elioblocs'},
+      link: {type: 'doc', id: 'elioblocs/interface'},
       items: [
         "elioblocs/interface",
         "elioblocs/terminal",

@@ -5,7 +5,8 @@ description: "Eliobot component - Capteurs de ligne"
 ---
 
 
-![Eliobot line sensor](<../../static/img/eliobot/senors-line/Eliobot - Line.png>)
+<img src={require('@site/static/img/eliobot/senors-line/Eliobot - Line.png').default} alt="Eliobot line sensor" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

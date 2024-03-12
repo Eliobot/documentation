@@ -5,7 +5,8 @@ description: "Eliobot component - WiFi"
 ---
 
 
-![Eliobot WiFi](<../../static/img/eliobot/wifi/Eliobot - WiFi.png>)
+<img src={require('@site/static/img/eliobot/wifi/Eliobot - WiFi.png').default} alt="Eliobot WiFi" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

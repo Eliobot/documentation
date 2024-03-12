@@ -5,9 +5,12 @@ description: "Eliobot component - Moteurs"
 ---
 
 
-![Eliobot motors top](<../../static/img/eliobot/motors/Eliobot - Motors Top.png>)
+<p align="middle">
+    <img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Top.png').default} alt="Eliobot motors top" width="49%" />
+    <img src={require('@site/static/img/blank.png').default} width="2%"/>
+    <img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Bottom.png').default} alt="Eliobot motors bottom" width="49%" />
+</p>
 
-![Eliobot motors bottom](<../../static/img/eliobot/motors/Eliobot - Motors Bottom.png>)
 
 ## Utilisation avec Elioblocs
 

@@ -5,7 +5,8 @@ description: "Eliobot component - LED"
 ---
 
 
-![Eliobot LED](<../../static/img/eliobot/led/Eliobot - LED.png>)
+<img src={require("@site/static/img/eliobot/led/Eliobot - LED.png").default} alt="Eliobot LED" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

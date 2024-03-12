@@ -5,7 +5,8 @@ description: "Eliobot component - Bouton"
 ---
 
 
-![Eliobot button](<../../static/img/eliobot/button/Eliobot - Button.png>)
+<img src={require("@site/static/img/eliobot/button/Eliobot - Button.png").default} alt="Eliobot button" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 

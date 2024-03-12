@@ -5,7 +5,8 @@ description: "Eliobot component - ESP32"
 ---
 
 
-![alt text](<../../static/img/eliobot/esp32/Eliobot - ESP32.png>)
+<img src={require("@site/static/img/eliobot/esp32/Eliobot - ESP32.png").default} alt="Eliobot Microcontroler" width="49%" />
+
 
 ## Utilisation avec Elioblocs
 
