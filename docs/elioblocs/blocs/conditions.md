@@ -13,45 +13,78 @@ Dans la programmation on utilise
 
 ![Bloc Si - Faire - Sinon](../../../static/img/elioblocs/blocs/conditions/if-else.png)
 
+Ce bloc permet de réaliser une action si une condition est vraie, et une autre action si la condition est fausse.
+Il est composé de trois parties :
+
+- **Si** : la condition à vérifier (si elle est vraie, on exécute le bloc `Faire` on appelle cela un booléen).
+- **Faire** : le bloc d'instructions à exécuter si la condition est vraie.
+- **Sinon** : le bloc d'instructions à exécuter si la condition est fausse.
+
 
 ## Si - Faire
 
 ![Bloc Si - Faire](../../../static/img/elioblocs/blocs/conditions/if.png)
 
+Ce bloc reprend la même logique que le bloc `Si - Faire - Sinon` mais avec une spécificité on peu modifié le bloc pour rajouter des conditions supplémentaires à l'aide de l'engrenage.
 
 ### Modification du bloc
 
 ![Mutator du bloc Si](../../../static/img/elioblocs/blocs/conditions/if-mutator.png)
 
+Ici tu peux empiler autant de conditions que tu veux. Si toutes les conditions sont vraies, alors la partie du bloc `Faire` sera exécuté.
+Toute les conditions sont vérifiées une par une dans l'ordre où elles sont empilées. Si une condition est fausse, alors le bloc `Faire` de celle-ci ne sera pas exécuté.
+
+> #### Exemple
+>
+> <img src={require('@site/static/img/elioblocs/blocs/conditions/example-if.jpg').default} style={{ width: '30%', verticalAlign: 'middle' }} alt="Example Si" />
+>
+> Dans cet exemple, seule la première condition sera exécutée car c'est la première de la liste qui est vraie. Si la première condition avait été fausse, alors la deuxième condition aurait été vérifiée, et si celle-ci avait également été fausse, le bloc 'sinon' serait intervenu, agissant lorsque aucune des conditions précédentes n'est vérifiée.
+
 ## Comparaison
 
 ![Bloc comparaison](../../../static/img/elioblocs/blocs/conditions/est-egal.png)
 
+Ce bloc permet de comparer deux valeurs. Il est composé de deux parties :
+
+- **Première valeur et deuxième valeur** : les valeurs à comparer.
+- **Opérateur de comparaison** : le type de comparaison à effectuer (égal, différent, supérieur, inférieur, supérieur ou égal, inférieur ou égal).
 
 ## Opération logique
 
 ![Bloc opération logique](../../../static/img/elioblocs/blocs/conditions/et.png)
 
+Ce bloc permet de réaliser une opération logique entre deux conditions. Il est composé de deux parties :
+
+- **Première condition et deuxième condition** : les conditions à comparer.
+- **Opérateur logique** : le type d'opération logique à effectuer (ET, OU).
 
 ## Non
 
 ![Bloc Non](../../../static/img/elioblocs/blocs/conditions/no.png)
 
+Ce bloc permet de réaliser une négation d'une condition. Cela veut dire que peu importe la condition, si elle est vraie, elle deviendra fausse et inversement.
 
 ## Vrai / Faux
 
 ![Bloc Vrai / Faux](../../../static/img/elioblocs/blocs/conditions/vrai.png)
 
+Ce bloc permet de définir une valeur booléenne. Cela veut dire que la valeur est soit vraie, soit fausse.
 
 ## Nul
 
 ![Bloc Nul](../../../static/img/elioblocs/blocs/conditions/bloc-nul.png)
 
+Ce bloc permet de définir une valeur nulle. Cela veut dire que la valeur n'est pas définie (Cela ne veut pas dire zéro).
+La valeur nul est souvent utilisée pour dire qu'une variable n'a pas de valeur ou n'est pas définie
 
 ## Test
 
 ![Bloc Test](../../../static/img/elioblocs/blocs/conditions/test.png)
 
+Ce bloc permet de tester une condition. Il est composé de deux parties :
+
+- **Condition** : la condition à tester.
+- **Valeur à utiliser** : Celon le résultat de la condition, la valeur à utiliser.
 
 ## Exemple 
 
