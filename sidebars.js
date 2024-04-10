@@ -52,7 +52,7 @@ const sidebars = {
             "elioblocs/blocs/loops",
             "elioblocs/blocs/maths",
             "elioblocs/blocs/lists",
-            //"elioblocs/blocs/text",
+            "elioblocs/blocs/text",
             "elioblocs/blocs/variables",
             "elioblocs/blocs/functions",
             "elioblocs/blocs/colors",
