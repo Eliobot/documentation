@@ -61,7 +61,8 @@ const sidebars = {
             "elioblocs/blocs/obstacles",
             "elioblocs/blocs/line",
             "elioblocs/blocs/utilities",
-            //"elioblocs/blocs/backpacks",
+	        "elioblocs/blocs/wifi",
+            "elioblocs/blocs/backpacks",
           ],
         }
       ],
