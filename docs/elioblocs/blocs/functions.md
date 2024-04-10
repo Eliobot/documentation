@@ -4,16 +4,24 @@ title: "Fonctions"
 description: "Elioblocs - Fonctions"
 ---
 
+Les fonctions permettent de regrouper des blocs pour les réutiliser plus tard dans le programme.
+Elles sont très utiles pour éviter de répéter plusieurs fois les mêmes blocs. 
+On peut aussi leur donner des valeurs en entrée et récupérer une valeur en sortie.
+On peut les appelées n'importe où dans le programme, tant qu'elles ont été déclarées avant et plusieurs fois si besoin.
+
 
 ## Créer une fonction
 
 ![Create a function](../../../static/img/elioblocs/blocs/functions/fonctionA.png)
 
+Une fonction est comme une boucle, elle contient des blocs à exécuter ces blocs seront éxécuté à l'appel de la fonction.
+Tu peux utiliser le point d'interrogation pour ajouter un commentaire à ta fonction (dire ce qu'elle fait par exemple).
 
 ## Appeler une fonction
 
 ![Call a function](../../../static/img/elioblocs/blocs/functions/fonctionA-appel.png)
 
+Ce bloc permet d'appeler une fonction. Les blocs à l'intérieur de la fonction seront exécutés.
 
 ## Récupérer une valeur de la fonction
 
@@ -21,6 +29,7 @@ description: "Elioblocs - Fonctions"
 
 ![Read returned value](../../../static/img/elioblocs/blocs/functions/fonctionB-retour.png)
 
+Il existe des fonctions qui retournent une valeur. Comme une fonction normale les blocs à l'intérieur seront exécutés, mais en plus, elle retournera une valeur. Cette valeur peut être utilisée dans le reste du programme.
 
 ## Ajouter des valeurs en entrée de la fonction
 
@@ -28,6 +37,12 @@ description: "Elioblocs - Fonctions"
 
 ![Declare function inputs](../../../static/img/elioblocs/blocs/functions/fonctionA-input.png)
 
+Il est possible de donner des valeurs à une fonction pour qu'elle les utilise. Ces valeurs sont appelées des paramètres.
+Pour ajouter des paramètres à une fonction, il suffit de les ajouter dans le bloc de la fonction à l'aide de l'engrenage.
+Quand on appelle la fonction, on doit donner des valeurs pour ces paramètres.
+
 ## Sortir d'une fonction
 
 ![Return value on event](../../../static/img/elioblocs/blocs/functions/return-function.png)
+
+Ce bloc permet de sortir d'une fonction et de retourner une valeur si une condition est remplie.
