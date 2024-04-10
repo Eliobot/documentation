@@ -4,6 +4,7 @@ title: "Listes"
 description: "Elioblocs - Listes"
 ---
 
+Les listes permettent de stocker plusieurs valeurs dans une seule variable. Elles sont très utiles pour stocker des données de même type.
 
 ## Créer une liste 
 

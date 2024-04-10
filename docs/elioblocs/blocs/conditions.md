@@ -7,6 +7,9 @@ description: "Elioblocs - Conditions"
 import Jump from '@site/src/components/Jump';
 
 
+Les conditions permettent de réaliser des actions en fonction de certaines conditions. C'est ce qui permet de rendre un programme "intelligent" et de lui faire prendre des décisions.
+
+
 Dans la programmation on utilise 
 
 ## Si - Faire - Sinon

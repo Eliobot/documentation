@@ -4,6 +4,7 @@ title: "Maths"
 description: "Elioblocs - Maths"
 ---
 
+Les blocs de mathématiques permettent de réaliser des opérations mathématiques de base. Ils sont très utiles pour réaliser des calculs.
 
 ## Nombre entier
 

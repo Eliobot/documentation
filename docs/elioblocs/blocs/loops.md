@@ -4,6 +4,8 @@ title: "Boucles"
 description: "Elioblocs - Boucles"
 ---
 
+Les boucles permettent de répéter des actions un certain nombre de fois où jusqu'à ce qu'une condition soit remplie (ou pas). Elles sont très utiles pour automatiser des tâches répétitives.
+
 
 ## Répéter indéfiniment
 
