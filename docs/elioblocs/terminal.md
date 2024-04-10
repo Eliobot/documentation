@@ -29,8 +29,6 @@ description: "Elioblocs terminal"
 
 Eliobot est un robot qui parle avec le langage de programmation Python. C'est pour cela que tu vas voir des messages en anglais dans le terminal. Mais ne t'inquiète pas, on va t'aider à comprendre ce qu'il te dit.
 
-Tu es prêt·e à passer à la suite ? C'est parti !
-
 ---
 
 ### Les fonctionnalités du terminal
@@ -43,7 +41,9 @@ Si un de tes programmes ne fonctionne pas et que la LED clignote en rouge, tu po
 #### Envoyer des commandes à Eliobot
 
 Quand dans le terminal tu vois `>>>`, c'est Eliobot qui te demande de lui envoyer une commande. Tu peux lui envoyer des commandes en Python pour qu'il les exécute.
+Si tu veux en savoir plus, tu peux aller voir la <a href="https://learn.adafruit.com/welcome-to-circuitpython/the-repl" target="_blank" rel="noopener noreferrer" style={{color : 'blue'}}>Documentation CircuitPython</a>.
+
 
 #### Problèmes avec le terminal ?
 
-Si, après avoir cliqué sur le bouton `Connecter`, le message `Eliobot est connecté` s'affiche mais que rien ne se passe, tu peux essayer de cliquer sur le bouton `Redémarrer le programme` pour relancer le programme, ou sur `Arrêter le programme` si ton programme a déjà été exécuté ou est toujours en cours d'exécution. Si rien ne se passe, débranche Eliobot de ton ordinateur, éteins-le et reconnecte-le.
+Si, après avoir cliqué sur le bouton <img src={require('@site/static/img/elioblocs/terminal/connect-button.jpg').default} style={{ width: '12%', verticalAlign: 'middle' }} alt="Bouton connecter" />, le message `Eliobot est connecté` s'affiche mais que rien ne se passe, tu peux essayer de cliquer sur le bouton <img src={require('@site/static/img/elioblocs/terminal/restart-button.jpg').default} style={{ width: '4%', verticalAlign: 'middle' }} alt="Bouton redémarrer" /> pour relancer le programme, ou sur <img src={require('@site/static/img/elioblocs/terminal/stop-button.jpg').default} style={{ width: '4%', verticalAlign: 'middle' }} alt="Bouton arrêter" /> ton programme est peut-être toujours en cours d'exécution. Si rien ne se passe, débranche Eliobot de ton ordinateur, éteins-le et reconnecte-le.
