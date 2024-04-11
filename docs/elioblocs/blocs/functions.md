@@ -7,7 +7,7 @@ description: "Elioblocs - Fonctions"
 Les fonctions permettent de regrouper des blocs pour les réutiliser plus tard dans le programme.
 Elles sont très utiles pour éviter de répéter plusieurs fois les mêmes blocs. 
 On peut aussi leur donner des valeurs en entrée et récupérer une valeur en sortie.
-On peut les appelées n'importe où dans le programme, tant qu'elles ont été déclarées avant et plusieurs fois si besoin.
+On peut les appeler n'importe où dans le programme et plusieurs fois si besoin, tant qu'elles ont été déclarées avant.
 
 
 ## Créer une fonction
@@ -39,7 +39,7 @@ Ce bloc permet d'appeler une fonction. Les blocs à l'intérieur de la fonction 
 
 Si on veut exécuter les blocs d'une fonction sans avoir à les réécrire.
 
-## Récupérer une valeur de la fonction
+## Récupérer une valeur en sortie de la fonction
 
 ![Function with value return](../../../static/img/elioblocs/blocs/functions/fonctionB.png)
 
@@ -51,7 +51,7 @@ Si on veut exécuter les blocs d'une fonction sans avoir à les réécrire.
 
 **Définition** :
 
-Il existe des fonctions qui retournent une valeur. Comme une fonction normale les blocs à l'intérieur seront exécutés, mais en plus, elle retournera une valeur. Cette valeur peut être utilisée dans le reste du programme.
+Il existe des fonctions qui retournent une valeur. Comme une fonction normale les blocs à l'intérieur seront exécutés, mais en plus, elle retournera une valeur à la fin. Cette valeur peut être utilisée dans le reste du programme.
 
 **Utilisation** :
 

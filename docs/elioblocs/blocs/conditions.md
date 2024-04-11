@@ -47,7 +47,7 @@ Ce bloc reprend la même logique que le bloc `Si - Faire - Sinon` mais avec une 
 **Définition** :
 
 Ici, tu peux empiler autant de conditions que tu veux. Si toutes les conditions sont vraies, alors la partie du bloc `Faire` sera exécuté.
-Toutes les conditions sont vérifiées une par une dans l'ordre où elles sont empilées. Si une condition est fausse, alors le bloc `Faire` de celle-ci ne sera pas exécuté.
+Toutes les conditions sont vérifiées une par une dans l'ordre où elles sont empilées. Si une condition est fausse, ainsi le bloc `Faire` de celle-ci ne sera pas exécuté.
 
 **Utilisation** :
 
@@ -161,4 +161,4 @@ Si on veut tester une condition et utiliser une valeur différente selon le rés
 
 Découvre l'utilisation des conditions dans l'exemple suivant :
 
-<Jump to="/docs/tutorial/elioblocs/avoid-obstacles-elioblocs">Eviter des obstacles - Elioblocs</Jump>
+<Jump to="/docs/tutorial/elioblocs/avoid-obstacles-elioblocs">Éviter des obstacles - Elioblocs</Jump>

@@ -87,15 +87,15 @@ Si tu veux effacer ce qui est affiché sur une matrice de LED. Par exemple, pour
 **Définition** :
 
 Ce bloc permet de choisir un logo à afficher sur une matrice de LED :
-- cœur
-- smiley heureux
-- smiley triste
-- flèche haut
-- flèche bas
-- flèche gauche
-- flèche droite
-- croix
-- check
+- Cœur
+- Smiley heureux
+- Smiley triste
+- Flèche haut
+- Flèche bas
+- Flèche gauche
+- Flèche droite
+- Croix
+- Check
 
 :::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos matrice de LED.

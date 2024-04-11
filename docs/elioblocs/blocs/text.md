@@ -133,7 +133,7 @@ Si tu veux supprimer les espaces d'un texte. Par exemple, si tu veux enlever les
 Ce bloc permet de nettoyer le terminal. Repartir sur une page vierge.
 
 :::note
-Remarque : le terminal n'est pas vraiment effacé, on saute plusieurs lignes pour ne plus voir les anciens messages.
+Le terminal n'est pas vraiment effacé, on saute plusieurs lignes pour ne plus voir les anciens messages.
 Tu peux toujours remonter pour voir les messages précédents.
 :::
 

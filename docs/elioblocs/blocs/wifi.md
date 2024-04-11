@@ -6,11 +6,11 @@ description: "Elioblocs - Réseaux"
 
 Les blocs de réseau permettent de réaliser des actions liées à la connexion d'Eliobot à un réseau sans fil.
 
-# Connexion Sans Fil
+## **Connexion Sans Fil**
 
 ---
 
-## Se connecter à un réseau sans fil
+### Se connecter à un réseau sans fil
 
 ![Connect to a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/connect-wifi.jpg)
 
@@ -27,7 +27,7 @@ Une fois utilisé même si tu changes de programme, Eliobot se connectera automa
 
 Si tu veux que Eliobot se connecte à un réseau sans fil pour pouvoir accéder à internet ou à un serveur local.
 
-## Se déconnecter d'un réseau sans fil
+### Se déconnecter d'un réseau sans fil
 
 ![Disconnect from a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/disconnect-wifi.jpg)
 
@@ -41,7 +41,7 @@ Ce bloc permet de déconnecter Eliobot d'un réseau sans fil.
 
 Si tu veux que Eliobot se déconnecte d'un réseau sans fil pour se connecter à un autre réseau ou pour économiser de l'énergie.
 
-## Ouvrir un point d'accès depuis Eliobot
+### Ouvrir un point d'accès depuis Eliobot
 
 ![Open a Wi-Fi access point](../../../static/img/elioblocs/blocs/wifi/open-hotspot.jpg)
 
@@ -55,7 +55,7 @@ Ce bloc permet d'ouvrir un point d'accès Wi-Fi depuis Eliobot. Cela permet à d
 
 Si tu veux servir un fichier html depuis Eliobot pour faire de ton telephone une télécommande par exemple.
 
-## Est connecté à un réseau sans fil ?
+### Est connecté à un réseau sans fil ?
 
 ![Is connected to a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/is-connected.jpg)
 
@@ -69,7 +69,7 @@ Ce bloc permet de tester si Eliobot est connecté à un réseau sans fil. Il ren
 
 Si tu veux réaliser une action seulement si Eliobot est connecté à un réseau sans fil.
 
-## Scanner les réseaux sans fil disponibles
+### Scanner les réseaux sans fil disponibles
 
 ![Scan available Wi-Fi networks](../../../static/img/elioblocs/blocs/wifi/scan-wifi.jpg)
 
@@ -83,7 +83,7 @@ Ce bloc permet de scanner les réseaux sans fil disponibles. Il renvoie une list
 
 Si tu veux afficher les réseaux sans fil disponibles pour choisir à quel réseau se connecter.
 
-## Obtenir l'adresse IP du réseau sans fil
+### Obtenir l'adresse IP du réseau sans fil
 
 ![Get Wi-Fi network IP address](../../../static/img/elioblocs/blocs/wifi/get-ip.jpg)
 
@@ -97,11 +97,11 @@ Ce bloc permet d'obtenir l'adresse IP du réseau sans fil auquel Eliobot est con
 
 Si tu veux connaître l'adresse IP du réseau sans fil pour communiquer avec Eliobot, tu en auras besoin pour te connecter à Eliobot depuis un autre appareil.
 
-# Serveur Http
+## **Serveur Http**
 
 ---
 
-## Créer une route API 
+### Créer une route API 
 
 ![Create an API route](../../../static/img/elioblocs/blocs/wifi/api-endpoint.jpg)
 
@@ -115,7 +115,7 @@ Ce bloc permet de créer une route API. Une route API est une adresse web qui pe
 
 Si tu veux créer une route API pour réaliser des actions sur Eliobot depuis un navigateur web ou une application.
 
-## Créer une route API avec retour
+### Créer une route API avec retour
 
 ![Create an API route with return](../../../static/img/elioblocs/blocs/wifi/api-endpoint-return.jpg)
 
@@ -129,7 +129,7 @@ Ce bloc permet de créer une route API avec retour. Une route API avec retour es
 
 Si tu veux créer une route API avec retour pour réaliser des actions sur Eliobot depuis un navigateur web ou une application et récupérer une valeur de retour pour l'afficher ou pour servir un fichier.
 
-## Récupérer l'état d'un bouton
+### Récupérer l'état d'un bouton
 
 ![Get button state](../../../static/img/elioblocs/blocs/wifi/get-button-state.jpg)
 
@@ -144,7 +144,7 @@ Il prend en paramètre le numéro du bouton à tester, c'est ce qui l'identifie.
 
 Si tu veux réaliser une action seulement si le bouton html est activé.
 
-## Récupérer l'état d'un variateur
+### Récupérer l'état d'un variateur
 
 ![Get slider state](../../../static/img/elioblocs/blocs/wifi/get-slider-state.jpg)
 
@@ -159,7 +159,7 @@ Il prend en paramètre le numéro du variateur à tester, c'est ce qui l'identif
 
 Si tu veux récupérer la valeur d'un variateur html pour réaliser une action en fonction de cette valeur.
 
-## Servir le contenu d'un fichier
+### Servir le contenu d'un fichier
 
 ![Serve file content](../../../static/img/elioblocs/blocs/wifi/serve-file.jpg)
 
@@ -173,7 +173,7 @@ Ce bloc permet de servir le contenu d'un fichier. Il prend en paramètre le nom 
 
 Si tu veux servir un fichier html, css, javascript depuis Eliobot pour l'afficher dans un navigateur web.
 
-## Démarrer le serveur web
+### Démarrer le serveur web
 
 ![Start web server](../../../static/img/elioblocs/blocs/wifi/start-web-server.jpg)
 
@@ -187,11 +187,11 @@ Ce bloc permet de démarrer le serveur web. Pour y accéder, il faut connaître 
 
 Si tu veux démarrer le serveur web pour servir des fichiers html, css, javascript depuis Eliobot.
 
-# Page HTML
+## **Page HTML**
 
 ---
 
-## Crée une page html
+### Crée une page html
 
 ![Create an HTML page](../../../static/img/elioblocs/blocs/wifi/create-html-page.jpg)
 
@@ -207,7 +207,7 @@ Tu peux y choisir le titre de la page et placer son contenu à l'intérieur.
 
 Si tu veux créer une page web pour afficher des informations.
 
-## Crée une balise html
+### Crée une balise html
 
 ![Create an HTML tag](../../../static/img/elioblocs/blocs/wifi/create-html-div.jpg)
 
@@ -227,7 +227,7 @@ Options disponibles :
 Si tu veux structurer le contenu de ta page html.
 
 
-## Crée un titre html
+### Crée un titre html
 
 ![Create an HTML title](../../../static/img/elioblocs/blocs/wifi/create-html-title.jpg)
 
@@ -250,7 +250,7 @@ Options disponibles :
 
 Si tu veux afficher un titre dans ta page html.
 
-## Crée un paragraphe html
+### Crée un paragraphe html
 
 ![Create an HTML paragraph](../../../static/img/elioblocs/blocs/wifi/create-html-text.jpg)
 
@@ -264,7 +264,7 @@ Ce bloc permet de créer un paragraphe html. Un paragraphe html est un texte qui
 
 Si tu veux afficher un texte dans ta page html.
 
-## Crée un bouton html
+### Crée un bouton html
 
 ![Create an HTML button](../../../static/img/elioblocs/blocs/wifi/create-html-button.jpg)
 
@@ -279,7 +279,7 @@ Tu peux y choisir le texte du bouton, sa couleur, la route à laquelle il va env
 
 Si tu veux créer un bouton interactif dans ta page html.
 
-## Crée un variateur html
+### Crée un variateur html
 
 ![Create an HTML slider](../../../static/img/elioblocs/blocs/wifi/create-html-slider.jpg)
 

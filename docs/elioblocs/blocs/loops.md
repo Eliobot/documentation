@@ -18,7 +18,7 @@ Les boucles permettent de répéter des actions un certain nombre de fois où ju
 Cette boucle répète indéfiniment les blocs qu'elle contient. Pour arrêter la boucle, il faut utiliser <img src={require('@site/static/img/elioblocs/blocs/loops/quitter-boucle.png').default} style={{ width: '14%', verticalAlign: 'middle' }} alt="Quitter boucle" />.
 
 :::warning 
-Attention, après l'utilisation de cette boucle, **seulement** les blocs qui se trouvent à l'intérieur seront exécuter à l'infini.
+Attention, après l'utilisation de cette boucle, **seulement** les blocs qui se trouvent à l'intérieur seront exécutés à l'infini.
 :::
 
 **Utilisation** :

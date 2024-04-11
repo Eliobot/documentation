@@ -83,7 +83,7 @@ Si on veut créer une liste à partir d'un texte ou d'un CSV.
 
 **Définition** :
 
-Donne la valeur de la longueur de la liste.
+Donne le nombre d'éléments présent dans une liste.
 
 **Utilisation** :
 
@@ -103,9 +103,9 @@ Permet de tester si une liste est vide ou non (retourne un booléen).
 
 Si on veut réaliser une action si une liste est vide. Par exemple, la remplir.
 
-## Trouver une occurence dans une liste
+## Trouver une occurrence dans une liste
 
-![Find occurence in list](../../../static/img/elioblocs/blocs/lists/occurence-liste.png)
+![Find occurrence in list](../../../static/img/elioblocs/blocs/lists/occurence-liste.png)
 
 **Type** : Valeur
 

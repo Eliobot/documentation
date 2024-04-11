@@ -72,9 +72,9 @@ Ce bloc permet de calculer les fonctions trigonométriques :
 - sinus
 - cosinus
 - tangente
-- arcsinus
-- arccosinus
-- arctangente
+- arc-sinus
+- arc-cosinus
+- arc-tangente
 
 **Utilisation** :
 

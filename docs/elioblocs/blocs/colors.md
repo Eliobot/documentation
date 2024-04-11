@@ -10,7 +10,7 @@ import Jump from '@site/src/components/Jump';
 Eliobot est équipé d'une LED multicolore, permettant d'afficher plus de 16 millions de couleurs. 
 
 
-## Séléctionner une couleur à afficher
+## Sélectionner une couleur à afficher
 
 La méthode la plus simple pour allumer la LED est d'utiliser le bloc ```Afficher la couleur``` qui propose la couleur rouge par défaut.
 
@@ -32,7 +32,7 @@ Attention, le noir correspond à une LED éteinte.
 Si tu veux allumer la LED avec une couleur spécifique. Par exemple, pour indiquer l'état d'un capteur.
 
 
-## Eteindre la lumière
+## Éteindre la lumière
 
 ![Bloc light off](../../../static/img/elioblocs/blocs/colors/light-off.png)
 

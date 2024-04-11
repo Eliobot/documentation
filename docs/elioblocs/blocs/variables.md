@@ -10,8 +10,11 @@ Les variables permettent de stocker des valeurs pour les réutiliser plus tard d
 
 ![Variable creation](../../../static/img/elioblocs/blocs/variables/creer-variable.png)
 
+Pour créer une variable, il suffit de cliquer sur le bouton et une fenêtre s'ouvrira pour renseigner le nom de la variable.
+
 ![Setting variable name](../../../static/img/elioblocs/blocs/variables/nom-variable.png)
 
+Donne lui le nom de ton choix, il doit être unique.
 
 ## Appeler une variable
 

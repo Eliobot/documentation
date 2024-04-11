@@ -14,7 +14,7 @@ Les blocs utilitaires permettent de réaliser des actions simples et utiles pour
 
 **Définition** :
 
-Ce bloc permet de faire attendre Eliobot pendant un certain nombre de secondes.
+Ce bloc permet de faire une pause dans le programme pendant un certain nombre de secondes / millisecondes.
 
 **Utilisation** :
 
@@ -28,7 +28,7 @@ Si tu veux faire une pause dans ton programme entre deux actions.
 
 **Définition** :
 
-Ce bloc permet de tester si le bouton d'Eliobot est activé il renvoie `vrai` si le bouton est activé et `faux` sinon.
+Ce bloc permet de tester si le bouton d'Eliobot est activé, il renvoie `vrai` si le bouton est activé et `faux` sinon.
 
 **Utilisation** :
 

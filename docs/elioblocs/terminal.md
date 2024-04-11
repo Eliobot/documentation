@@ -10,7 +10,7 @@ description: "Elioblocs terminal"
 
 > 1. C'est le bouton "tiroir" qui te permet d'ouvrir ou de fermer le terminal.
 > 
-> 2. C'est la zone de texte, c'est ici que tu vas pouvoir communiquer avec Eliobot et voir les messages d'erreur ou de réussite de ton programme et ce qu'il a pu te répondre.
+> 2. C'est la zone de texte, c'est ici que tu vas pouvoir communiquer avec Eliobot, voir les messages d'erreur ou de réussite de ton programme et ce qu'il a pu te répondre.
 > 
 > 3. C'est la zone de bouton du terminal :
 > 
@@ -19,7 +19,7 @@ description: "Elioblocs terminal"
 > 
 > 4. C'est deux boutons sont ceux qui vont te permettre de faire fonctionner le terminal :
 > 
->    - Téléverser : Ce bouton envoie le code à Eliobot, comme vu précédemment, mais si tu te rends dans le terminal après avoir téléversé le code, tu pourras voir le code qui a été envoyé (le code est envoyé dans un langage appelé le binaire; c'est normal si tu n'arrives pas à le lire).
+>    - Téléverser : Ce bouton envoie le code à Eliobot, comme vu précédemment, mais si tu te rends dans le terminal après avoir téléversé le code, tu pourras voir le code qui a été envoyé (le code est envoyé dans un langage appelé le binaire ; c'est normal si tu n'arrives pas à le lire).
 >   
 >      ![Elioblocs Terminal Code](../../static/img/elioblocs/terminal/terminal-televerser.jpg)
 >   
