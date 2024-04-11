@@ -26,6 +26,8 @@ const sidebars = {
       label: 'Les fonctionalités de Eliobot',
       link: {type: 'doc', id: 'eliobot'},
       items: [
+		"eliobot/power",
+	    "eliobot/usb",
         "eliobot/led",
         "eliobot/button",
         "eliobot/buzzer",
