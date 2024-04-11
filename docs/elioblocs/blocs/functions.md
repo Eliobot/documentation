@@ -14,6 +14,8 @@ On peut les appelées n'importe où dans le programme, tant qu'elles ont été d
 
 ![Create a function](../../../static/img/elioblocs/blocs/functions/fonctionA.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Une fonction est comme une boucle, elle contient des blocs à exécuter ces blocs seront éxécuté à l'appel de la fonction.
@@ -27,6 +29,8 @@ Si on veut regrouper des blocs pour les réutiliser plus tard dans le programme.
 
 ![Call a function](../../../static/img/elioblocs/blocs/functions/fonctionA-appel.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet d'appeler une fonction. Les blocs à l'intérieur de la fonction seront exécutés.
@@ -39,7 +43,11 @@ Si on veut exécuter les blocs d'une fonction sans avoir à les réécrire.
 
 ![Function with value return](../../../static/img/elioblocs/blocs/functions/fonctionB.png)
 
+**Type** : Commande
+
 ![Read returned value](../../../static/img/elioblocs/blocs/functions/fonctionB-retour.png)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -55,6 +63,8 @@ Si on veut récupérer une valeur d'une fonction pour l'utiliser dans le reste d
 
 ![Declare function inputs](../../../static/img/elioblocs/blocs/functions/fonctionA-input.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Il est possible de donner des valeurs à une fonction pour qu'elle les utilise. Ces valeurs sont appelées des paramètres.
@@ -68,6 +78,8 @@ Imaginons avoir une fonction qui calcule Pythagore, on peut lui donner les deux 
 ## Sortir d'une fonction
 
 ![Return value on event](../../../static/img/elioblocs/blocs/functions/return-function.png)
+
+**Type** : Commande
 
 **Définition** :
 

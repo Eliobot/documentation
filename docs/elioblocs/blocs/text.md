@@ -10,6 +10,8 @@ Les blocs de texte permettent de manipuler des chaînes de caractères.
 
 ![Commentaire](../../../static/img/elioblocs/blocs/text/comment.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet d'ajouter un commentaire dans le code.
@@ -21,6 +23,8 @@ Si tu veux ajouter une note dans ton code pour expliquer une partie de ton progr
 ## Écrire un message
 
 ![Écrire un message](../../../static/img/elioblocs/blocs/text/println.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -34,6 +38,8 @@ Si tu veux afficher un message dans le terminal. Cela peut être utile pour déb
 
 ![Variable de texte](../../../static/img/elioblocs/blocs/text/string.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de définir une variable de type texte.
@@ -45,6 +51,8 @@ Si tu veux stocker un texte pour l'utiliser dans ton programme.
 ## Ajouter le texte
 
 ![Ajouter le texte](../../../static/img/elioblocs/blocs/text/text-append.jpg)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -58,6 +66,8 @@ Si tu veux concaténer deux textes. Par exemple, si tu veux ajouter un prénom �
 
 ![Modifier la casse](../../../static/img/elioblocs/blocs/text/change-case.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de modifier la casse d'un texte.
@@ -69,6 +79,8 @@ Si tu veux mettre un texte en majuscules ou en minuscules.
 ## Inverser le texte
 
 ![Inverser le texte](../../../static/img/elioblocs/blocs/text/reverse.jpg)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -82,6 +94,8 @@ Si tu veux inverser un texte. Par exemple, si tu veux lire un texte à l'envers.
 
 ![Compter les occurrences](../../../static/img/elioblocs/blocs/text/occurance-count.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de compter le nombre d'occurrences d'un texte dans un autre.
@@ -94,6 +108,8 @@ Si tu veux savoir combien de fois un mot apparaît dans un texte.
 
 ![Supprimer les espaces](../../../static/img/elioblocs/blocs/text/remove-space.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de supprimer les espaces d'un texte.
@@ -105,6 +121,8 @@ Si tu veux supprimer les espaces d'un texte. Par exemple, si tu veux enlever les
 ## Nettoyer le terminal
 
 ![Nettoyer le terminal](../../../static/img/elioblocs/blocs/text/clear-terminal.jpg)
+
+**Type** : Commande
 
 **Définition** :
 

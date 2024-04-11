@@ -10,6 +10,8 @@ Les blocs utilitaires permettent de réaliser des actions simples et utiles pour
 
 ![Wait for X seconds](../../../static/img/elioblocs/blocs/utilities/attendre.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de faire attendre Eliobot pendant un certain nombre de secondes.
@@ -22,6 +24,8 @@ Si tu veux faire une pause dans ton programme entre deux actions.
 
 ![Is button activated](../../../static/img/elioblocs/blocs/utilities/test-bouton.png)
 
+**Type** : Bloc booléen
+
 **Définition** :
 
 Ce bloc permet de tester si le bouton d'Eliobot est activé il renvoie `vrai` si le bouton est activé et `faux` sinon.
@@ -33,6 +37,8 @@ Si tu veux réaliser une action seulement si le bouton d'Eliobot est activé. D�
 ## Afficher une valeur dans le terminal
 
 ![Print value in the terminal](../../../static/img/elioblocs/blocs/utilities/print-valeur.png)
+
+**Type** : Commande
 
 **Définition** :
 

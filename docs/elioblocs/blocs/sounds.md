@@ -10,6 +10,8 @@ Eliobot est équipé d'un buzzer, permettant de jouer des notes de musique.
 
 ![Play note](../../../static/img/elioblocs/blocs/sounds/jouer-note.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de jouer une note de musique. La note est définie par son nom (Do, Ré, Mi, Fa, Sol, La, Si) et le temps pendant lequel elle est jouée.
@@ -21,6 +23,8 @@ Si tu veux faire ta propre musique.
 ## Jouer une fréquence
 
 ![Play frequence](../../../static/img/elioblocs/blocs/sounds/jouer-frequence.png)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -34,6 +38,8 @@ Si tu veux jouer une fréquence précise.
 
 ![Play silence](../../../static/img/elioblocs/blocs/sounds/silence.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de faire une pause dans la musique. Le temps de la pause est défini en millisecondes.
@@ -46,6 +52,8 @@ Si tu veux faire une pause dans la musique que tu composes.
 
 ![Change volume](../../../static/img/elioblocs/blocs/sounds/modifier-volume.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de modifier le volume du buzzer. Le volume est défini en pourcentage.
@@ -57,6 +65,8 @@ Baisser le volume pour ne pas importuner les autres.
 ## Jouer une musique prédéfinie
 
 ![Play predefined musics](../../../static/img/elioblocs/blocs/sounds/jouer-musique.png)
+
+**Type** : Commande
 
 **Définition** :
 

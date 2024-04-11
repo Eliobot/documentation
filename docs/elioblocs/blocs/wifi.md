@@ -14,6 +14,8 @@ Les blocs de réseau permettent de réaliser des actions liées à la connexion 
 
 ![Connect to a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/connect-wifi.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de connecter Eliobot à un réseau sans fil. Il faut renseigner le nom du réseau et le mot de passe.
@@ -29,6 +31,8 @@ Si tu veux que Eliobot se connecte à un réseau sans fil pour pouvoir accéder 
 
 ![Disconnect from a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/disconnect-wifi.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de déconnecter Eliobot d'un réseau sans fil.
@@ -40,6 +44,8 @@ Si tu veux que Eliobot se déconnecte d'un réseau sans fil pour se connecter à
 ## Ouvrir un point d'accès depuis Eliobot
 
 ![Open a Wi-Fi access point](../../../static/img/elioblocs/blocs/wifi/open-hotspot.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -53,6 +59,8 @@ Si tu veux servir un fichier html depuis Eliobot pour faire de ton telephone une
 
 ![Is connected to a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/is-connected.jpg)
 
+**Type** : Bloc booléen
+
 **Définition** :
 
 Ce bloc permet de tester si Eliobot est connecté à un réseau sans fil. Il renvoie `vrai` si Eliobot est connecté à un réseau sans fil et `faux` sinon.
@@ -65,9 +73,11 @@ Si tu veux réaliser une action seulement si Eliobot est connecté à un réseau
 
 ![Scan available Wi-Fi networks](../../../static/img/elioblocs/blocs/wifi/scan-wifi.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
-Ce bloc permet de scanner les réseaux sans fil disponibles. Il renvoie une liste des réseaux sans fil disponibles avec leur nom et leur force de signal, il les affiche dans le terminal.
+Ce bloc permet de scanner les réseaux sans fil disponibles. Il renvoie une liste des réseaux sans fil disponibles avec leur nom et leur force de signal.
 
 **Utilisation** :
 
@@ -76,6 +86,8 @@ Si tu veux afficher les réseaux sans fil disponibles pour choisir à quel rése
 ## Obtenir l'adresse IP du réseau sans fil
 
 ![Get Wi-Fi network IP address](../../../static/img/elioblocs/blocs/wifi/get-ip.jpg)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -93,6 +105,8 @@ Si tu veux connaître l'adresse IP du réseau sans fil pour communiquer avec Eli
 
 ![Create an API route](../../../static/img/elioblocs/blocs/wifi/api-endpoint.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de créer une route API. Une route API est une adresse web qui permet de réaliser des actions sur Eliobot quand on y accède depuis un navigateur web ou une application.
@@ -105,6 +119,8 @@ Si tu veux créer une route API pour réaliser des actions sur Eliobot depuis un
 
 ![Create an API route with return](../../../static/img/elioblocs/blocs/wifi/api-endpoint-return.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de créer une route API avec retour. Une route API avec retour est une adresse web qui permet de réaliser des actions sur Eliobot quand on y accède depuis un navigateur web ou une application et qui renvoie une valeur.
@@ -116,6 +132,8 @@ Si tu veux créer une route API avec retour pour réaliser des actions sur Eliob
 ## Récupérer l'état d'un bouton
 
 ![Get button state](../../../static/img/elioblocs/blocs/wifi/get-button-state.jpg)
+
+**Type** : Bloc booléen
 
 **Définition** :
 
@@ -130,6 +148,8 @@ Si tu veux réaliser une action seulement si le bouton html est activé.
 
 ![Get slider state](../../../static/img/elioblocs/blocs/wifi/get-slider-state.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de récupérer la valeur d'un variateur. Il renvoie la valeur du variateur.
@@ -143,6 +163,8 @@ Si tu veux récupérer la valeur d'un variateur html pour réaliser une action e
 
 ![Serve file content](../../../static/img/elioblocs/blocs/wifi/serve-file.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de servir le contenu d'un fichier. Il prend en paramètre le nom du fichier à servir et son chemin sur Eliobot.
@@ -154,6 +176,8 @@ Si tu veux servir un fichier html, css, javascript depuis Eliobot pour l'affiche
 ## Démarrer le serveur web
 
 ![Start web server](../../../static/img/elioblocs/blocs/wifi/start-web-server.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -171,6 +195,8 @@ Si tu veux démarrer le serveur web pour servir des fichiers html, css, javascri
 
 ![Create an HTML page](../../../static/img/elioblocs/blocs/wifi/create-html-page.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de créer une page html. Une page html est une page web qui peut être affichée dans un navigateur web.
@@ -184,6 +210,8 @@ Si tu veux créer une page web pour afficher des informations.
 ## Crée une balise html
 
 ![Create an HTML tag](../../../static/img/elioblocs/blocs/wifi/create-html-div.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -202,6 +230,8 @@ Si tu veux structurer le contenu de ta page html.
 ## Crée un titre html
 
 ![Create an HTML title](../../../static/img/elioblocs/blocs/wifi/create-html-title.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -224,6 +254,8 @@ Si tu veux afficher un titre dans ta page html.
 
 ![Create an HTML paragraph](../../../static/img/elioblocs/blocs/wifi/create-html-text.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de créer un paragraphe html. Un paragraphe html est un texte qui va être affiché dans la page web.
@@ -235,6 +267,8 @@ Si tu veux afficher un texte dans ta page html.
 ## Crée un bouton html
 
 ![Create an HTML button](../../../static/img/elioblocs/blocs/wifi/create-html-button.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -248,6 +282,8 @@ Si tu veux créer un bouton interactif dans ta page html.
 ## Crée un variateur html
 
 ![Create an HTML slider](../../../static/img/elioblocs/blocs/wifi/create-html-slider.jpg)
+
+**Type** : Commande
 
 **Définition** :
 

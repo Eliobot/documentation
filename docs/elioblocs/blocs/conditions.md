@@ -10,11 +10,13 @@ import Jump from '@site/src/components/Jump';
 Les conditions permettent de réaliser des actions en fonction de certaines conditions. C'est ce qui permet de rendre un programme "intelligent" et de lui faire prendre des décisions.
 
 
-Dans la programmation on utilise 
+Dans la programmation, on utilise 
 
 ## Si - Faire - Sinon
 
 ![Bloc Si - Faire - Sinon](../../../static/img/elioblocs/blocs/conditions/if-else.png)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -40,10 +42,12 @@ Ce bloc reprend la même logique que le bloc `Si - Faire - Sinon` mais avec une 
 
 ![Mutator du bloc Si](../../../static/img/elioblocs/blocs/conditions/if-mutator.png)
 
+**Type** : Commande
+
 **Définition** :
 
-Ici tu peux empiler autant de conditions que tu veux. Si toutes les conditions sont vraies, alors la partie du bloc `Faire` sera exécuté.
-Toute les conditions sont vérifiées une par une dans l'ordre où elles sont empilées. Si une condition est fausse, alors le bloc `Faire` de celle-ci ne sera pas exécuté.
+Ici, tu peux empiler autant de conditions que tu veux. Si toutes les conditions sont vraies, alors la partie du bloc `Faire` sera exécuté.
+Toutes les conditions sont vérifiées une par une dans l'ordre où elles sont empilées. Si une condition est fausse, alors le bloc `Faire` de celle-ci ne sera pas exécuté.
 
 **Utilisation** :
 
@@ -58,6 +62,8 @@ Si on veut que Eliobot avance si un capteur détecte un obstacle, et recule si a
 ## Comparaison
 
 ![Bloc comparaison](../../../static/img/elioblocs/blocs/conditions/est-egal.png)
+
+**Type** : Bloc booléen
 
 **Définition** :
 
@@ -74,6 +80,8 @@ Si on veut savoir si deux valeurs sont égales, si une valeur est supérieure à
 
 ![Bloc opération logique](../../../static/img/elioblocs/blocs/conditions/et.png)
 
+**Type** : Bloc booléen
+
 **Définition** :
 
 Ce bloc permet de réaliser une opération logique entre deux conditions. Il est composé de deux parties :
@@ -89,6 +97,8 @@ Si on veut savoir si deux conditions sont vraies ou si une condition est vraie.
 
 ![Bloc Non](../../../static/img/elioblocs/blocs/conditions/no.png)
 
+**Type** : Bloc booléen
+
 **Définition** :
 
 Ce bloc permet de réaliser une négation d'une condition. Cela veut dire que peu importe la condition, si elle est vraie, elle deviendra fausse et inversement.
@@ -100,6 +110,8 @@ Si on veut passer une condition de vraie à fausse ou inversement.
 ## Vrai / Faux
 
 ![Bloc Vrai / Faux](../../../static/img/elioblocs/blocs/conditions/vrai.png)
+
+**Type** : Bloc booléen
 
 **Définition** :
 
@@ -113,6 +125,8 @@ Si on veut définir une condition de départ.
 
 ![Bloc Nul](../../../static/img/elioblocs/blocs/conditions/bloc-nul.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de définir une valeur nulle. Cela veut dire que la valeur n'est pas définie (Cela ne veut pas dire zéro).
@@ -125,6 +139,8 @@ Si on veut définir une variable sans lui donner de valeur.
 ## Test
 
 ![Bloc Test](../../../static/img/elioblocs/blocs/conditions/test.png)
+
+**Type** : Valeur
 
 **Définition** :
 

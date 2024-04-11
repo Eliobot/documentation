@@ -17,6 +17,8 @@ Les variables permettent de stocker des valeurs pour les réutiliser plus tard d
 
 ![Using a variable](../../../static/img/elioblocs/blocs/variables/appel-variable.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Une variable peut être appelée n'importe où dans le programme, tant qu'elle a été déclarée avant.
@@ -43,6 +45,8 @@ Si on veut modifier une variable déjà créée.
 
 ![Set variable to specific value](../../../static/img/elioblocs/blocs/variables/definir-variable.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Définir une variable à une valeur précise. Cette valeur peut être un nombre, un texte, une liste, etc.
@@ -54,6 +58,8 @@ Si on veut définir une variable à une valeur, par exemple pour garder en memoi
 ### Incrémenter
 
 ![Increment variable](../../../static/img/elioblocs/blocs/variables/incrementer-variable.png)
+
+**Type** : Commande
 
 **Définition** :
 

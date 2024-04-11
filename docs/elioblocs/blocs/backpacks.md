@@ -10,6 +10,8 @@ Les blocs de Sac à dos permettent de contrôler les accessoires d'Eliobot.
 
 ![Get temperature value](../../../static/img/elioblocs/blocs/backpacks/get-temp.jpg)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de récupérer la valeur de température mesurée par le capteur de température DHT11.
@@ -23,6 +25,8 @@ Si tu veux récupérer la température mesurée par le capteur de température p
 ## Récupérer la valeur d'humidité
 
 ![Get humidity value](../../../static/img/elioblocs/blocs/backpacks/get-humidity.jpg)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -38,6 +42,8 @@ Si tu veux récupérer l'humidité mesurée par le capteur d'humidité pour l'ut
 
 ![Choose LED matrix colors](../../../static/img/elioblocs/blocs/backpacks/choose-color-matrix.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de choisir les couleurs d'une matrice de LED. Il te permet de dessiner ce que tu veux sur une matrice 5x5 de LED avec les couleurs RGB. Remarque : le noir correspond à une LED éteinte.
@@ -52,6 +58,8 @@ Si tu veux dessiner un logo ou un message sur une matrice de LED. Par exemple, p
 
 ![Clear LED matrix colors](../../../static/img/elioblocs/blocs/backpacks/clear-matrix.jpg)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet d'effacer les couleurs d'une matrice de LED. Il te permet de réinitialiser une matrice 5x5 de LED avec toutes les LED éteintes.
@@ -65,6 +73,8 @@ Si tu veux effacer ce qui est affiché sur une matrice de LED. Par exemple, pour
 ## Choisir un logo à afficher sur une matrice de LED
 
 ![Choose LED matrix logo](../../../static/img/elioblocs/blocs/backpacks/choose-logo-matrix.jpg)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -88,6 +98,8 @@ Si tu veux afficher un logo sur une matrice de LED. Par exemple, pour indiquer l
 ## Faire défiler un texte sur une matrice de LED
 
 ![Scroll text on LED matrix](../../../static/img/elioblocs/blocs/backpacks/scroll-text-matrix.jpg)
+
+**Type** : Commande
 
 **Définition** :
 

@@ -10,6 +10,8 @@ Les blocs de capteur de ligne permettent de suivre une ligne ou de tester la pr�
 
 ![alt text](../../../static/img/elioblocs/blocs/line/suivre-ligne.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de suivre une ligne noire.
@@ -23,6 +25,8 @@ Si on veut que Eliobot suive une ligne noire sur un parcours, celui au dos de ta
 ![alt text](../../../static/img/elioblocs/blocs/line/ligne-presente.png)
 
 ![alt text](../../../static/img/elioblocs/blocs/line/choix-ligne.png)
+
+**Type** : Bloc booléen
 
 **Définition** :
 
@@ -41,6 +45,8 @@ Pour permettre à Eliobot de suivre une ligne noire sur un parcours et de tester
 
 ![alt text](../../../static/img/elioblocs/blocs/line/sensi-ligne.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de modifier la sensibilité du capteur de ligne. Change la valeur a laquelle le capteur de ligne détecte une ligne.
@@ -52,6 +58,8 @@ Si tu es dans un espace très lumineux ou très sombre, tu peux modifier la sens
 ## Lire la valeur d'un capteur de ligne
 
 ![alt text](../../../static/img/elioblocs/blocs/line/valeur-ligne.png)
+
+**Type** : Valeur
 
 **Définition** :
 

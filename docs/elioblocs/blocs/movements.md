@@ -10,6 +10,8 @@ Les blocs de mouvements permettent de déplacer Eliobot dans l'espace.
 
 ![Move forward or backward](../../../static/img/elioblocs/blocs/movements/deplacer.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de déplacer Eliobot vers l'avant ou l'arrière.
@@ -21,6 +23,8 @@ Si tu veux faire avancer ou reculer Eliobot.
 ## Pivoter vers la droite
 
 ![Turn freely](../../../static/img/elioblocs/blocs/movements/pivoter.png)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -35,6 +39,8 @@ Si tu veux faire tourner Eliobot.
 
 ![Turn to an angle](../../../static/img/elioblocs/blocs/movements/pivoter-degres.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de faire pivoter Eliobot d'un angle précis.
@@ -47,6 +53,8 @@ Si tu veux faire en sorte que Eliobot tourne légèrement à droite ou à gauche
 
 ![Stop the motors](../../../static/img/elioblocs/blocs/movements/arreter-moteurs.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet d'arrêter les moteurs d'Eliobot.
@@ -58,6 +66,8 @@ Si tu veux arrêter Eliobot.
 ## Faire tourner une seule roue
 
 ![Spin only one wheel](../../../static/img/elioblocs/blocs/movements/tourner-roue.png)
+
+**Type** : Commande
 
 **Définition** :
 
@@ -72,6 +82,8 @@ Si tu veux faire tourner une seule roue d'Eliobot. C'est une alternative à la r
 
 ![Move X cases](../../../static/img/elioblocs/blocs/movements/avancer-cases.png)
 
+**Type** : Commande
+
 **Définition** :
 
 Ce bloc permet de faire avancer Eliobot d'un certain nombre de cases.
@@ -84,6 +96,8 @@ Si tu veux faire avancer Eliobot d'une certaine distance.
 ## Modifier la vitesse
 
 ![Change the speed](../../../static/img/elioblocs/blocs/movements/modifier-vitesse.png)
+
+**Type** : Commande
 
 **Définition** :
 

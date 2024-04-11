@@ -12,6 +12,8 @@ Les blocs de capteur d'obstacles permettent de tester la présence d'un obstacle
 
 ![Select sensor position](../../../static/img/elioblocs/blocs/obstacles/choix-obstacle.png)
 
+**Type** : Bloc booléen
+
 **Définition** :
 
 Ce bloc permet de tester la présence d'un obstacle à une certaine distance d'Eliobot :

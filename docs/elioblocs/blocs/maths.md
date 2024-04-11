@@ -10,6 +10,8 @@ Les blocs de mathématiques permettent de réaliser des opérations mathématiqu
 
 ![123](../../../static/img/elioblocs/blocs/maths/123.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de définir un nombre entier.
@@ -21,6 +23,8 @@ Si on veut définir un nombre entier (dans un autre bloc par exemple).
 ## Opérations basiques
 
 ![1 + 1](../../../static/img/elioblocs/blocs/maths/addition.png)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -38,6 +42,8 @@ Si on veut réaliser une opération mathématique simple.
 ## Fonctions basiques
 
 ![Square root of 9](../../../static/img/elioblocs/blocs/maths/racine-carree.png)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -58,6 +64,8 @@ Si on veut réaliser une opération mathématique un peu plus complexe.
 
 ![sin 45](../../../static/img/elioblocs/blocs/maths/trigo.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de calculer les fonctions trigonométriques :
@@ -76,6 +84,8 @@ Si on veut réaliser des calculs trigonométriques pour faire tracer des triangl
 
 ![pi](../../../static/img/elioblocs/blocs/maths/pi.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de récupérer la valeur des constantes mathématiques :
@@ -93,6 +103,8 @@ Calculs mathématiques avancés (périmètre d'un cercle, aire d'un triangle, et
 ## Tester un entier
 
 ![Test if a number is even](../../../static/img/elioblocs/blocs/maths/test-pair.png)
+
+**Type** : Bloc booléen
 
 **Définition** :
 
@@ -113,6 +125,8 @@ Si on veut tester un nombre pour réaliser une action en fonction de sa valeur.
 
 ![Arrondi d'un nombre](../../../static/img/elioblocs/blocs/maths/arrondir.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet d'arrondir un nombre :
@@ -127,6 +141,8 @@ Si on veut arrondir un nombre pour l'utiliser en tant que nombre d'itérations p
 ## Opération sur listes
 
 ![List sum](../../../static/img/elioblocs/blocs/maths/somme-liste.png)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -148,6 +164,8 @@ Si on veut réaliser des calculs sur une liste de nombres. Ou si on veut récup�
 
 ![Division with remainder](../../../static/img/elioblocs/blocs/maths/reste-division.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de récupérer le reste d'une division (modulo).
@@ -159,6 +177,8 @@ Si on veut récupérer le reste d'une division pour réaliser une action en fonc
 ## Contraindre un entier entre deux valeurs
 
 ![Constraint a number](../../../static/img/elioblocs/blocs/maths/contraindre-chiffre.png)
+
+**Type** : Valeur
 
 **Définition** :
 
@@ -173,6 +193,8 @@ Si on veut s'assurer qu'un nombre est dans un intervalle donné avant de l'utili
 
 ![Random number generator](../../../static/img/elioblocs/blocs/maths/aleatoire-borne.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de générer un nombre aléatoire entre deux bornes.
@@ -185,6 +207,8 @@ Si on veut générer un nombre aléatoire pour réaliser une action aléatoire.
 
 ![Random fraction generator](../../../static/img/elioblocs/blocs/maths/fraction-aleatoire.png)
 
+**Type** : Valeur
+
 **Définition** :
 
 Ce bloc permet de générer une fraction aléatoire.
@@ -196,6 +220,8 @@ Si on veut générer une fraction aléatoire pour réaliser une action aléatoir
 ## atan2
 
 ![atan2](../../../static/img/elioblocs/blocs/maths/atan2.png)
+
+**Type** : Valeur
 
 **Définition** :
 
