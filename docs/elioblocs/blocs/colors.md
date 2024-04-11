@@ -42,7 +42,7 @@ Si tu veux allumer la LED avec une couleur spécifique. Par exemple, pour indiqu
 
 Deux possibilités pour éteindre la LED :
 
-- La première est d'afficher la couleur noire avec le bloc ci-dessus, ce qui revient a mettre toutes les couleurs a 0
+- La première est d'afficher la couleur noire avec le bloc ci-dessus, ce qui revient à mettre toutes les couleurs a 0
 - La plus simple consiste à utiliser la bloc dédié ci-dessous ```Eteindre la lumière```
 
 **Utilisation** :

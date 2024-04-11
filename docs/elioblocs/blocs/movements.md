@@ -102,7 +102,10 @@ Si tu veux faire avancer Eliobot d'une certaine distance.
 **Définition** :
 
 Ce bloc permet de modifier la vitesse d'Eliobot (en pourcentage).
-Remarque : 100% est la vitesse maximale.
+
+:::note
+100% est la vitesse maximale.
+:::
 
 **Utilisation** :
 

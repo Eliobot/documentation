@@ -88,7 +88,11 @@ Ce bloc permet d'inverser un texte.
 
 **Utilisation** :
 
-Si tu veux inverser un texte. Par exemple, si tu veux lire un texte à l'envers. Tu peux essayer avec "kayak".
+Si tu veux inverser un texte. Par exemple, si tu veux lire un texte à l'envers. 
+
+:::tip
+Tu peux essayer avec "kayak". 😉
+:::
 
 ## Compter les occurrences
 
@@ -127,8 +131,11 @@ Si tu veux supprimer les espaces d'un texte. Par exemple, si tu veux enlever les
 **Définition** :
 
 Ce bloc permet de nettoyer le terminal. Repartir sur une page vierge.
-Remarque : le terminal n'est pas vraiment effacé on saute plusieurs lignes pour ne plus voir les anciens messages.
+
+:::note
+Remarque : le terminal n'est pas vraiment effacé, on saute plusieurs lignes pour ne plus voir les anciens messages.
 Tu peux toujours remonter pour voir les messages précédents.
+:::
 
 **Utilisation** :
 

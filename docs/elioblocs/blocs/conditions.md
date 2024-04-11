@@ -129,8 +129,12 @@ Si on veut définir une condition de départ.
 
 **Définition** :
 
-Ce bloc permet de définir une valeur nulle. Cela veut dire que la valeur n'est pas définie (Cela ne veut pas dire zéro).
+Ce bloc permet de définir une valeur nulle. Cela veut dire que la valeur n'est pas définie.
 La valeur nul est souvent utilisée pour dire qu'une variable n'a pas de valeur ou n'est pas définie.
+
+:::warning
+Attention, la valeur nulle n'est pas la même chose que la valeur zéro.
+:::
 
 **Utilisation** :
 

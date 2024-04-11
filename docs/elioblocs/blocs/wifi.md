@@ -21,7 +21,7 @@ Les blocs de réseau permettent de réaliser des actions liées à la connexion 
 Ce bloc permet de connecter Eliobot à un réseau sans fil. Il faut renseigner le nom du réseau et le mot de passe.
 Le mot de passe web est un mot de passe personnel qui sert à l'authentification, tu peux choisir le mot de passe que tu veux.
 Les informations de connexion sont stockées dans un fichier nommé `settings.toml` sur Eliobot, ce qui permet de ne pas avoir à les renseigner à chaque fois.
-Une fois utilisé même si tu changes de programme, Eliobot se connectera automatiquement au réseau sans fil que tu as renseigner précédemment.
+Une fois utilisé même si tu changes de programme, Eliobot se connectera automatiquement au réseau sans fil que tu as renseigné précédemment.
 
 **Utilisation** :
 

@@ -16,7 +16,9 @@ Les blocs de Sac à dos permettent de contrôler les accessoires d'Eliobot.
 
 Ce bloc permet de récupérer la valeur de température mesurée par le capteur de température DHT11.
 
+:::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur de température et de la librairie Adafruit DHT.
+:::
 
 **Utilisation** :
 
@@ -32,7 +34,9 @@ Si tu veux récupérer la température mesurée par le capteur de température p
 
 Ce bloc permet de récupérer la valeur d'humidité mesurée par le capteur de température DHT11.
 
+:::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur d'humidité et de la librairie Adafruit DHT.
+:::
 
 **Utilisation** :
 
@@ -48,7 +52,9 @@ Si tu veux récupérer l'humidité mesurée par le capteur d'humidité pour l'ut
 
 Ce bloc permet de choisir les couleurs d'une matrice de LED. Il te permet de dessiner ce que tu veux sur une matrice 5x5 de LED avec les couleurs RGB. Remarque : le noir correspond à une LED éteinte.
 
+:::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos matrice de LED.
+:::
 
 **Utilisation** :
 
@@ -64,7 +70,9 @@ Si tu veux dessiner un logo ou un message sur une matrice de LED. Par exemple, p
 
 Ce bloc permet d'effacer les couleurs d'une matrice de LED. Il te permet de réinitialiser une matrice 5x5 de LED avec toutes les LED éteintes.
 
+:::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos matrice de LED.
+:::
 
 **Utilisation** :
 
@@ -89,7 +97,9 @@ Ce bloc permet de choisir un logo à afficher sur une matrice de LED :
 - croix
 - check
 
+:::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos matrice de LED.
+:::
 
 **Utilisation** :
 
@@ -105,8 +115,9 @@ Si tu veux afficher un logo sur une matrice de LED. Par exemple, pour indiquer l
 
 Ce bloc permet de faire défiler un texte sur la matrice de led, tu peux aussi choisir la couleur du texte.
 
-
+:::warning
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos matrice de LED.
+:::
 
 **Utilisation** :
 

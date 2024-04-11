@@ -39,7 +39,7 @@ Ce bloc permet de tester la présence d'une ligne noire sous Eliobot :
 
 **Utilisation** :
 
-Pour permettre à Eliobot de suivre une ligne noire sur un parcours et de tester si il faut tourner à gauche ou à droite.
+Pour permettre à Eliobot de suivre une ligne noire sur un parcours et de tester s'il faut tourner à gauche ou à droite.
 
 ## Modifier la sensibilité du capteur de ligne
 
@@ -65,4 +65,8 @@ Si tu es dans un espace très lumineux ou très sombre, tu peux modifier la sens
 
 Ce bloc retourne la valeur du capteur de ligne. On peut l'afficher dans le terminal par exemple.
 Il peut être utilisé pour définir la sensibilité du capteur de ligne.
+
+**Utilisation** :
+
+Si tu veux récupérer la valeur du capteur de ligne pour mieux calibrer la sensibilité du capteur de ligne.
 
