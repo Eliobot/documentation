@@ -47,6 +47,7 @@ const sidebars = {
         {
           type: 'category',
           label: "Tous les blocs",
+	      link: {type: 'doc', id: 'elioblocs/blocs/all-blocs'},
           items: [
             "elioblocs/blocs/conditions",
             "elioblocs/blocs/loops",

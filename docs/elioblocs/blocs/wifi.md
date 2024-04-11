@@ -167,7 +167,7 @@ Si tu veux démarrer le serveur web pour servir des fichiers html, css, javascri
 
 ---
 
-## Cree une page html
+## Crée une page html
 
 ![Create an HTML page](../../../static/img/elioblocs/blocs/wifi/create-html-page.jpg)
 
@@ -181,7 +181,7 @@ Tu peux y choisir le titre de la page et placer son contenu à l'intérieur.
 
 Si tu veux créer une page web pour afficher des informations.
 
-## Cree une balise html
+## Crée une balise html
 
 ![Create an HTML tag](../../../static/img/elioblocs/blocs/wifi/create-html-div.jpg)
 
@@ -199,7 +199,7 @@ Options disponibles :
 Si tu veux structurer le contenu de ta page html.
 
 
-## Cree un titre html
+## Crée un titre html
 
 ![Create an HTML title](../../../static/img/elioblocs/blocs/wifi/create-html-title.jpg)
 
@@ -220,7 +220,7 @@ Options disponibles :
 
 Si tu veux afficher un titre dans ta page html.
 
-## Cree un paragraphe html
+## Crée un paragraphe html
 
 ![Create an HTML paragraph](../../../static/img/elioblocs/blocs/wifi/create-html-text.jpg)
 
@@ -232,7 +232,7 @@ Ce bloc permet de créer un paragraphe html. Un paragraphe html est un texte qui
 
 Si tu veux afficher un texte dans ta page html.
 
-## Cree un bouton html
+## Crée un bouton html
 
 ![Create an HTML button](../../../static/img/elioblocs/blocs/wifi/create-html-button.jpg)
 
@@ -245,7 +245,7 @@ Tu peux y choisir le texte du bouton, sa couleur, la route à laquelle il va env
 
 Si tu veux créer un bouton interactif dans ta page html.
 
-## Cree un variateur html
+## Crée un variateur html
 
 ![Create an HTML slider](../../../static/img/elioblocs/blocs/wifi/create-html-slider.jpg)
 
