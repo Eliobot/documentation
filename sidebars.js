@@ -23,7 +23,7 @@ const sidebars = {
     //'intro',
     {
       type: 'category',
-      label: 'Les fonctionalités de Eliobot',
+      label: 'Les fonctionnalités de Eliobot',
       link: {type: 'doc', id: 'eliobot'},
       items: [
         "eliobot/power",
