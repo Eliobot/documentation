@@ -49,12 +49,13 @@ const sidebars = {
         {
           type: 'category',
           label: "Tous les blocs",
+	      link: {type: 'doc', id: 'elioblocs/blocs/all-blocs'},
           items: [
             "elioblocs/blocs/conditions",
             "elioblocs/blocs/loops",
             "elioblocs/blocs/maths",
             "elioblocs/blocs/lists",
-            //"elioblocs/blocs/text",
+            "elioblocs/blocs/text",
             "elioblocs/blocs/variables",
             "elioblocs/blocs/functions",
             "elioblocs/blocs/colors",
@@ -63,6 +64,7 @@ const sidebars = {
             "elioblocs/blocs/obstacles",
             "elioblocs/blocs/line",
             "elioblocs/blocs/utilities",
+	        "elioblocs/blocs/wifi",
             //"elioblocs/blocs/backpacks",
           ],
         }
