@@ -159,6 +159,20 @@ Il prend en paramètre le numéro du variateur à tester, c'est ce qui l'identif
 
 Si tu veux récupérer la valeur d'un variateur html pour réaliser une action en fonction de cette valeur.
 
+### Envoyer une valeur en JSON
+
+![Send a value in JSON](../../../static/img/elioblocs/blocs/wifi/send-json.jpg)
+
+**Type** : Valeur
+
+**Définition** :
+
+Ce bloc permet d'envoyer une valeur en JSON. Il prend en paramètre la valeur à envoyer et doit être utilisé dans une route API.
+
+**Utilisation** :
+
+Si tu veux envoyer une valeur en JSON depuis une route API et la récupérer depuis une page html par exemple.
+
 ### Servir le contenu d'un fichier
 
 ![Serve file content](../../../static/img/elioblocs/blocs/wifi/serve-file.jpg)
@@ -293,3 +307,17 @@ Tu peux y choisir son ID, c'est ce qui l'identifie, la route à laquelle il va e
 **Utilisation** :
 
 Si tu veux créer un variateur interactif dans ta page html.
+
+### Récupérer uen valeur
+
+![Get a value](../../../static/img/elioblocs/blocs/wifi/get-value.jpg)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de créer un espace où sera afficher la valeur depuis une route que tu as créée.
+
+**Utilisation** :
+
+Si tu veux récupérer une valeur depuis une route que tu as créée et l'afficher dans ta page html.
