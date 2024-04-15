@@ -167,7 +167,7 @@ Si tu veux récupérer la valeur d'un variateur html pour réaliser une action e
 
 **Définition** :
 
-Ce bloc permet d'envoyer une valeur en JSON. Il prend en paramètre la valeur à envoyer et doit être utilisé dans une route API.
+Ce bloc permet d'envoyer une valeur en JSON. Il prend en paramètre sont id (identifiant), la valeur à envoyer et doit être utilisé dans une route API.
 
 **Utilisation** :
 
@@ -316,7 +316,7 @@ Si tu veux créer un variateur interactif dans ta page html.
 
 **Définition** :
 
-Ce bloc permet de créer un espace où sera afficher la valeur depuis une route que tu as créée.
+Ce bloc permet de créer un espace où sera afficher la valeur depuis une route que tu as créée n'oublie pas de spécifier le bon id (identifiant du bloc).
 
 **Utilisation** :
 
