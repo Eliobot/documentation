@@ -308,7 +308,7 @@ Tu peux y choisir son ID, c'est ce qui l'identifie, la route à laquelle il va e
 
 Si tu veux créer un variateur interactif dans ta page html.
 
-### Récupérer uen valeur
+### Récupérer une valeur
 
 ![Get a value](../../../static/img/elioblocs/blocs/wifi/get-value.jpg)
 
