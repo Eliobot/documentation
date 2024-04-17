@@ -39,5 +39,5 @@ Les blocs de commandes permettent de réaliser des actions. Ils sont représent�
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
 
-<DocCardList />
+<DocCardList/>
 ```
