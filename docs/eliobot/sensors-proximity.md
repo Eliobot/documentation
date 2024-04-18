@@ -77,4 +77,4 @@ while True:
 Dans cet exemple, Eliobot avance s'il ne détecte pas d'obstacle devant lui sinon il tourne à droite.
 
 Pour détecter un obstacle, on regarde la valeur du capteur devant Eliobot. Si la valeur est supérieure à 1000, alors il y a un obstacle devant Eliobot.
-1000 est une valeur que nous avons testée et choisie pour détecter un obstacle à une certaine distance. Vous pouvez changer cette valeur pour l'adapter à votre besoin.
+1000 est une valeur approximative et choisie pour détecter un obstacle à une certaine distance. Vous pouvez changer cette valeur pour l'adapter à votre besoin.

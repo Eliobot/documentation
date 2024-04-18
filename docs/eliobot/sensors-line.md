@@ -81,3 +81,4 @@ while True:
 ```
 
 Ici si on détecte une ligne sous le capteur 3 (le capteur du milieu), on avance.
+Le seuil de détection est de 30000, c'est une valeur approximative, il faut la calibrer pour un fonctionnement optimal.

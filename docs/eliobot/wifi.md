@@ -28,6 +28,7 @@ CIRCUITPY_WIFI_SSID = "your_wifi_ssid"
 CIRCUITPY_WIFI_PASSWORD = "your_wifi_password"
 CIRCUITPY_WEB_API_PASSWORD = "your_web_api_password"
 ```
+
 :::note
 Les informations de connexions contenue dans le fichier `settings.toml` sont persistantes, c'est-à-dire qu'elles sont sauvegardées même si la carte est éteinte, il n'est donc pas nécessaire de les réécrire à chaque redémarrage de la carte.
 :::
@@ -36,6 +37,7 @@ Les informations de connexions contenue dans le fichier `settings.toml` sont per
 Après avoir écrit les informations de connexion dans le fichier `settings.toml`, il est possible d'accéder à un IDE, un manageur de fichier et un terminal depuis l'adresse IP d'Eliobot c'est une fonction intégrée à CircuitPython.
 En savoir plus ici : [Web Workflow](https://learn.adafruit.com/getting-started-with-web-workflow-using-the-code-editor)
 :::
+
 ## Exemples associés
 
 ### Exemple Elioblocs
