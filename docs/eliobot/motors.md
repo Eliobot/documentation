@@ -11,6 +11,9 @@ description: "Eliobot component - Moteurs"
     <img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Bottom.png').default} alt="Eliobot motors bottom" width="49%" />
 </p>
 
+:::note
+Les moteurs de Eliobot sont directement reliés à la batterie il fonctionne donc seulement si le bouton d'allumage est en position `ON`.
+:::
 
 ## Utilisation avec Elioblocs
 
