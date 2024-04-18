@@ -7,7 +7,7 @@ description: "Eliobot component - Capteurs de ligne"
 
 <img src={require('@site/static/img/eliobot/senors-line/Eliobot - Line.png').default} alt="Eliobot line sensor" width="49%" />
 
-Les capteurs de ligne d'Eliobot sont des capteurs infrarouges qui permettent de détecter les lignes.
+<br/>Les capteurs de ligne d'Eliobot sont des capteurs infrarouges qui permettent de détecter les lignes.
 
 ## Utilisation avec Elioblocs
 
@@ -21,6 +21,10 @@ On a 5 capteurs sur le capteur de ligne, ils sont branché sur les pins suivants
 |     | Capteur 1 | Capteur 2 | Capteur 3 | Capteur 4 | Capteur 5 |
 |-----|-----------|-----------|-----------|-----------|-----------|
 | Pin | IO10      | IO11      | IO12      | IO13      | IO14      |
+
+On utilise la lumière réfléchie pour détecter la ligne, on mesure la lumière ambiante et la lumière réfléchie pour calculer la valeur.
+
+Les capteurs renvoient des valeurs analogiques.
 
 ## Exemples associés
 

@@ -7,11 +7,12 @@ description: "Eliobot component - Bouton"
 
 <img src={require("@site/static/img/eliobot/button/Eliobot - Button.png").default} alt="Eliobot button" width="49%" />
 
-Le bouton d'Eliobot est utilisable pour le mettre en mode Bootloading ou pour être utiliser dans un programme.
+<br/>Le bouton d'Eliobot est utilisable pour le mettre en mode Bootloading ou pour être utilisé dans un programme.
 
 :::note
 Pour passer Eliobot en mode bootloading, il suffit de maintenir le bouton appuyé pendant que l'on allume Eliobot attention à faire cette manipulation avant de brancher Eliobot à l'ordinateur.
 :::
+
 :::warning
 Le mode Bootloading est un mode qui permet de flasher le microcontrôleur d'Eliobot.
 :::
@@ -22,7 +23,9 @@ Pour utiliser le bouton d'Eliobot sur Elioblocs, on utilise le bloc <img src={re
 
 ## Utilisation avec Python
 
-Le bouton d'Eliobot est relié au pin `IO0` de la carte il suffit de lire l'état du pin pour savoir si le bouton est pressé ou non.
+Le bouton d'Eliobot est relié au pin `IO0` de la carte, il suffit de lire l'état du pin pour savoir si le bouton est pressé ou non.
+
+L'information que le bouton renvoie sont des valeurs numériques (0,1), il faut donc les convertir en booléen pour savoir si le bouton est pressé ou non.
 
 ## Exemples associés
 

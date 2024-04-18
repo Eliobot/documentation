@@ -7,7 +7,7 @@ description: "Eliobot component - Buzzer"
 
 <img src={require("@site/static/img/eliobot/buzzer/Eliobot - Buzzer.png").default} alt="Eliobot buzzer" width="49%" />
 
-Le buzzer d'Eliobot est un buzzer passif, il ne peut émettre qu'un seul son à la fois.
+<br/>Le buzzer d'Eliobot est un buzzer passif, il ne peut émettre qu'un seul son à la fois.
 
 ## Utilisation avec Elioblocs
 
@@ -17,6 +17,8 @@ Pour utiliser le buzzer d'Eliobot sur Elioblocs, on utilise les blocs de la cat�
 
 On utilise le buzzer en pwm, c'est-à-dire qu'on peut contrôler la fréquence du son émis.
 Le buzzer est branché sur le pin `IO17`.
+
+On lui envoie une fréquence avec l'utilisation de la pwm pour jouer un son.
 
 ## Exemples associés
 
