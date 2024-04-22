@@ -7,7 +7,7 @@ description: "Eliobot component - Buzzer"
 
 <img src={require("@site/static/img/eliobot/buzzer/Eliobot - Buzzer.png").default} alt="Eliobot buzzer" width="49%" />
 
-<br/>Le buzzer d'Eliobot est un buzzer passif, il ne peut émettre qu'un seul son à la fois.
+<br/>Le buzzer d'Eliobot est un buzzer passif, il peut donc émettre des sons sur une grande plage de fréquence un peu comme les vieux téléphones.
 
 ## Utilisation avec Elioblocs
 
@@ -15,10 +15,9 @@ Pour utiliser le buzzer d'Eliobot sur Elioblocs, on utilise les blocs de la cat�
 
 ## Utilisation avec Python
 
-On utilise le buzzer en pwm, c'est-à-dire qu'on peut contrôler la fréquence du son émis.
-Le buzzer est branché sur le pin `IO17`.
+Pour jouer des notes en Python, on utilise la broche `IO17` comme une sortie PWM pour être capable de reproduire la fréquence désirée.
 
-On lui envoie une fréquence avec l'utilisation de la pwm pour jouer un son.
+Pour jouer une musique il suffit alors de répéter les fréquences désirée comme dans une partition.
 
 ## Exemples associés
 

@@ -17,7 +17,7 @@ Pour utiliser les LEDs d'Eliobot sur Elioblocs, on utilise les blocs de la caté
 
 Pour utiliser la led en python il suffit de créer un objet à l'aide de la librairie `neopixel`.
 
-La led est sur le pin spécifique `NEOPIXEL`.
+La led est sur le pin spécifique `NEOPIXEL`, ou en utilisant directement `IO1`.
 
 ## Exemples associés
 

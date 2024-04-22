@@ -12,7 +12,7 @@ description: "Eliobot component - Moteurs"
 </p>
 
 :::note
-Les moteurs de Eliobot sont directement reliés à la batterie il fonctionne donc seulement si le bouton d'allumage est en position `ON`.
+Les moteurs de Eliobot sont alimentés directement par la batterie, ils fonctionnent donc seulement lorsque le bouton d'allumage est en position `ON`.
 :::
 
 ## Utilisation avec Elioblocs
@@ -31,7 +31,11 @@ Les moteurs sont branchés sur les pins suivants :
 | IN1 | IO35          | IO36         |
 | IN2 | IO37          | IO38         |
 
-On les utilise en pwm, c'est-à-dire qu'on peut contrôler la vitesse des moteurs en plus de leur sens de rotation.
+Les moteurs peuvent être contrôlé de deux façons : Digital ou PWM
+
+En fonctionnement digital on aura uniquement la possibiliter de faire tourner les moteur dans un sens ou l'autre, et l'arrêter.
+
+En PWM il sera en plus possible de modifier la vitesse du moteur et de le faire aller de 0% à 100% de sa vitesse maximale.
 
 Pour en savoir plus sur la pwm : [Wikipedia PWM](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsion)
 
