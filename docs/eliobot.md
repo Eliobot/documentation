@@ -11,3 +11,12 @@ description: "Eliobot fonctionalités"
     <img src={require('@site/static/img/blank.png').default} width="2%"/>
     <img src={require('@site/static/img/eliobot/Eliobot_v1-Bottom.png').default} alt="Eliobot bottom view" width="49%" />
 </p>
+
+---
+<br/>
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList/>
+```
