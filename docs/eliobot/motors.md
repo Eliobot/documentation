@@ -56,18 +56,42 @@ Ici, on utilise les blocs <img src={require('@site/static/img/eliobot/motors/mov
 #### Avec la librairie `elio.py`
 
 ```python
-import elio
+from elio import Eliobot
+import board
 import time
+import digitalio
+import analogio
+import pwmio
+
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
+
+obstacleInput = [analogio.AnalogIn(pin) for pin in
+                 (board.IO4, board.IO5, board.IO6, board.IO7)]
+
+lineCmd = digitalio.DigitalInOut(board.IO33)
+lineCmd.direction = digitalio.Direction.OUTPUT
+
+lineInput = [analogio.AnalogIn(pin) for pin in
+               (board.IO10, board.IO11, board.IO12, board.IO13, board.IO14)]
+
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
+
+buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
+
+elio = Eliobot(AIN1, AIN2, BIN1, BIN2, vBatt_pin, obstacleInput, buzzer, lineInput, lineCmd)
 
 speed = 100
 
 
 while True:
-    if elio.getObstacle(1):
-        elio.turnRight(speed)
+    if elio.get_obstacle(1):
+        elio.turn_right(speed)
 
     else:
-        elio.moveForward(speed)
+        elio.move_forward(speed)
 ```
 
 Dans cet exemple, Eliobot avance s'il ne détecte pas d'obstacle devant lui sinon il tourne à droite.

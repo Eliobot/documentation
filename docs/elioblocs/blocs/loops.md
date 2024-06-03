@@ -6,6 +6,20 @@ description: "Elioblocs - Boucles"
 
 Les boucles permettent de répéter des actions un certain nombre de fois où jusqu'à ce qu'une condition soit remplie (ou pas). Elles sont très utiles pour automatiser des tâches répétitives.
 
+## Au démarrage
+
+![On start](../../../static/img/elioblocs/blocs/loops/boucle-start.jpg)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc est une boucle qui est exécutée une seule fois au démarrage du programme seule les blocs dans cette boucle ou dans une boucle Répéter indéfiniment sont éxécutés les autres sont désactivés.
+
+**Utilisation** :
+
+Si on veut que Eliobot avance d'une case au démarrage.
+
 
 ## Répéter indéfiniment
 
