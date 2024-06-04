@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'Elioblocs',
     Svg: require('@site/static/img/logos/elioblocs.svg').default,
-    link: 'docs/category/programmer-avec-elioblocs',
+    link: 'https://learn.eliobot.com/elioblocs/',
     description: (
       <>
         Outil de programmation par blocs, idéal pour débuter sans se soucier de la syntaxe du code.
@@ -16,7 +16,7 @@ const FeatureList = [
   {
     title: 'Python',
     Svg: require('@site/static/img/logos/python.svg').default,
-    link: 'docs/category/programmer-en-python',
+    link: 'https://learn.eliobot.com/python/',
     description: (
       <>
         Le langage le plus utilisé au monde actuellement, il conviendra parfaitement a ceux qui veulent commencer le code.

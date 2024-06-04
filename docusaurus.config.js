@@ -89,10 +89,9 @@ const config = {
             label: 'Documentation',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
+            href: 'https://learn.eliobot.com',
             label: 'Tutoriels',
+            position: 'left',
           },
           {
             href: 'https://app.eliobot.com',
@@ -123,7 +122,7 @@ const config = {
               },
               {
                 label: 'Tutoriels',
-                to: '/docs/tutorial/intro',
+                href: 'https://learn.eliobot.com',
               },
             ],
           },

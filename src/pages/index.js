@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tutorial/eliobot-assembly">
+            to="https://learn.eliobot.com/assemblage-complet/">
             Assemble Eliobot - 15min ⏱️
           </Link>
         </div>
