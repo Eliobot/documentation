@@ -14,7 +14,7 @@ Eliobot est équipé d'un buzzer, permettant de jouer des notes de musique.
 
 **Définition** :
 
-Ce bloc permet de jouer une note de musique. La note est définie par son nom (Do, Ré, Mi, Fa, Sol, La, Si) et le temps pendant lequel elle est jouée.
+Ce bloc permet de jouer une note de musique. La note est définie par son nom (Do, Ré, Mi, Fa, Sol, La, Si), son octave et le temps pendant lequel elle est jouée.
 
 **Utilisation** :
 
