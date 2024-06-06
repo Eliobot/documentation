@@ -70,3 +70,18 @@ Il peut être utilisé pour définir la sensibilité du capteur de ligne.
 
 Si tu veux récupérer la valeur du capteur de ligne pour mieux calibrer la sensibilité du capteur de ligne.
 
+## Calibration automatique de ligne
+
+![alt text](../../../static/img/elioblocs/blocs/line/calibration-ligne.jpg)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de calibrer automatiquement le capteur de ligne. Il permet de définir la valeur à laquelle le capteur de ligne détecte une ligne.
+
+**Utilisation** :
+
+Il faut placer les 5 capteurs de ligne au-dessus d'une ligne noire et eliobot va calibrer automatiquement la valeur à laquelle il détecte la ligne en
+avançant et en reculant. Eliobot doit être perpendiculaire sur la ligne pour que la calibration soit correcte.
+

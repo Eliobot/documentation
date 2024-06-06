@@ -41,17 +41,38 @@ Ici si on détecte une ligne sous le capteur 3 (le capteur du milieu), on avance
 ### Exemple Python
 
 ```python
-import time
-import elio
+from elio import Eliobot
 import board
-from analogio import AnalogIn
+import time
+import digitalio
+import analogio
+import pwmio
+
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
+
+obstacleInput = [analogio.AnalogIn(pin) for pin in
+                 (board.IO4, board.IO5, board.IO6, board.IO7)]
+
+lineCmd = digitalio.DigitalInOut(board.IO33)
+lineCmd.direction = digitalio.Direction.OUTPUT
+
+lineInput = None
+
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
+
+buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
+
+elio = Eliobot(AIN1, AIN2, BIN1, BIN2, vBatt_pin, obstacleInput, buzzer, lineInput, lineCmd)
 
 line_sensor = [
-    AnalogIn(board.IO10), # Capteur 1
-    AnalogIn(board.IO11), # Capteur 2
-    AnalogIn(board.IO12), # Capteur 3
-    AnalogIn(board.IO13), # Capteur 4
-    AnalogIn(board.IO14)  # Capteur 5
+    analogio.AnalogIn(board.IO10), # Capteur 1
+    analogio.AnalogIn(board.IO11), # Capteur 2
+    analogio.AnalogIn(board.IO12), # Capteur 3
+    analogio.AnalogIn(board.IO13), # Capteur 4
+    analogio.AnalogIn(board.IO14)  # Capteur 5
 ]
 
 # Fonction pour récupérer la valeur d'un capteur de ligne
@@ -77,7 +98,7 @@ def getLine(line_pos):
     
 while True:
     if getLine(2) > 30000: # Si le capteur 3 détecte une ligne
-        elio.moveForward(100) # On avance
+        elio.move_forward(100) # On avance
 ```
 
 Ici si on détecte une ligne sous le capteur 3 (le capteur du milieu), on avance.
