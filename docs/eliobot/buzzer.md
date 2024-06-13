@@ -17,7 +17,7 @@ Pour utiliser le buzzer d'Eliobot sur Elioblocs, on utilise les blocs de la cat�
 
 Pour jouer des notes en Python, on utilise la broche `IO17` comme une sortie PWM pour être capable de reproduire la fréquence désirée.
 
-Pour jouer une musique il suffit alors de répéter les fréquences désirée comme dans une partition.
+Pour jouer une musique, il suffit alors de répéter les fréquences désirées comme dans une partition.
 
 ## Exemples associés
 
