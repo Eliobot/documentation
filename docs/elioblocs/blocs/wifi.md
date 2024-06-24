@@ -50,6 +50,10 @@ Si tu veux que Eliobot se déconnecte d'un réseau sans fil pour se connecter à
 
 Ce bloc permet d'ouvrir un point d'accès Wi-Fi depuis Eliobot. Cela permet à d'autres appareils de se connecter à Eliobot comme ton téléphone ou ton ordinateur.
 
+:::warning
+Le mot de passe doit faire entre 8 et 64 caractères.
+:::
+
 **Utilisation** :
 
 Si tu veux servir un fichier html depuis Eliobot pour faire de ton telephone une télécommande par exemple.
