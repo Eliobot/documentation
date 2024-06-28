@@ -65,7 +65,14 @@ const sidebars = {
             "elioblocs/blocs/line",
             "elioblocs/blocs/utilities",
 	        "elioblocs/blocs/wifi",
-            //"elioblocs/blocs/backpacks",
+            {
+                type: 'category',
+                label: "Backpacks",
+                link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
+                items: [
+                  "elioblocs/blocs/backpacks/grove-backpack",
+                  ]
+            }
           ],
         }
       ],
