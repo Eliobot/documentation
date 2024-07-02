@@ -34,33 +34,19 @@ Pour faire programmer Eliobot au plus jeune, en utilisant des boutons pour lui d
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur d'humidité et de la librairie Adafruit DHT.
 :::
 
-### Récupérer la valeur de température
+### Récupérer la valeur de température ou d'humidité
 
-![Get temperature value](../../../../static/img/elioblocs/blocs/backpacks/dht11-temp.jpg)
-
-**Type** : Valeur
-
-**Définition** :
-
-Ce bloc permet de récupérer la valeur de température mesurée par le capteur de température DHT11.
-
-**Utilisation** :
-
-Si tu veux récupérer la température mesurée par le capteur de température pour l'utiliser dans ton programme. Par exemple, pour afficher la température dans le terminal.
-
-### Récupérer la valeur d'humidité
-
-![Get humidity value](../../../../static/img/elioblocs/blocs/backpacks/dht11-hum.jpg)
+![Get temperature or humidity value](../../../../static/img/elioblocs/blocs/backpacks/dht11.jpg)
 
 **Type** : Valeur
 
 **Définition** :
 
-Ce bloc permet de récupérer la valeur d'humidité mesurée par le capteur de température DHT11.
+Ce bloc permet de récupérer la valeur de température ou d'humidité mesurée par le capteur DHT11.
 
 **Utilisation** :
 
-Si tu veux récupérer l'humidité mesurée par le capteur d'humidité pour l'utiliser dans ton programme. Par exemple, pour afficher l'humidité dans le terminal.
+Si tu veux récupérer la température ou l'humidité mesurée par le capteur pour l'utiliser dans ton programme. Par exemple, pour afficher la température dans le terminal.
 
 ## MATRICE DE LED
 
@@ -139,61 +125,23 @@ Si tu veux afficher un message sur la matrice de LED. Par exemple, pour afficher
 Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur d'environnement et de la librairie Adafruit BME280.
 :::
 
-### Récupérer la valeur de température
+### Récupérer différentes valeurs mesurées par le capteur BME280
 
-![Get temperature value](../../../../static/img/elioblocs/blocs/backpacks/bme-temp.jpg)
-
-**Type** : Valeur
-
-**Définition** :
-
-Ce bloc permet de récupérer la valeur de température mesurée par le capteur BME280.
-
-**Utilisation** :
-
-Si tu veux récupérer la température mesurée par le capteur de température pour l'utiliser dans ton programme. Par exemple, pour afficher la température dans le terminal.
-
-### Récupérer la valeur d'humidité
-
-![Get humidity value](../../../../static/img/elioblocs/blocs/backpacks/bme-hum.jpg)
+![Get different values measured](../../../../static/img/elioblocs/blocs/backpacks/bme280.jpg)
 
 **Type** : Valeur
 
 **Définition** :
 
-Ce bloc permet de récupérer la valeur d'humidité mesurée par le capteur BME280.
+Ce bloc permet de récupérer différentes valeurs mesurées par le capteur BME280 :
+- Température
+- Humidité
+- Pression
+- Altitude
 
 **Utilisation** :
 
-Si tu veux récupérer l'humidité mesurée par le capteur d'humidité pour l'utiliser dans ton programme. Par exemple, pour afficher l'humidité dans le terminal.
-
-### Récupérer la valeur de pression
-
-![Get pressure value](../../../../static/img/elioblocs/blocs/backpacks/bme-press.jpg)
-
-**Type** : Valeur
-
-**Définition** :
-
-Ce bloc permet de récupérer la valeur de pression mesurée par le capteur BME280.
-
-**Utilisation** :
-
-Si tu veux récupérer la pression mesurée par le capteur de pression pour l'utiliser dans ton programme. Par exemple, pour afficher la pression dans le terminal.
-
-### Récupérer la valeur d'altitude
-
-![Get altitude value](../../../../static/img/elioblocs/blocs/backpacks/bme-alt.jpg)
-
-**Type** : Valeur
-
-**Définition** :
-
-Ce bloc permet de récupérer la valeur d'altitude mesurée par le capteur BME280.
-
-**Utilisation** :
-
-Si tu veux récupérer l'altitude mesurée par le capteur de pression pour l'utiliser dans ton programme. Par exemple, pour afficher l'altitude dans le terminal.
+Si tu veux récupérer la température, l'humidité, la pression ou l'altitude mesurée par le capteur pour l'utiliser dans ton programme. Par exemple, pour faire avancer Eliobot si la température est trop élevée.
 
 ### Définir la pression au niveau de la mer
 
