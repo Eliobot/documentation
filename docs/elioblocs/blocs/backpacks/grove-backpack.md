@@ -89,6 +89,21 @@ Ce bloc permet de récupérer la valeur de luminosité mesurée par le capteur d
 
 Pour régler une action en fonction de la luminosité. Par exemple, pour allumer une LED si la luminosité est faible.
 
+## Buzzer v1.2
+
+### Faire sonner un buzzer
+
+![buzzer](../../../../static/img/elioblocs/blocs/backpacks/buzzer.jpg)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de faire sonner le buzzer avec un certain volume (0-100).
+
+**Utilisation** :
+
+Pour faire un son d'alerte ou de notification.
 
 
 
