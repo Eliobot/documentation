@@ -6,39 +6,6 @@ description: "Elioblocs - Boucles"
 
 Les boucles permettent de répéter des actions un certain nombre de fois où jusqu'à ce qu'une condition soit remplie (ou pas). Elles sont très utiles pour automatiser des tâches répétitives.
 
-## Au démarrage
-
-![On start](../../../static/img/elioblocs/blocs/loops/boucle-start.jpg)
-
-**Type** : Commande
-
-**Définition** :
-
-Ce bloc est une boucle qui est exécutée une seule fois au démarrage du programme seule les blocs dans cette boucle ou dans une boucle Répéter indéfiniment sont éxécutés les autres sont désactivés.
-
-**Utilisation** :
-
-Si on veut que Eliobot avance d'une case au démarrage.
-
-
-## Répéter indéfiniment
-
-![Infinite loop](../../../static/img/elioblocs/blocs/loops/boucle-infinie.png)
-
-**Type** : Commande
-
-**Définition** :
-
-Cette boucle répète indéfiniment les blocs qu'elle contient. Pour arrêter la boucle, il faut utiliser <img src={require('@site/static/img/elioblocs/blocs/loops/quitter-boucle.png').default} style={{ width: '14%', verticalAlign: 'middle' }} alt="Quitter boucle" />.
-
-:::warning 
-Attention, après l'utilisation de cette boucle, **seulement** les blocs qui se trouvent à l'intérieur seront exécutés à l'infini.
-:::
-
-**Utilisation** :
-
-Si on veut que Eliobot avance indéfiniment.
-
 ## Répéter X fois
 
 ![For loop](../../../static/img/elioblocs/blocs/loops/boucle-repeter.png)

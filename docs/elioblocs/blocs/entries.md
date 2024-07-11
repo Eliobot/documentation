@@ -1,14 +1,38 @@
 ---
 last_modified_on: "2024-02-26"
-title: "Capteur de ligne"
-description: "Elioblocs - Capteur de ligne"
+title: "Entrées"
+description: "Elioblocs - Entrées"
+---
+
+Les blocs d'entrées permettent de récupérer des informations de l'environnement d'Eliobot.
+
+Les blocs de capteur d'obstacles permettent de tester la présence d'un obstacle proche d'Eliobot.
+
+## Tester la présence d'un obstacle
+
+![Check obstacle](../../../static/img/elioblocs/blocs/entries/test-obstacles.png)
+
+**Type** : Bloc booléen
+
+**Définition** :
+
+Ce bloc permet de tester la présence d'un obstacle à une certaine distance d'Eliobot :
+- à l'avant
+- à l'arrière
+- à gauche
+- à droite
+
+**Utilisation** :
+
+Si tu veux éviter les obstacles tels des murs ou des objets.
+
 ---
 
 Les blocs de capteur de ligne permettent de suivre une ligne ou de tester la présence d'une ligne.
 
-## Suivre une ligne 
+## Suivre une ligne
 
-![alt text](../../../static/img/elioblocs/blocs/line/suivre-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/entries/suivre-ligne.png)
 
 **Type** : Commande
 
@@ -22,9 +46,7 @@ Si on veut que Eliobot suive une ligne noire sur un parcours, celui au dos de ta
 
 ## Tester la présence d'une ligne
 
-![alt text](../../../static/img/elioblocs/blocs/line/ligne-presente.png)
-
-![alt text](../../../static/img/elioblocs/blocs/line/choix-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/entries/ligne-presente.png)
 
 **Type** : Bloc booléen
 
@@ -43,7 +65,7 @@ Pour permettre à Eliobot de suivre une ligne noire sur un parcours et de tester
 
 ## Modifier la sensibilité du capteur de ligne
 
-![alt text](../../../static/img/elioblocs/blocs/line/sensi-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/entries/sensi-ligne.png)
 
 **Type** : Commande
 
@@ -57,7 +79,7 @@ Si tu es dans un espace très lumineux ou très sombre, tu peux modifier la sens
 
 ## Lire la valeur d'un capteur de ligne
 
-![alt text](../../../static/img/elioblocs/blocs/line/valeur-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/entries/valeur-ligne.png)
 
 **Type** : Valeur
 
@@ -72,7 +94,7 @@ Si tu veux récupérer la valeur du capteur de ligne pour mieux calibrer la sens
 
 ## Calibration automatique de ligne
 
-![alt text](../../../static/img/elioblocs/blocs/line/calibration-ligne.jpg)
+![alt text](../../../static/img/elioblocs/blocs/entries/calibration-ligne.jpg)
 
 **Type** : Commande
 
@@ -85,3 +107,18 @@ Ce bloc permet de calibrer automatiquement le capteur de ligne. Il permet de dé
 Il faut placer les 5 capteurs de ligne au-dessus d'une ligne noire et eliobot va calibrer automatiquement la valeur à laquelle il détecte la ligne en
 avançant et en reculant. Eliobot doit être perpendiculaire sur la ligne pour que la calibration soit correcte.
 
+---
+
+## Tester si le bouton est activé
+
+![Is button activated](../../../static/img/elioblocs/blocs/entries/test-bouton.png)
+
+**Type** : Bloc booléen
+
+**Définition** :
+
+Ce bloc permet de tester si le bouton d'Eliobot est activé, il renvoie `vrai` si le bouton est activé et `faux` sinon.
+
+**Utilisation** :
+
+Si tu veux réaliser une action seulement si le bouton d'Eliobot est activé. Démarrer ton programme par exemple.

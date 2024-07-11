@@ -19,7 +19,7 @@ Le mode Bootloading est un mode qui permet de flasher le microcontrôleur d'Elio
 
 ## Utilisation avec Elioblocs
 
-Pour utiliser le bouton d'Eliobot sur Elioblocs, on utilise le bloc <img src={require("@site/static/img/elioblocs/blocs/utilities/test-bouton.png").default} style={{ width: "14%", verticalAlign: "middle" }} alt="test bouton" /> pour tester si le bouton est pressé ou non, il renvoie `vrai` si le bouton est pressé et `faux` sinon.
+Pour utiliser le bouton d'Eliobot sur Elioblocs, on utilise le bloc <img src={require("@site/static/img/elioblocs/blocs/entries/test-bouton.png").default} style={{ width: "14%", verticalAlign: "middle" }} alt="test bouton" /> pour tester si le bouton est pressé ou non, il renvoie `vrai` si le bouton est pressé et `faux` sinon.
 
 ## Utilisation avec Python
 
@@ -35,7 +35,7 @@ L'information que le bouton renvoie sont des valeurs numériques (0,1), il faut 
 ><img src={require("@site/static/img/eliobot/button/example-button-elioblocs.jpg").default} alt="exemple bouton elioblocs" width="49%" />
 >
 
-Ici, on utilise le bloc <img src={require("@site/static/img/elioblocs/blocs/utilities/test-bouton.png").default} style={{ width: "14%", verticalAlign: "middle" }} alt="test bouton" /> pour écrire que le bouton est pressé dans le terminal.
+Ici, on utilise le bloc <img src={require("@site/static/img/elioblocs/blocs/entries/test-bouton.png").default} style={{ width: "14%", verticalAlign: "middle" }} alt="test bouton" /> pour écrire que le bouton est pressé dans le terminal.
 
 ---
 
