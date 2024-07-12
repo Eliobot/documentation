@@ -6,6 +6,38 @@ description: "Elioblocs - Mouvements"
 
 Les blocs de mouvements permettent de déplacer Eliobot dans l'espace.
 
+# Blocs de mouvements par case
+
+## Avancer de X cases
+
+![Move X cases](../../../static/img/elioblocs/blocs/movements/avancer-cases.png)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de faire avancer Eliobot d'un certain nombre de cases.
+
+**Utilisation** :
+
+Si tu veux faire avancer Eliobot d'une certaine distance.
+
+## Tourner à droite ou à gauche
+
+![Turn right or left](../../../static/img/elioblocs/blocs/movements/tourner-cases.png)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de faire tourner Eliobot à droite ou à gauche (90 degrés).
+
+**Utilisation** :
+
+Si tu veux faire tourner Eliobot.
+
+# Blocs de mouvements libres
+
 ## Se déplacer vers l'avant
 
 ![Move forward or backward](../../../static/img/elioblocs/blocs/movements/deplacer.png)
@@ -76,22 +108,6 @@ Ce bloc permet de faire tourner une seule roue d'Eliobot.
 **Utilisation** :
 
 Si tu veux faire tourner une seule roue d'Eliobot. C'est une alternative à la rotation.
-
-
-## Avancer de X cases
-
-![Move X cases](../../../static/img/elioblocs/blocs/movements/avancer-cases.png)
-
-**Type** : Commande
-
-**Définition** :
-
-Ce bloc permet de faire avancer Eliobot d'un certain nombre de cases.
-
-**Utilisation** :
-
-Si tu veux faire avancer Eliobot d'une certaine distance.
-
 
 ## Modifier la vitesse
 
