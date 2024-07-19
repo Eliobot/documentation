@@ -58,6 +58,22 @@ Le mot de passe doit faire entre 8 et 64 caractères.
 
 Si tu veux servir un fichier html depuis Eliobot pour faire de ton telephone une télécommande par exemple.
 
+### Définir le nom de l'hôte
+
+![Set the hostname](../../../static/img/elioblocs/blocs/wifi/hostname.jpg)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de définir le nom de l'hôte d'Eliobot. Le nom de l'hôte est le nom qui permet d'identifier Eliobot sur le réseau.
+Il suffit de taper le nom de l'hôte accompagné de l'extension `.local` pour accéder à Eliobot depuis un autre appareil sur le même réseau.
+
+**Utilisation** :
+
+Si tu veux accéder à Eliobot depuis un autre appareil sur le même réseau.
+Par exemple, si tu veux accéder à la page html que tu as créée sur Eliobot depuis ton téléphone.
+
 ### Est connecté à un réseau sans fil ?
 
 ![Is connected to a Wi-Fi network](../../../static/img/elioblocs/blocs/wifi/is-connected.jpg)
