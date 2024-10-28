@@ -36,7 +36,7 @@ const sidebars = {
         "eliobot/sensors-line",
         "eliobot/battery",
         "eliobot/wifi",
-        //"eliobot/backpacks",
+        "eliobot/backpacks",
       ],
     },
     {
@@ -64,14 +64,14 @@ const sidebars = {
             "elioblocs/blocs/wifi",
             "elioblocs/blocs/variables",
             "elioblocs/blocs/functions",
-            /*{
-                type: 'category',
-                label: "Backpacks",
-                link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
-                items: [
-                  "elioblocs/blocs/backpacks/grove-backpack",
-                  ]
-            },*/
+            {
+              type: 'category',
+              label: "Backpacks",
+              link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
+              items: [
+                "elioblocs/blocs/backpacks/grove-backpack",
+              ]
+            },
           ],
         }
       ],
