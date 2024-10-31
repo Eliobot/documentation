@@ -4,12 +4,12 @@ title: "Backpacks"
 description: "Elioblocs - Backpacks"
 ---
 
-Les blocs de Sac à dos permettent de contrôler les accessoires d'Eliobot.
+Les blocs Backpacks permettent de contrôler les accessoires d'Eliobot.
 
 ## TORTUE DE BOUTONS
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos tortue de boutons.
+Attention pour être utilisé, Eliobot doit être équipé du backpack tortue de boutons.
 :::
 
 ### Programmer avec des boutons
@@ -31,7 +31,7 @@ Pour faire programmer Eliobot au plus jeune, en utilisant des boutons pour lui d
 ## CAPTEUR DHT11
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur d'humidité et de la librairie Adafruit DHT.
+Attention pour être utilisé, Eliobot doit être équipé du backpack capteur d'humidité et de la librairie Adafruit DHT.
 :::
 
 ### Récupérer la valeur de température ou d'humidité
@@ -51,7 +51,7 @@ Si tu veux récupérer la température ou l'humidité mesurée par le capteur po
 ## MATRICE DE LED
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos matrice de LED.
+Attention pour être utilisé, Eliobot doit être équipé du backpack matrice de LED.
 :::
 
 ### Choisir les couleurs d'une matrice de LED
@@ -122,7 +122,7 @@ Si tu veux afficher un message sur la matrice de LED. Par exemple, pour afficher
 ## CAPTEUR BME280
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur d'environnement et de la librairie Adafruit BME280.
+Attention pour être utilisé, Eliobot doit être équipé du backpack capteur d'environnement et de la librairie Adafruit BME280.
 :::
 
 ### Récupérer différentes valeurs mesurées par le capteur BME280
@@ -160,7 +160,7 @@ Si tu veux définir la pression au niveau de la mer pour le capteur de pression.
 ## Écran OLED
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos écran OLED.
+Attention pour être utilisé, Eliobot doit être équipé du backpack écran OLED.
 :::
 
 ### Afficher un texte sur un écran OLED
@@ -196,7 +196,7 @@ Si tu veux effacer ce qui est affiché sur l'écran OLED. Par exemple, pour effa
 ## Servomoteur
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos servomoteur.
+Attention pour être utilisé, Eliobot doit être équipé du backpack servomoteur.
 :::
 
 ### Définir la position du servomoteur
@@ -217,7 +217,7 @@ Par exemple, pour tourner la tête d'Eliobot.
 ## Servomoteur continu
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos servomoteur continu.
+Attention pour être utilisé, Eliobot doit être équipé du backpack servomoteur continu.
 :::
 
 ### Faire tourner le servomoteur continu
@@ -237,7 +237,7 @@ Si tu veux faire tourner le servomoteur continu pour qu'il avance ou recule.
 ## Capteur Ultrason
 
 :::warning
-Attention pour être utilisé, Eliobot doit être équipé du sac à dos capteur ultrason.
+Attention pour être utilisé, Eliobot doit être équipé du backpack capteur ultrason.
 :::
 
 ### Récupérer la distance mesurée par le capteur ultrason
