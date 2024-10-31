@@ -7,6 +7,8 @@ description: "Eliobot component - Backpacks"
 Les backpacks d'Eliobot sont des modules qui permettent d'ajouter des fonctionnalités à Eliobot.
 Il en existe plusieurs, chacun ayant une fonctionnalité spécifique.
 
+![Bannières des backpacks](../../static/img/backpacks/backpack-banner.jpeg)
+
 ## Utilisation avec Elioblocs
 
 Tous les blocs associés aux backpacks sont regroupés dans la catégorie <img src={require("@site/static/img/eliobot/backpacks/category-backpacks.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="catégorie backpacks" />.
