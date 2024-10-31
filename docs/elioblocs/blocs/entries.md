@@ -122,3 +122,51 @@ Ce bloc permet de tester si le bouton d'Eliobot est activé, il renvoie `vrai` s
 **Utilisation** :
 
 Si tu veux réaliser une action seulement si le bouton d'Eliobot est activé. Démarrer ton programme par exemple.
+
+
+---
+
+## La télécommande infrarouge
+
+Pour utiliser les blocs de la télécommande infrarouge, il faut se munir de la télécommande infrarouge disponible dans le kit Eliobot.
+
+![Télécommande infrarouge](../../../static/img/elioblocs/blocs/entries/nice_ir_remote.jpg)
+
+
+[Achetez ici](https://eliobot.com/products/telecommande-infra-rouge)
+
+## Choisir le capteur pour la lecture
+
+![Choose sensor](../../../static/img/elioblocs/blocs/entries/ir_remote_sensor_change.png)
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de choisir le capteur infrarouge pour la lecture des commandes de la télécommande infrarouge,
+on peut choisir entre le capteur avant et le capteur arrière.
+
+**Utilisation** :
+
+Si tu veux que les commandes de la télécommande infrarouge soient lues par le capteur avant ou arrière.
+Par exemple pour suivre Eliobot et lui envoyer des commandes alors que tu es derrière lui.
+
+## Lire la commande de la télécommande infrarouge
+
+![Read command](../../../static/img/elioblocs/blocs/entries/ir_remote_do.png)
+
+<p>
+  <img src={require('@site/static/img/elioblocs/blocs/entries/ir_remote.png').default} alt="Read command" width="70%"/>
+</p>
+
+**Type** : Commande
+
+**Définition** :
+
+Ce bloc permet de lire la commande de la télécommande infrarouge et de réaliser une action en fonction de la commande reçue.
+
+**Utilisation** :
+
+Si tu veux que Eliobot réalise une action en fonction de la commande reçue par la télécommande infrarouge.
+Par exemple, avancer, reculer, tourner à gauche ou à droite. Tu peux aussi lui faire jouer une musique ou allumer une LED.
+

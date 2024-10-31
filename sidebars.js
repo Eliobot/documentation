@@ -36,7 +36,6 @@ const sidebars = {
         "eliobot/sensors-line",
         "eliobot/battery",
         "eliobot/wifi",
-        //"eliobot/backpacks",
       ],
     },
     {
@@ -64,14 +63,14 @@ const sidebars = {
             "elioblocs/blocs/wifi",
             "elioblocs/blocs/variables",
             "elioblocs/blocs/functions",
-            /*{
-                type: 'category',
-                label: "Backpacks",
-                link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
-                items: [
-                  "elioblocs/blocs/backpacks/grove-backpack",
-                  ]
-            },*/
+            {
+              type: 'category',
+              label: "Backpacks",
+              link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
+              items: [
+                "elioblocs/blocs/backpacks/grove-backpack",
+              ]
+            },
           ],
         }
       ],
@@ -85,6 +84,20 @@ const sidebars = {
           label: 'Librairie Python',
           href: 'https://github.com/Eliobot/Eliobot-Python-Library'
         },
+      ],
+    },
+    {
+        type: 'category',
+        label: 'Backpacks',
+      link: {type: 'doc', id: 'backpacks/intro'},
+      items: [
+        "backpacks/intro",
+        "backpacks/dht11",
+        "backpacks/bme280",
+        "backpacks/matrix-led",
+        "backpacks/ultrasonic",
+        "backpacks/servo-motor",
+        "backpacks/grove-module",
       ],
     },
     /*{
@@ -122,9 +135,6 @@ const sidebars = {
       ],
     },
   ]
-
-
-   
 };
 
 export default sidebars;
