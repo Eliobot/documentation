@@ -10,7 +10,7 @@ Les blocs de capteur d'obstacles permettent de tester la présence d'un obstacle
 
 ## Tester la présence d'un obstacle
 
-![Check obstacle](../../../static/img/elioblocs/blocs/entries/test-obstacles.png)
+![Check obstacle](../../../static/img/elioblocs/blocs/inputs/test-obstacles.png)
 
 **Type** : Bloc booléen
 
@@ -32,7 +32,7 @@ Les blocs de capteur de ligne permettent de suivre une ligne ou de tester la pr�
 
 ## Suivre une ligne
 
-![alt text](../../../static/img/elioblocs/blocs/entries/suivre-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/inputs/suivre-ligne.png)
 
 **Type** : Commande
 
@@ -46,7 +46,7 @@ Si on veut que Eliobot suive une ligne noire sur un parcours, celui au dos de ta
 
 ## Tester la présence d'une ligne
 
-![alt text](../../../static/img/elioblocs/blocs/entries/ligne-presente.png)
+![alt text](../../../static/img/elioblocs/blocs/inputs/ligne-presente.png)
 
 **Type** : Bloc booléen
 
@@ -65,7 +65,7 @@ Pour permettre à Eliobot de suivre une ligne noire sur un parcours et de tester
 
 ## Modifier la sensibilité du capteur de ligne
 
-![alt text](../../../static/img/elioblocs/blocs/entries/sensi-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/inputs/sensi-ligne.png)
 
 **Type** : Commande
 
@@ -79,7 +79,7 @@ Si tu es dans un espace très lumineux ou très sombre, tu peux modifier la sens
 
 ## Lire la valeur d'un capteur de ligne
 
-![alt text](../../../static/img/elioblocs/blocs/entries/valeur-ligne.png)
+![alt text](../../../static/img/elioblocs/blocs/inputs/valeur-ligne.png)
 
 **Type** : Valeur
 
@@ -94,7 +94,7 @@ Si tu veux récupérer la valeur du capteur de ligne pour mieux calibrer la sens
 
 ## Calibration automatique de ligne
 
-![alt text](../../../static/img/elioblocs/blocs/entries/calibration-ligne.jpg)
+![alt text](../../../static/img/elioblocs/blocs/inputs/calibration-ligne.jpg)
 
 **Type** : Commande
 
@@ -111,7 +111,7 @@ avançant et en reculant. Eliobot doit être perpendiculaire sur la ligne pour q
 
 ## Tester si le bouton est activé
 
-![Is button activated](../../../static/img/elioblocs/blocs/entries/test-bouton.png)
+![Is button activated](../../../static/img/elioblocs/blocs/inputs/test-bouton.png)
 
 **Type** : Bloc booléen
 
@@ -130,14 +130,14 @@ Si tu veux réaliser une action seulement si le bouton d'Eliobot est activé. D�
 
 Pour utiliser les blocs de la télécommande infrarouge, il faut se munir de la télécommande infrarouge disponible dans le kit Eliobot.
 
-![Télécommande infrarouge](../../../static/img/elioblocs/blocs/entries/nice_ir_remote.jpg)
+![Télécommande infrarouge](../../../static/img/elioblocs/blocs/inputs/nice_ir_remote.jpg)
 
 
 [Achetez ici](https://eliobot.com/products/telecommande-infra-rouge)
 
 ## Choisir le capteur pour la lecture
 
-![Choose sensor](../../../static/img/elioblocs/blocs/entries/ir_remote_sensor_change.png)
+![Choose sensor](../../../static/img/elioblocs/blocs/inputs/ir_remote_sensor_change.png)
 
 **Type** : Commande
 
@@ -153,10 +153,10 @@ Par exemple pour suivre Eliobot et lui envoyer des commandes alors que tu es der
 
 ## Lire la commande de la télécommande infrarouge
 
-![Read command](../../../static/img/elioblocs/blocs/entries/ir_remote_do.png)
+![Read command](../../../static/img/elioblocs/blocs/inputs/ir_remote_do.png)
 
 <p>
-  <img src={require('@site/static/img/elioblocs/blocs/entries/ir_remote.png').default} alt="Read command" width="70%"/>
+  <img src={require('@site/static/img/elioblocs/blocs/inputs/ir_remote.png').default} alt="Read command" width="70%"/>
 </p>
 
 **Type** : Commande
