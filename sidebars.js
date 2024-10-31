@@ -54,7 +54,7 @@ const sidebars = {
             "elioblocs/blocs/colors",
             "elioblocs/blocs/sounds",
             "elioblocs/blocs/movements",
-            "elioblocs/blocs/entries",
+            "elioblocs/blocs/inputs",
             "elioblocs/blocs/conditions",
             "elioblocs/blocs/loops",
             "elioblocs/blocs/maths",

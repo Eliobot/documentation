@@ -1,5 +1,5 @@
 ---
-last_modified_on: "2024-02-26"
+last_modified_on: "2024-10-31"
 title: "Entrées"
 description: "Elioblocs - Entrées"
 ---
