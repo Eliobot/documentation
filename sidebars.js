@@ -36,7 +36,6 @@ const sidebars = {
         "eliobot/sensors-line",
         "eliobot/battery",
         "eliobot/wifi",
-        "eliobot/backpacks",
       ],
     },
     {
@@ -87,6 +86,20 @@ const sidebars = {
         },
       ],
     },
+    {
+        type: 'category',
+        label: 'Backpacks',
+      link: {type: 'doc', id: 'backpacks/intro'},
+      items: [
+        "backpacks/intro",
+        "backpacks/dht11",
+        "backpacks/bme280",
+        "backpacks/matrix-led",
+        "backpacks/ultrasonic",
+        "backpacks/servo-motor",
+        "backpacks/grove-module",
+      ],
+    },
     /*{
       type: 'category',
       label: 'Librairie Arduino',
@@ -122,9 +135,6 @@ const sidebars = {
       ],
     },
   ]
-
-
-   
 };
 
 export default sidebars;
