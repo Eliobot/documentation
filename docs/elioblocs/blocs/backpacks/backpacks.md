@@ -155,7 +155,7 @@ Ce bloc permet de définir la pression au niveau de la mer pour le capteur BME28
 
 **Utilisation** :
 
-Si tu veux définir la pression au niveau de la mer pour le capteur de pression. Par exemple, pour obtenir une mesure d'altitude précise.
+Si tu veux définir la pression au niveau de la mer pour le capteur de pression. Par exemple, pour obtenir une mesure d'altitude précise. Tu peux la retrouver sur ce [site](https://zoom.earth/maps/pressure/) place ton curseur sur la mer la plus proche de chez toi.
 
 ## Écran OLED
 
