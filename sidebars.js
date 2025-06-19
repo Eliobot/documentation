@@ -72,7 +72,8 @@ const sidebars = {
               ]
             },
           ],
-        }
+        },
+        "elioblocs/appli",
       ],
     },
     {
