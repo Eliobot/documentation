@@ -1,0 +1,8 @@
+{
+  "label": "Mochilas",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Bloques de mochila para controlar módulos adicionales de Eliobot."
+  }
+}

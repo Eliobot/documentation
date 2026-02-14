@@ -35,7 +35,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
-    locales: ['fr'],
+    locales: ['fr', 'en', 'es', 'de', 'it', 'nl', 'ro', 'pl'],
   },
 
   presets: [
@@ -106,6 +106,10 @@ const config = {
           {
             href: 'https://github.com/Eliobot/documentation',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],

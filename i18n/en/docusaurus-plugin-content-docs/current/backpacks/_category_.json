@@ -1,0 +1,8 @@
+{
+  "label": "Backpacks",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for backpack modules compatible with Eliobot."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Exemple",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "5 minute pentru a învăța cele mai importante concepte Docusaurus."
+  }
+}

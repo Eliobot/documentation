@@ -1,0 +1,26 @@
+{
+  "logo.alt": {
+    "message": "Logo Elio",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentazione",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Tutoriels": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutoriels"
+  },
+  "item.label.Elioblocs": {
+    "message": "Elioblocs",
+    "description": "Navbar item with label Elioblocs"
+  },
+  "item.label.Boutique": {
+    "message": "Negozio",
+    "description": "Navbar item with label Boutique"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

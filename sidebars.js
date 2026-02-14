@@ -66,6 +66,7 @@ const sidebars = {
             {
               type: 'category',
               label: "Backpacks",
+              key: "elioblocs-backpacks",
               link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
               items: [
                 "elioblocs/blocs/backpacks/grove-backpack",
@@ -90,6 +91,7 @@ const sidebars = {
     {
         type: 'category',
         label: 'Backpacks',
+      key: 'hardware-backpacks',
       link: {type: 'doc', id: 'backpacks/intro'},
       items: [
         "backpacks/intro",

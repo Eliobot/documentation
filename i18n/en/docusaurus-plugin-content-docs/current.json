@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docSidebar.category.Les fonctionnalités de Eliobot": {
+    "message": "Eliobot Features",
+    "description": "The label for category 'Les fonctionnalités de Eliobot' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.L'application Elioblocs": {
+    "message": "Elioblocs App",
+    "description": "The label for category 'L'application Elioblocs' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Tous les blocs": {
+    "message": "All Blocks",
+    "description": "The label for category 'Tous les blocs' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.elioblocs-backpacks": {
+    "message": "Backpacks",
+    "description": "The label for category 'Backpacks' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Librairie Python": {
+    "message": "Python Library",
+    "description": "The label for category 'Librairie Python' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.hardware-backpacks": {
+    "message": "Backpacks",
+    "description": "The label for category 'Backpacks' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Liens Utiles": {
+    "message": "Useful Links",
+    "description": "The label for category 'Liens Utiles' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.link.Librairie Python": {
+    "message": "Python Library",
+    "description": "The label for link 'Librairie Python' in sidebar 'docSidebar', linking to 'https://github.com/Eliobot/Eliobot-Python-Library'"
+  },
+  "sidebar.docSidebar.link.Boutique": {
+    "message": "Shop",
+    "description": "The label for link 'Boutique' in sidebar 'docSidebar', linking to 'https://eliobot.com'"
+  },
+  "sidebar.docSidebar.link.Communauté": {
+    "message": "Community",
+    "description": "The label for link 'Communauté' in sidebar 'docSidebar', linking to 'https://discord.com/invite/abq2t9vdMN'"
+  },
+  "sidebar.docSidebar.link.Fichiers 3D": {
+    "message": "3D Files",
+    "description": "The label for link 'Fichiers 3D' in sidebar 'docSidebar', linking to 'https://www.printables.com/@eliobot_387275'"
+  },
+  "sidebar.docSidebar.link.Github": {
+    "message": "Github",
+    "description": "The label for link 'Github' in sidebar 'docSidebar', linking to 'https://github.com/Eliobot'"
+  }
+}

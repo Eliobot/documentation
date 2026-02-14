@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Translate, {translate} from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 const FeatureList = [
@@ -9,7 +10,9 @@ const FeatureList = [
     link: 'https://learn.eliobot.com/elioblocs/',
     description: (
       <>
-        Outil de programmation par blocs, idéal pour débuter sans se soucier de la syntaxe du code.
+        <Translate id="homepage.features.elioblocs.description">
+          Outil de programmation par blocs, idéal pour débuter sans se soucier de la syntaxe du code.
+        </Translate>
       </>
     ),
   },
@@ -19,7 +22,9 @@ const FeatureList = [
     link: 'https://learn.eliobot.com/python/',
     description: (
       <>
-        Le langage le plus utilisé au monde actuellement, il conviendra parfaitement a ceux qui veulent commencer le code.
+        <Translate id="homepage.features.python.description">
+          Le langage le plus utilisé au monde actuellement, il conviendra parfaitement à ceux qui veulent commencer le code.
+        </Translate>
       </>
     ),
   },
@@ -28,7 +33,9 @@ const FeatureList = [
     Svg: require('@site/static/img/logos/arduino.svg').default,
     description: (
       <>
-        Pour ceux qui veulent aller plus loin en programmation, tout en bénéficiant d'un écosystème étendu.
+        <Translate id="homepage.features.arduino.description">
+          Pour ceux qui veulent aller plus loin en programmation, tout en bénéficiant d'un écosystème étendu.
+        </Translate>
       </>
     ),
   },
@@ -52,7 +59,12 @@ export default function HomepageFeatures() {
   return (
     <section>
       <div className="text--center padding-horiz--md">
-        <Heading as="h2">1 robot, 3 façons de le programmer</Heading>
+        <Heading as="h2">
+          {translate({
+            id: 'homepage.features.title',
+            message: '1 robot, 3 façons de le programmer',
+          })}
+        </Heading>
       </div>
       <div className={styles.features}>
         <div className="container">

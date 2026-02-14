@@ -1,0 +1,8 @@
+{
+  "label": "Arduino-Bibliothek",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Dokumentation der Eliobot-Arduino-Bibliothek."
+  }
+}

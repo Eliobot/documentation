@@ -1,0 +1,8 @@
+{
+  "label": "Mochilas",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentación de los módulos mochila compatibles con Eliobot."
+  }
+}

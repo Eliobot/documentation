@@ -1,0 +1,8 @@
+{
+  "label": "Rucksäcke",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Backpack-Blöcke zur Steuerung zusätzlicher Eliobot-Module."
+  }
+}

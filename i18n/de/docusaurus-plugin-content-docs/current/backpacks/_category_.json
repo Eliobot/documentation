@@ -1,0 +1,8 @@
+{
+  "label": "Rucksäcke",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Dokumentation der mit Eliobot kompatiblen Rucksack-Module."
+  }
+}

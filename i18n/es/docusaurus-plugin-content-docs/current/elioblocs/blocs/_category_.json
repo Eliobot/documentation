@@ -1,0 +1,8 @@
+{
+  "label": "Bloques de Elioblocs",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Todos los bloques de Elioblocs, organizados por categoría."
+  }
+}

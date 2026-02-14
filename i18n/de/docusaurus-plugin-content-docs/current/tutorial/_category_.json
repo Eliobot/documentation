@@ -1,0 +1,8 @@
+{
+  "label": "Tutorials",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Praktische Schritt-für-Schritt-Tutorials zum Lernen mit Eliobot."
+  }
+}
