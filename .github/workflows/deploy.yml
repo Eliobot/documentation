@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # Use Node.js 18 here
+          node-version: 20 # Docusaurus 3.9.x requires Node.js >=20
 
       - name: Install dependencies
         run: npm ci
