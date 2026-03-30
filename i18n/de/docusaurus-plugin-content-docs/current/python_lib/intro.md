@@ -2,46 +2,65 @@
 sidebar_position: 0
 ---
 
-# Introduction
+# Einführung
 
-Entdecken wir **Docusaurus in weniger als 5 Minuten**.
+Die Eliobot-Python-Bibliothek (`elio.py`) ist eine CircuitPython-Bibliothek, die die Programmierung des Eliobot-Roboters vereinfachen soll.
 
-## Erste Schritte
+## Aktuelle Version
 
-Beginnen Sie mit der **Erstellung einer neuen Website**.
+| Librairie | Version | CircuitPython |
+|-----------|---------|---------------|
+| `elio.py` | 4.0     | 9.x.x         |
 
-Oder **probieren Sie Docusaurus sofort aus** mit **[docusaurus.new](https://docusaurus.new)**.
+## Architektur
 
-### Was Sie brauchen
+Die Bibliothek ist in **7 unabhängige Klassen** organisiert, von denen jede für eine Komponente oder Funktionalität des Roboters verantwortlich ist:
 
-- [Node.js](https://nodejs.org/en/download/) Version 18.0 oder höher:
-  – Bei der Installation von Node.js wird empfohlen, alle Kontrollkästchen im Zusammenhang mit Abhängigkeiten zu aktivieren.
+| Classe             | Description                                      |
+|--------------------|--------------------------------------------------|
+| `Motors`           | Contrôle des moteurs et déplacements             |
+| `Buzzer`           | Sons et mélodies                                 |
+| `ObstacleSensor`   | Détection d'obstacles par capteurs infrarouges   |
+| `LineSensor`       | Suivi de ligne et calibration                    |
+| `WiFiConnectivity` | Connexion WiFi et point d'accès                  |
+| `IRRemote`         | Réception de signaux infrarouge                  |
+| `EyesMatrix`       | Contrôle de la matrice de LEDs (yeux d'Eliobot)  |
 
-## Erzeugen Sie eine neue Site
+## Schnelle Installation
 
-Erstellen Sie eine neue Docusaurus-Site mit der **klassischen Vorlage**.
+Die Datei `elio.py` muss in das Stammverzeichnis der Eliobot-Karte kopiert werden (im Ordner `CIRCUITPY`).
 
-Die klassische Vorlage wird Ihrem Projekt automatisch hinzugefügt, nachdem Sie den folgenden Befehl ausgeführt haben:
+## Minimales Beispiel
 
-```bash
-npm init docusaurus@latest my-website classic
+```python
+import board
+import pwmio
+import analogio
+from elio import Motors
+
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
+
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
+
+motors.move_forward(speed=80)
 ```
 
-Sie können diesen Befehl in die Eingabeaufforderung, Powershell, Terminal oder jedes andere integrierte Terminal Ihres Code-Editors eingeben.
+## Referenzstifte
 
-Der Befehl installiert außerdem alle notwendigen Abhängigkeiten, die Sie zum Ausführen von Docusaurus benötigen.
-
-## Starten Sie Ihre Website
-
-Führen Sie den Entwicklungsserver aus:
-
-```bash
-cd my-website
-npm run start
-```
-
-Der Befehl `cd` ändert das Verzeichnis, mit dem Sie arbeiten. Um mit Ihrer neu erstellten Docusaurus-Site arbeiten zu können, müssen Sie dort im Terminal navigieren.
-
-Der Befehl `npm run start` erstellt Ihre Website lokal und stellt sie über einen Entwicklungsserver bereit, sodass Sie sie unter http://localhost:3000/. ansehen können.
-
-Öffnen Sie `docs/intro.md` (diese Seite) und bearbeiten Sie einige Zeilen: Die Site wird **automatisch neu geladen** und zeigt Ihre Änderungen an.
+| Composant             | Pin(s)                              |
+|-----------------------|-------------------------------------|
+| Moteur droit (AIN1)   | IO36                                |
+| Moteur droit (AIN2)   | IO38                                |
+| Moteur gauche (BIN1)  | IO35                                |
+| Moteur gauche (BIN2)  | IO37                                |
+| Batterie              | BATTERY                             |
+| Capteurs d'obstacles  | IO4, IO5, IO6, IO7                  |
+| Capteurs de ligne     | IO10, IO11, IO12, IO13, IO14        |
+| Commande ligne (cmd)  | IO33                                |
+| Buzzer                | IO17                                |
+| Bouton                | IO0                                 |
+| LED NeoPixel          | NEOPIXEL                            |

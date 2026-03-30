@@ -3,6 +3,6 @@
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Dokumentation der Eliobot-Python-Bibliothek."
+    "description": "Referenz der Python-Bibliothek elio.py für Eliobot (v4.0 / CircuitPython 9.x)."
   }
 }

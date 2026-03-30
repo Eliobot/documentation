@@ -2,46 +2,65 @@
 sidebar_position: 0
 ---
 
-# Introductie
+# Invoering
 
-Laten we **Docusaurus in minder dan 5 minuten** ontdekken.
+De Eliobot Python-bibliotheek (`elio.py`) is een CircuitPython-bibliotheek die is ontworpen om het programmeren van de Eliobot-robot te vereenvoudigen.
 
-## Aan de slag
+## Huidige versie
 
-Ga aan de slag door **een nieuwe site te maken**.
+| Librairie | Version | CircuitPython |
+|-----------|---------|---------------|
+| `elio.py` | 4.0     | 9.x.x         |
 
-Of **probeer Docusaurus onmiddellijk** met **[docusaurus.new](https://docusaurus.new)**.
+## Architectuur
 
-### Wat je nodig hebt
+De bibliotheek is georganiseerd in **7 onafhankelijke klassen**, die elk verantwoordelijk zijn voor een onderdeel of functionaliteit van de robot:
 
-- [Node.js](https://nodejs.org/en/download/) versie 18.0 of hoger:
-- Wanneer u Node.js installeert, wordt u aangeraden alle selectievakjes met betrekking tot afhankelijkheden aan te vinken.
+| Classe             | Description                                      |
+|--------------------|--------------------------------------------------|
+| `Motors`           | Contrôle des moteurs et déplacements             |
+| `Buzzer`           | Sons et mélodies                                 |
+| `ObstacleSensor`   | Détection d'obstacles par capteurs infrarouges   |
+| `LineSensor`       | Suivi de ligne et calibration                    |
+| `WiFiConnectivity` | Connexion WiFi et point d'accès                  |
+| `IRRemote`         | Réception de signaux infrarouge                  |
+| `EyesMatrix`       | Contrôle de la matrice de LEDs (yeux d'Eliobot)  |
 
-## Genereer een nieuwe site
+## Snelle installatie
 
-Genereer een nieuwe Docusaurus-site met behulp van de **klassieke sjabloon**.
+Het bestand `elio.py` moet naar de hoofdmap van de Eliobot-kaart worden gekopieerd (in de map `CIRCUITPY`).
 
-De klassieke sjabloon wordt automatisch aan uw project toegevoegd nadat u de opdracht hebt uitgevoerd:
+## Minimaal voorbeeld
 
-```bash
-npm init docusaurus@latest my-website classic
+```python
+import board
+import pwmio
+import analogio
+from elio import Motors
+
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
+
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
+
+motors.move_forward(speed=80)
 ```
 
-U kunt deze opdracht typen in de opdrachtprompt, Powershell, Terminal of een andere geïntegreerde terminal van uw code-editor.
+## Referentiepinnen
 
-De opdracht installeert ook alle benodigde afhankelijkheden die u nodig hebt om Docusaurus uit te voeren.
-
-## Start uw site
-
-Voer de ontwikkelingsserver uit:
-
-```bash
-cd my-website
-npm run start
-```
-
-Met het commando `cd` wijzigt u de map waarmee u werkt. Om met uw nieuw gemaakte Docusaurus-site te kunnen werken, moet u daar door de terminal navigeren.
-
-Met de opdracht `npm run start` bouwt u uw website lokaal en levert deze via een ontwikkelingsserver, zodat u deze kunt bekijken op http://localhost:3000/.
-
-Open `docs/intro.md` (deze pagina) en bewerk enkele regels: de site **wordt automatisch opnieuw geladen** en geeft uw wijzigingen weer.
+| Composant             | Pin(s)                              |
+|-----------------------|-------------------------------------|
+| Moteur droit (AIN1)   | IO36                                |
+| Moteur droit (AIN2)   | IO38                                |
+| Moteur gauche (BIN1)  | IO35                                |
+| Moteur gauche (BIN2)  | IO37                                |
+| Batterie              | BATTERY                             |
+| Capteurs d'obstacles  | IO4, IO5, IO6, IO7                  |
+| Capteurs de ligne     | IO10, IO11, IO12, IO13, IO14        |
+| Commande ligne (cmd)  | IO33                                |
+| Buzzer                | IO17                                |
+| Bouton                | IO0                                 |
+| LED NeoPixel          | NEOPIXEL                            |

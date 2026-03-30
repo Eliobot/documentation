@@ -33,21 +33,45 @@ Ici, on joue la note `Do` pendant 1 seconde et on recommence à l'infini.
 
 ### Exemple Python
 
+#### Avec la librairie `elio.py`
+
+```python
+import board
+import pwmio
+from elio import Buzzer
+
+buzzer_pin = pwmio.PWMOut(board.IO17, variable_frequency=True)
+buzzer = Buzzer(buzzer_pin)
+
+NOTES = {
+    "Do": 262,
+    "silence": 0.1,
+}
+
+while True:
+    buzzer.play_note("Do", 1, NOTES, 80)  # Joue Do pendant 1 seconde
+    buzzer.play_note("silence", 1, NOTES, 0)  # Pause d'1 seconde
+```
+
+Ici, on joue la note `Do` pendant 1 seconde et on recommence à l'infini.
+
+---
+
+#### Sans la librairie `elio.py`
+
 ```python
 import board
 import pwmio
 import time
 
-buzzer = pwmio.PWMOut(
-                board.IO17, # Pin du buzzer
-                variable_frequency=True, # On veut pouvoir changer la fréquence
-                ) # Création de l'objet buzzer
+buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
 
 while True:
-    buzzer.frequency = 262 # Fréquence de la note Do
-    time.sleep(1) # Attend 1 seconde
-    buzzer.frequency = 0 # Arrête le son
-    time.sleep(1) # Attend 1 seconde
+    buzzer.frequency = 262       # Fréquence de la note Do
+    buzzer.duty_cycle = 32768    # 50% duty cycle pour émettre le son
+    time.sleep(1)
+    buzzer.duty_cycle = 0        # Arrête le son
+    time.sleep(1)
 ```
 
-Ici, on joue la note `Do` pendant 1 seconde et on recommence à l'infini.
+Même principe, mais en contrôlant directement la fréquence et le duty cycle du PWM.

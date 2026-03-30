@@ -39,63 +39,57 @@ Ici, si un obstacle est détecté devant Eliobot, il tourne vers la droite sinon
 
 ### Exemple Python
 
+#### Avec la librairie `elio.py`
+
 ```python
-from elio import Eliobot
 import board
-import time
-import digitalio
-import analogio
 import pwmio
-
-vBatt_pin = analogio.AnalogIn(board.BATTERY)
-
-obstacleInput = None 
-
-lineCmd = digitalio.DigitalInOut(board.IO33)
-lineCmd.direction = digitalio.Direction.OUTPUT
-
-lineInput = [analogio.AnalogIn(pin) for pin in
-               (board.IO10, board.IO11, board.IO12, board.IO13, board.IO14)]
+import analogio
+from elio import Motors, ObstacleSensor
 
 AIN1 = pwmio.PWMOut(board.IO36)
 AIN2 = pwmio.PWMOut(board.IO38)
 BIN1 = pwmio.PWMOut(board.IO35)
 BIN2 = pwmio.PWMOut(board.IO37)
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
 
-buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
-
-elio = Eliobot(AIN1, AIN2, BIN1, BIN2, vBatt_pin, obstacleInput, buzzer, lineInput, lineCmd)
-
-proximity_sensor = [
-    AnalogIn(board.IO4), # Capteur gauche
-    AnalogIn(board.IO5), # Capteur devant
-    AnalogIn(board.IO6), # Capteur droit
-    AnalogIn(board.IO7)  # Capteur derrière
+obstacle_pins = [
+    analogio.AnalogIn(board.IO4),  # Gauche
+    analogio.AnalogIn(board.IO5),  # Avant
+    analogio.AnalogIn(board.IO6),  # Droite
+    analogio.AnalogIn(board.IO7),  # Arrière
 ]
 
-# Fonction pour récupérer la valeur d'un capteur d'obstacle
-def getProximity(proximity_pos):
-    value = 0
-
-    # Mesure de la lumière réfléchie
-    value = proximity_sensor[proximity_pos].value
-
-    if value > 1000:
-        return True
-    else:
-        return False
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
+obstacle_sensor = ObstacleSensor(obstacle_pins)
 
 speed = 100
 
 while True:
-    if getProximity(1):
-        elio.turn_right(speed)
-
+    if obstacle_sensor.get_obstacle(1):  # Obstacle devant
+        motors.turn_right(speed)
     else:
-        elio.move_forward(speed)
+        motors.move_forward(speed)
 ```
 
-Dans cet exemple, Eliobot avance s'il ne détecte pas d'obstacle devant lui sinon il tourne à droite.
+Dans cet exemple, Eliobot avance s'il ne détecte pas d'obstacle devant lui, sinon il tourne à droite.
 
-Pour détecter un obstacle, on regarde la valeur du capteur devant Eliobot. Si la valeur est supérieure à 1000, alors il y a un obstacle devant Eliobot.
-1000 est une valeur approximative et choisie pour détecter un obstacle à une certaine distance. Vous pouvez changer cette valeur pour l'adapter à votre besoin.
+---
+
+#### Sans la librairie `elio.py`
+
+```python
+import board
+import analogio
+
+obstacle_avant = analogio.AnalogIn(board.IO5)  # Capteur avant
+
+while True:
+    valeur = obstacle_avant.value
+    if valeur < 10000:  # Obstacle détecté
+        print("Obstacle détecté, valeur :", valeur)
+    else:
+        print("Aucun obstacle, valeur :", valeur)
+```
+
+La détection se déclenche lorsque la valeur du capteur passe en dessous de `10000`. Cette valeur peut être ajustée selon la distance de détection souhaitée.

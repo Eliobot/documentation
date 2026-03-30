@@ -14,6 +14,6 @@ Tous les blocs associés aux backpacks sont regroupés dans la catégorie <img s
 ## Utilisation avec Python
 
 Chaque backpack utilise un ou plusieurs pins pour fonctionner et peut utiliser des protocoles de communication différents.
-Tu peux retrouver la documentation de ton backpack ici : [Documentation des backpacks](/docs/eliobot/backpacks).
+Tu peux retrouver la documentation de ton backpack ici : [Documentation des backpacks](/docs/backpacks/intro).
 
 ## Exemples associés

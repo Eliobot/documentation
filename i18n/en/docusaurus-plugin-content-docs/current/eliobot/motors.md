@@ -1,6 +1,6 @@
 ---
 last_modified_on: "2024-02-26"
-title: "Motors"
+title: "Engines"
 description: "Eliobot component - Motors"
 ---
 
@@ -17,19 +17,19 @@ Eliobot's motors are powered directly by the battery, so they only work when the
 
 ## Use with Elioblocs
 
-To use Eliobot's motors on Elioblocs, we use blocks from the `Movements` category because these motors are what make Eliobot move.
+To use Eliobot's motors on Elioblocs, we use blocks from the `Mouvement` category because these are the motors that allow Eliobot to move.
 
 
-## Use with Python
+## Using with Python
 
-To use Eliobot motors in Python, you can use the functions available in the `elio.py` library.
+To use Eliobot engines in Python, you can use the functions available in the `elio.py` library.
 
 The motors are connected to the following pins:
 
-|     | Left motor | Right motor |
-|-----|---------------|---------|
-| IN1 | IO35 | IO36 |
-| IN2 | IO37 | IO38 |
+|     | Moteur gauche | Moteur droit |
+|-----|---------------|--------------|
+| IN1 | IO35          | IO36         |
+| IN2 | IO37          | IO38         |
 
 Motors can be controlled in two ways: Digital or PWM
 
@@ -44,86 +44,81 @@ To learn more about pwm: [Wikipedia PWM](https://fr.wikipedia.org/wiki/Modulatio
 ### Elioblocs example
 
 >
-><img src={require('@site/static/img/eliobot/motors/example-movements-elioblocs.jpg').default} alt="Elioblocs movement example" width="49%" />
+><img src={require('@site/static/img/eliobot/motors/example-movements-elioblocs.jpg').default} alt="exemple mouvement elioblocs" width="49%" />
 >
 
-Here, we use the <img src={require('@site/static/img/eliobot/motors/movement-category.jpg').default} style={{ width: '14%', verticalAlign: 'middle' }} alt="movement category" /> blocks to make Eliobot move forward if it does not detect an obstacle in front of it; otherwise, it turns right.
+Here, we use the <img src={require('@site/static/img/eliobot/motors/movement-category.jpg').default} style={{ width: '14%', verticalAlign: 'middle' }} alt="Catégorie mouvement" /> blocks to make Eliobot move forward if he does not detect an obstacle in front of him, otherwise he turns right.
 
 ---
 
-### Python example
+### Python Example
 
-#### With the `elio.py` library
+#### With the library `elio.py`
 
 ```python
-from elio import Eliobot
 import board
-import time
-import digitalio
-import analogio
 import pwmio
+import analogio
+from elio import Motors, ObstacleSensor
 
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
 vBatt_pin = analogio.AnalogIn(board.BATTERY)
 
-obstacleInput = [analogio.AnalogIn(pin) for pin in
-                 (board.IO4, board.IO5, board.IO6, board.IO7)]
+obstacle_pins = [
+    analogio.AnalogIn(board.IO4),  # Gauche
+    analogio.AnalogIn(board.IO5),  # Avant
+    analogio.AnalogIn(board.IO6),  # Droite
+    analogio.AnalogIn(board.IO7),  # Arrière
+]
 
-lineCmd = digitalio.DigitalInOut(board.IO33)
-lineCmd.direction = digitalio.Direction.OUTPUT
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
+obstacle_sensor = ObstacleSensor(obstacle_pins)
 
-lineInput = [analogio.AnalogIn(pin) for pin in
-               (board.IO10, board.IO11, board.IO12, board.IO13, board.IO14)]
+speed = 100
+
+while True:
+    if obstacle_sensor.get_obstacle(1):  # Obstacle devant
+        motors.turn_right(speed)
+    else:
+        motors.move_forward(speed)
+```
+
+In this example, Eliobot moves forward if he does not detect an obstacle in front of him, otherwise he turns right.
+
+---
+
+#### Without the library `elio.py`
+
+```python
+import board
+import pwmio
+import analogio
 
 AIN1 = pwmio.PWMOut(board.IO36)
 AIN2 = pwmio.PWMOut(board.IO38)
 BIN1 = pwmio.PWMOut(board.IO35)
 BIN2 = pwmio.PWMOut(board.IO37)
 
-buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
+obstacle_avant = analogio.AnalogIn(board.IO5)
 
-elio = Eliobot(AIN1, AIN2, BIN1, BIN2, vBatt_pin, obstacleInput, buzzer, lineInput, lineCmd)
-
-speed = 100
-
+vitesse = 65535  # valeur PWM max (0–65535)
 
 while True:
-    if elio.get_obstacle(1):
-        elio.turn_right(speed)
-
+    if obstacle_avant.value < 10000:  # Obstacle devant
+        # Tourner à droite
+        AIN1.duty_cycle = vitesse
+        AIN2.duty_cycle = 0
+        BIN1.duty_cycle = 0
+        BIN2.duty_cycle = vitesse
     else:
-        elio.move_forward(speed)
+        # Avancer
+        AIN1.duty_cycle = 0
+        AIN2.duty_cycle = vitesse
+        BIN1.duty_cycle = 0
+        BIN2.duty_cycle = vitesse
 ```
 
-In this example, Eliobot moves forward if he does not detect an obstacle in front of him, otherwise he turns right.
-
-#### Without the bookstore `elio.py`
-
-```python
-import elio
-import time
-import board
-import pwmio
-
-# Configuration des pins
-moteurDroit1 = pwmio.PWMOut(board.IO36)
-moteurDroit2 = pwmio.PWMOut(board.IO38)
-moteurGauche1 = pwmio.PWMOut(board.IO35)
-moteurGauche2 = pwmio.PWMOut(board.IO37)
-
-# Vitesse des moteurs
-vitesse = 65535 # vitesses entre 0 et 65535
-
-while True:
-    if elio.getObstacle(1):
-        moteurDroit1.duty_cycle = 0
-        moteurDroit2.duty_cycle = vitesse
-        moteurGauche1.duty_cycle = vitesse
-        moteurGauche2.duty_cycle = 0
-
-    else:
-        moteurDroit1.duty_cycle = vitesse
-        moteurDroit2.duty_cycle = 0
-        moteurGauche1.duty_cycle = 0
-        moteurGauche2.duty_cycle = vitesse
-```
 Same example as before, but without using the `elio.py` library.

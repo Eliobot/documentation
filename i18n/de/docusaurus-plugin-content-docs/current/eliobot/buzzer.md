@@ -7,11 +7,11 @@ description: "Eliobot-Komponente – Summer"
 
 <img src={require("@site/static/img/eliobot/buzzer/Eliobot - Buzzer.png").default} alt="Eliobot buzzer" width="49%" />
 
-<br/>Der Summer von Eliobot ist ein passiver Summer und kann daher Töne über einen weiten Frequenzbereich abgeben, ähnlich wie bei alten Telefonen.
+<br/>Le buzzer d'Eliobot est un buzzer passif, il peut donc émettre des sons sur une grande plage de fréquence un peu comme les vieux téléphones.
 
-## Verwendung mit Elioblocs
+## Zur Verwendung mit Elioblocs
 
-Um den Summer von Eliobot auf Elioblocs zu verwenden, nutzen wir Blöcke aus der Kategorie <img src={require("@site/static/img/eliobot/buzzer/category-sound.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="Kategorie Ton" />, um einen Ton abzuspielen.
+Um den Summer von Eliobot auf Elioblocs zu verwenden, verwenden wir Blöcke aus der Kategorie <img src={require("@site/static/img/eliobot/buzzer/category-sound.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="catégorie son" />, um einen Ton abzuspielen.
 
 ## Verwendung mit Python
 
@@ -25,29 +25,53 @@ Um Musik abzuspielen, wiederholen Sie einfach die gewünschten Frequenzen wie in
 
 >
 > <img src={require("@site/static/img/eliobot/buzzer/example-buzzer-elioblocs.jpg").default} alt="exemple buzzer elioblocs" width="49%" />
->
+>   
 
-Hier spielen wir die Note `Do` 1 Sekunde lang und beginnen dann endlos von vorne.
+Hier spielen wir 1 Sekunde lang die Note `Do` und beginnen dann endlos von vorne.
 
 ---
 
 ### Python-Beispiel
+
+#### Mit der Bibliothek `elio.py`
+
+```python
+import board
+import pwmio
+from elio import Buzzer
+
+buzzer_pin = pwmio.PWMOut(board.IO17, variable_frequency=True)
+buzzer = Buzzer(buzzer_pin)
+
+NOTES = {
+    "Do": 262,
+    "silence": 0.1,
+}
+
+while True:
+    buzzer.play_note("Do", 1, NOTES, 80)  # Joue Do pendant 1 seconde
+    buzzer.play_note("silence", 1, NOTES, 0)  # Pause d'1 seconde
+```
+
+Hier spielen wir 1 Sekunde lang die Note `Do` und beginnen dann endlos von vorne.
+
+---
+
+#### Ohne die Bibliothek `elio.py`
 
 ```python
 import board
 import pwmio
 import time
 
-buzzer = pwmio.PWMOut(
-                board.IO17, # Summer-Pin
-                variable_frequency=True, # Frequenz soll veränderbar sein
-                ) # Summerobjekt erstellen
+buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
 
 while True:
-    buzzer.frequency = 262 # Frequenz der Note C
-    time.sleep(1) # 1 Sekunde warten
-    buzzer.frequency = 0 # Ton stoppen
-    time.sleep(1) # 1 Sekunde warten
+    buzzer.frequency = 262       # Fréquence de la note Do
+    buzzer.duty_cycle = 32768    # 50% duty cycle pour émettre le son
+    time.sleep(1)
+    buzzer.duty_cycle = 0        # Arrête le son
+    time.sleep(1)
 ```
 
-Hier spielen wir die Note `Do` 1 Sekunde lang und beginnen dann endlos von vorne.
+Gleiches Prinzip, aber direkte Steuerung der Frequenz und des Tastverhältnisses der PWM.

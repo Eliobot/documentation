@@ -6,9 +6,9 @@ description: "Eliobot-component - Motoren"
 
 
 <p align="middle">
-<img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Top.png').default} alt="Eliobot motors top" width="49%" />
-<img src={require('@site/static/img/blank.png').default} width="2%"/>
-<img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Bottom.png').default} alt="Eliobot motors bottom" width="49%" />
+    <img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Top.png').default} alt="Eliobot motors top" width="49%" />
+    <img src={require('@site/static/img/blank.png').default} width="2%"/>
+    <img src={require('@site/static/img/eliobot/motors/Eliobot - Motors Bottom.png').default} alt="Eliobot motors bottom" width="49%" />
 </p>
 
 :::note
@@ -17,7 +17,7 @@ De motoren van Eliobot worden rechtstreeks door de batterij gevoed en werken dus
 
 ## Gebruik met Elioblocs
 
-Om de motoren van Eliobot op Elioblocs te gebruiken, gebruiken we blokken uit de categorie `Beweging` omdat dit de motoren zijn waarmee Eliobot kan bewegen.
+Om de motoren van Eliobot op Elioblocs te gebruiken, gebruiken we blokken uit de categorie `Mouvement` omdat dit de motoren zijn waarmee Eliobot kan bewegen.
 
 
 ## Gebruik met Python
@@ -26,10 +26,10 @@ Om Eliobot-engines in Python te gebruiken, kunt u de functies gebruiken die besc
 
 De motoren zijn aangesloten op de volgende pinnen:
 
-|     | Linkermotor | Rechter motor |
+|     | Moteur gauche | Moteur droit |
 |-----|---------------|--------------|
-| IN1 | IO35 | IO36 |
-| IN2 | IO37 | IO38 |
+| IN1 | IO35          | IO36         |
+| IN2 | IO37          | IO38         |
 
 Motoren kunnen op twee manieren worden aangestuurd: digitaal of PWM
 
@@ -41,89 +41,84 @@ Voor meer informatie over pwm: [Wikipedia PWM](https://fr.wikipedia.org/wiki/Mod
 
 ## Gerelateerde voorbeelden
 
-### Elioblocs-voorbeeld
+### Elioblocs voorbeeld
 
 >
-><img src={require('@site/static/img/eliobot/motors/example-movements-elioblocs.jpg').default} alt="voorbeeld beweging elioblocs" width="49%" />
+><img src={require('@site/static/img/eliobot/motors/example-movements-elioblocs.jpg').default} alt="exemple mouvement elioblocs" width="49%" />
 >
 
-Hier gebruiken we de <img src={require('@site/static/img/eliobot/motors/movement-category.jpg').default} style={{ width: '14%', verticalAlign: 'middle' }} alt="Categorie beweging" />-blokken om Eliobot vooruit te laten gaan als hij geen obstakel voor hem detecteert, anders draait hij naar rechts.
+Hier gebruiken we de <img src={require('@site/static/img/eliobot/motors/movement-category.jpg').default} style={{ width: '14%', verticalAlign: 'middle' }} alt="Catégorie mouvement" />-blokken om Eliobot vooruit te laten gaan als hij geen obstakel voor hem detecteert, anders draait hij naar rechts.
 
 ---
 
 ### Python-voorbeeld
 
-#### Bij de boekwinkel `elio.py`
+#### Met de bibliotheek `elio.py`
 
 ```python
-from elio import Eliobot
 import board
-import time
-import digitalio
-import analogio
 import pwmio
+import analogio
+from elio import Motors, ObstacleSensor
 
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
 vBatt_pin = analogio.AnalogIn(board.BATTERY)
 
-obstacleInput = [analogio.AnalogIn(pin) for pin in
-                 (board.IO4, board.IO5, board.IO6, board.IO7)]
+obstacle_pins = [
+    analogio.AnalogIn(board.IO4),  # Gauche
+    analogio.AnalogIn(board.IO5),  # Avant
+    analogio.AnalogIn(board.IO6),  # Droite
+    analogio.AnalogIn(board.IO7),  # Arrière
+]
 
-lineCmd = digitalio.DigitalInOut(board.IO33)
-lineCmd.direction = digitalio.Direction.OUTPUT
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
+obstacle_sensor = ObstacleSensor(obstacle_pins)
 
-lineInput = [analogio.AnalogIn(pin) for pin in
-               (board.IO10, board.IO11, board.IO12, board.IO13, board.IO14)]
+speed = 100
+
+while True:
+    if obstacle_sensor.get_obstacle(1):  # Obstacle devant
+        motors.turn_right(speed)
+    else:
+        motors.move_forward(speed)
+```
+
+In dit voorbeeld gaat Eliobot vooruit als hij geen obstakel voor hem detecteert, anders draait hij naar rechts.
+
+---
+
+#### Zonder de bibliotheek `elio.py`
+
+```python
+import board
+import pwmio
+import analogio
 
 AIN1 = pwmio.PWMOut(board.IO36)
 AIN2 = pwmio.PWMOut(board.IO38)
 BIN1 = pwmio.PWMOut(board.IO35)
 BIN2 = pwmio.PWMOut(board.IO37)
 
-buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
+obstacle_avant = analogio.AnalogIn(board.IO5)
 
-elio = Eliobot(AIN1, AIN2, BIN1, BIN2, vBatt_pin, obstacleInput, buzzer, lineInput, lineCmd)
-
-speed = 100
-
+vitesse = 65535  # valeur PWM max (0–65535)
 
 while True:
-    if elio.get_obstacle(1):
-        elio.turn_right(speed)
-
+    if obstacle_avant.value < 10000:  # Obstacle devant
+        # Tourner à droite
+        AIN1.duty_cycle = vitesse
+        AIN2.duty_cycle = 0
+        BIN1.duty_cycle = 0
+        BIN2.duty_cycle = vitesse
     else:
-        elio.move_forward(speed)
+        # Avancer
+        AIN1.duty_cycle = 0
+        AIN2.duty_cycle = vitesse
+        BIN1.duty_cycle = 0
+        BIN2.duty_cycle = vitesse
 ```
 
-In dit voorbeeld gaat Eliobot vooruit als hij geen obstakel voor hem detecteert, anders draait hij naar rechts.
-
-#### Zonder de boekwinkel `elio.py`
-
-```python
-import elio
-import time
-import board
-import pwmio
-
-# Configuration des pins
-moteurDroit1 = pwmio.PWMOut(board.IO36)
-moteurDroit2 = pwmio.PWMOut(board.IO38)
-moteurGauche1 = pwmio.PWMOut(board.IO35)
-moteurGauche2 = pwmio.PWMOut(board.IO37)
-
-# Vitesse des moteurs
-vitesse = 65535 # vitesses entre 0 et 65535
-
-while True:
-    if elio.getObstacle(1):
-        moteurDroit1.duty_cycle = 0
-        moteurDroit2.duty_cycle = vitesse
-        moteurGauche1.duty_cycle = vitesse
-        moteurGauche2.duty_cycle = 0
-
-    else:
-        moteurDroit1.duty_cycle = vitesse
-        moteurDroit2.duty_cycle = 0
-        moteurGauche1.duty_cycle = 0
-        moteurGauche2.duty_cycle = vitesse
-```
 Hetzelfde voorbeeld als voorheen, maar zonder gebruik van de `elio.py` bibliotheek.

@@ -66,7 +66,6 @@ const sidebars = {
             {
               type: 'category',
               label: "Backpacks",
-              key: "elioblocs-backpacks",
               link: {type: 'doc', id: 'elioblocs/blocs/backpacks/backpacks'},
               items: [
                 "elioblocs/blocs/backpacks/grove-backpack",
@@ -80,10 +79,19 @@ const sidebars = {
     {
       type: 'category',
       label: 'Librairie Python',
+      link: {type: 'doc', id: 'python_lib/intro'},
       items: [
+        "python_lib/intro",
+        "python_lib/motors",
+        "python_lib/buzzer",
+        "python_lib/obstacle-sensor",
+        "python_lib/line-sensor",
+        "python_lib/wifi",
+        "python_lib/ir-remote",
+        "python_lib/eyes-matrix",
         {
           type: 'link',
-          label: 'Librairie Python',
+          label: 'Code source (GitHub)',
           href: 'https://github.com/Eliobot/Eliobot-Python-Library'
         },
       ],

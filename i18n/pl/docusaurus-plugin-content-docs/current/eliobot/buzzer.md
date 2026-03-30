@@ -7,13 +7,13 @@ description: "Komponent Eliobota - Buzzer"
 
 <img src={require("@site/static/img/eliobot/buzzer/Eliobot - Buzzer.png").default} alt="Eliobot buzzer" width="49%" />
 
-<br/>Brzęczyk Eliobota jest brzęczykiem pasywnym, więc może emitować dźwięki w szerokim zakresie częstotliwości, podobnie jak stare telefony.
+<br/>Le buzzer d'Eliobot est un buzzer passif, il peut donc émettre des sons sur une grande plage de fréquence un peu comme les vieux téléphones.
 
 ## Używaj z Elioblocami
 
-Aby użyć brzęczyka Eliobota na Elioblocach, używamy klocków z kategorii <img src={require("@site/static/img/eliobot/buzzer/category-sound.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="kategoria dźwięku" /> do odtworzenia dźwięku.
+Aby użyć brzęczyka Eliobota na Elioblocach, używamy klocków z kategorii <img src={require("@site/static/img/eliobot/buzzer/category-sound.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="catégorie son" /> do odtworzenia dźwięku.
 
-## Używaj z Pythonem
+## Używanie z Pythonem
 
 Aby odtwarzać nuty w Pythonie, używamy pinu `IO17` jako wyjścia PWM, aby móc odtworzyć żądaną częstotliwość.
 
@@ -21,7 +21,7 @@ Aby odtwarzać muzykę, po prostu powtórz żądane częstotliwości, jak w part
 
 ## Powiązane przykłady
 
-### Przykład Elioblocs
+### Przykład eliobbloków
 
 >
 > <img src={require("@site/static/img/eliobot/buzzer/example-buzzer-elioblocs.jpg").default} alt="exemple buzzer elioblocs" width="49%" />
@@ -33,21 +33,45 @@ Tutaj gramy nutę `Do` przez 1 sekundę i zaczynamy od nowa w nieskończoność.
 
 ### Przykład Pythona
 
+#### Z biblioteką `elio.py`
+
+```python
+import board
+import pwmio
+from elio import Buzzer
+
+buzzer_pin = pwmio.PWMOut(board.IO17, variable_frequency=True)
+buzzer = Buzzer(buzzer_pin)
+
+NOTES = {
+    "Do": 262,
+    "silence": 0.1,
+}
+
+while True:
+    buzzer.play_note("Do", 1, NOTES, 80)  # Joue Do pendant 1 seconde
+    buzzer.play_note("silence", 1, NOTES, 0)  # Pause d'1 seconde
+```
+
+Tutaj gramy nutę `Do` przez 1 sekundę i zaczynamy od nowa w nieskończoność.
+
+---
+
+#### Bez biblioteki `elio.py`
+
 ```python
 import board
 import pwmio
 import time
 
-buzzer = pwmio.PWMOut(
-                board.IO17, # Pin du buzzer
-                variable_frequency=True, # On veut pouvoir changer la fréquence
-                ) # Création de l'objet buzzer
+buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
 
 while True:
-    buzzer.frequency = 262 # Fréquence de la note Do
-    time.sleep(1) # Attend 1 seconde
-    buzzer.frequency = 0 # Arrête le son
-    time.sleep(1) # Attend 1 seconde
+    buzzer.frequency = 262       # Fréquence de la note Do
+    buzzer.duty_cycle = 32768    # 50% duty cycle pour émettre le son
+    time.sleep(1)
+    buzzer.duty_cycle = 0        # Arrête le son
+    time.sleep(1)
 ```
 
-Tutaj gramy nutę `Do` przez 1 sekundę i zaczynamy od nowa w nieskończoność.
+Ta sama zasada, ale bezpośrednio kontrolująca częstotliwość i cykl pracy PWM.

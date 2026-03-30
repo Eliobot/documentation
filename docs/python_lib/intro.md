@@ -4,44 +4,63 @@ sidebar_position: 0
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+La librairie Python d'Eliobot (`elio.py`) est une librairie CircuitPython conçue pour simplifier la programmation du robot Eliobot.
 
-## Getting Started
+## Version actuelle
 
-Get started by **creating a new site**.
+| Librairie | Version | CircuitPython |
+|-----------|---------|---------------|
+| `elio.py` | 4.0     | 9.x.x         |
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Architecture
 
-### What you'll need
+La librairie est organisée en **7 classes indépendantes**, chacune responsable d'un composant ou d'une fonctionnalité du robot :
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+| Classe             | Description                                      |
+|--------------------|--------------------------------------------------|
+| `Motors`           | Contrôle des moteurs et déplacements             |
+| `Buzzer`           | Sons et mélodies                                 |
+| `ObstacleSensor`   | Détection d'obstacles par capteurs infrarouges   |
+| `LineSensor`       | Suivi de ligne et calibration                    |
+| `WiFiConnectivity` | Connexion WiFi et point d'accès                  |
+| `IRRemote`         | Réception de signaux infrarouge                  |
+| `EyesMatrix`       | Contrôle de la matrice de LEDs (yeux d'Eliobot)  |
 
-## Generate a new site
+## Installation rapide
 
-Generate a new Docusaurus site using the **classic template**.
+Le fichier `elio.py` doit être copié à la racine de la carte Eliobot (dans le dossier `CIRCUITPY`).
 
-The classic template will automatically be added to your project after you run the command:
+## Exemple minimal
 
-```bash
-npm init docusaurus@latest my-website classic
+```python
+import board
+import pwmio
+import analogio
+from elio import Motors
+
+AIN1 = pwmio.PWMOut(board.IO36)
+AIN2 = pwmio.PWMOut(board.IO38)
+BIN1 = pwmio.PWMOut(board.IO35)
+BIN2 = pwmio.PWMOut(board.IO37)
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
+
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
+
+motors.move_forward(speed=80)
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Pins de référence
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+| Composant             | Pin(s)                              |
+|-----------------------|-------------------------------------|
+| Moteur droit (AIN1)   | IO36                                |
+| Moteur droit (AIN2)   | IO38                                |
+| Moteur gauche (BIN1)  | IO35                                |
+| Moteur gauche (BIN2)  | IO37                                |
+| Batterie              | BATTERY                             |
+| Capteurs d'obstacles  | IO4, IO5, IO6, IO7                  |
+| Capteurs de ligne     | IO10, IO11, IO12, IO13, IO14        |
+| Commande ligne (cmd)  | IO33                                |
+| Buzzer                | IO17                                |
+| Bouton                | IO0                                 |
+| LED NeoPixel          | NEOPIXEL                            |

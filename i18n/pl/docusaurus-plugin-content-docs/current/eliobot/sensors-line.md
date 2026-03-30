@@ -7,20 +7,20 @@ description: "Komponent Eliobota - Czujniki liniowe"
 
 <img src={require('@site/static/img/eliobot/senors-line/Eliobot - Line.png').default} alt="Eliobot line sensor" width="49%" />
 
-<br/>Czujniki linii Eliobota to czujniki podczerwieni wykrywające linie.
+<br/>Les capteurs de ligne d'Eliobot sont des capteurs infrarouges qui permettent de détecter les lignes.
 
 ## Używaj z Elioblocami
 
-Do wykorzystania czujników liniowych Eliobot na Elioblocach wykorzystujemy bloczki z kategorii <img src={require("@site/static/img/eliobot/senors-line/category-follow-line.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="kategoria linii" />.
+Do wykorzystania czujników liniowych Eliobot na Elioblocach wykorzystujemy bloczki z kategorii <img src={require("@site/static/img/eliobot/senors-line/category-follow-line.jpg").default} style={{ width: "14%", verticalAlign: "middle" }} alt="catégorie ligne" />.
 
-## Używaj z Pythonem
+## Używanie z Pythonem
 
 W Pythonie każdy czujnik linii należy zdefiniować jako obiekt.
 Na czujniku liniowym mamy 5 czujników, są one podłączone do następujących pinów:
 
-|     | Czujnik 1 | Czujnik 2 | Czujnik 3 | Czujnik 4 | Czujnik 5 |
+|     | Capteur 1 | Capteur 2 | Capteur 3 | Capteur 4 | Capteur 5 |
 |-----|-----------|-----------|-----------|-----------|-----------|
-| Sosna | IO10 | IO11 | IO12 | IO13 | IO14 |
+| Pin | IO10      | IO11      | IO12      | IO13      | IO14      |
 
 Do wykrycia linii wykorzystujemy światło odbite, mierzymy światło otoczenia, a światło odbite – do obliczenia wartości.
 
@@ -28,7 +28,7 @@ Czujniki zwracają wartości analogowe.
 
 ## Powiązane przykłady
 
-### Przykład Elioblocs
+### Przykład eliobbloków
 
 >
 > <img src={require("@site/static/img/eliobot/senors-line/example-follow-line-elioblocs.jpg").default} alt="exemple suivi de ligne elioblocs" width="49%" />
@@ -40,66 +40,76 @@ Tutaj, jeśli wykryjemy linię pod czujnikiem 3 (środkowy czujnik), ruszamy do 
 
 ### Przykład Pythona
 
+#### Z biblioteką `elio.py`
+
 ```python
-from elio import Eliobot
 import board
-import time
-import digitalio
-import analogio
 import pwmio
-
-vBatt_pin = analogio.AnalogIn(board.BATTERY)
-
-obstacleInput = [analogio.AnalogIn(pin) for pin in
-                 (board.IO4, board.IO5, board.IO6, board.IO7)]
-
-lineCmd = digitalio.DigitalInOut(board.IO33)
-lineCmd.direction = digitalio.Direction.OUTPUT
-
-lineInput = None
+import analogio
+import digitalio
+from elio import Motors, LineSensor
 
 AIN1 = pwmio.PWMOut(board.IO36)
 AIN2 = pwmio.PWMOut(board.IO38)
 BIN1 = pwmio.PWMOut(board.IO35)
 BIN2 = pwmio.PWMOut(board.IO37)
+vBatt_pin = analogio.AnalogIn(board.BATTERY)
+motors = Motors(AIN1, AIN2, BIN1, BIN2, vBatt_pin)
 
-buzzer = pwmio.PWMOut(board.IO17, variable_frequency=True)
+lineCmd = digitalio.DigitalInOut(board.IO33)
+lineCmd.direction = digitalio.Direction.OUTPUT
 
-elio = Eliobot(AIN1, AIN2, BIN1, BIN2, vBatt_pin, obstacleInput, buzzer, lineInput, lineCmd)
-
-line_sensor = [
-    analogio.AnalogIn(board.IO10), # Capteur 1
-    analogio.AnalogIn(board.IO11), # Capteur 2
-    analogio.AnalogIn(board.IO12), # Capteur 3
-    analogio.AnalogIn(board.IO13), # Capteur 4
-    analogio.AnalogIn(board.IO14)  # Capteur 5
+lineInput = [
+    analogio.AnalogIn(board.IO10),  # Capteur 0
+    analogio.AnalogIn(board.IO11),  # Capteur 1
+    analogio.AnalogIn(board.IO12),  # Capteur 2 (centre)
+    analogio.AnalogIn(board.IO13),  # Capteur 3
+    analogio.AnalogIn(board.IO14),  # Capteur 4
 ]
 
-# Fonction pour récupérer la valeur d'un capteur de ligne
-def getLine(line_pos):
-    ambient = 0
-    lit = 0
-    value = 0
+line_sensor = LineSensor(lineInput, lineCmd, motors)
 
-    # Mesure de la lumière réfléchie
-    obstacleCmd.value = True
-    time.sleep(0.02)
-    lit = lineInput[line_pos].value
+threshold = 5000  # Seuil de détection (à calibrer)
 
-    # Mesure de la lumière ambiante
-    obstacleCmd.value = False
-    time.sleep(0.02)
-    ambient = lineInput[line_pos].value
-
-    # Calcul de la valeur
-    value = ambient - lit
-
-    return value
-    
 while True:
-    if getLine(2) > 30000: # Si le capteur 3 détecte une ligne
-        elio.move_forward(100) # On avance
+    if line_sensor.get_line(2) > threshold:  # Capteur central détecte une ligne
+        motors.move_forward(100)
 ```
 
-Tutaj, jeśli wykryjemy linię pod czujnikiem 3 (środkowy czujnik), ruszamy do przodu.
-Próg detekcji wynosi 30000, jest to wartość przybliżona, należy ją skalibrować dla optymalnej pracy.
+Tutaj, jeśli wykryjemy linię pod czujnikiem centralnym (indeks 2), idziemy do przodu.
+Próg jest przybliżony — użyj `line_sensor.calibrate_line_sensors()`, aby obliczyć go automatycznie.
+
+---
+
+#### Bez biblioteki `elio.py`
+
+```python
+import board
+import analogio
+import digitalio
+import time
+
+lineCmd = digitalio.DigitalInOut(board.IO33)
+lineCmd.direction = digitalio.Direction.OUTPUT
+
+capteur_centre = analogio.AnalogIn(board.IO12)  # Capteur 2 (centre)
+
+def get_line_value():
+    lineCmd.value = True
+    time.sleep(0.02)
+    lit = capteur_centre.value
+
+    lineCmd.value = False
+    time.sleep(0.02)
+    ambient = capteur_centre.value
+
+    return ambient - lit
+
+threshold = 5000
+
+while True:
+    if get_line_value() > threshold:
+        print("Ligne détectée !")
+```
+
+Zwracana wartość to różnica między światłem otoczenia a światłem odbitym: im wyższa, tym bardziej kontrastowa linia.

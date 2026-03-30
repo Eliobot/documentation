@@ -1,8 +1,8 @@
 {
-  "label": "Librería Python",
+  "label": "biblioteca de pitón",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Documentación de la librería Python de Eliobot."
+    "description": "Referencia de la biblioteca Python elio.py para Eliobot (v4.0 / CircuitPython 9.x)."
   }
 }

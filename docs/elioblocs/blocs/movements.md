@@ -6,9 +6,9 @@ description: "Elioblocs - Mouvements"
 
 Les blocs de mouvements permettent de déplacer Eliobot dans l'espace.
 
-# Blocs de mouvements par case
+## Blocs de mouvements par case
 
-## Avancer de X cases
+### Avancer de X cases
 
 ![Move X cases](../../../static/img/elioblocs/blocs/movements/avancer-cases.png)
 
@@ -22,7 +22,7 @@ Ce bloc permet de faire avancer Eliobot d'un certain nombre de cases.
 
 Si tu veux faire avancer Eliobot d'une certaine distance.
 
-## Tourner à droite ou à gauche
+### Tourner à droite ou à gauche
 
 ![Turn right or left](../../../static/img/elioblocs/blocs/movements/tourner-cases.png)
 
@@ -36,9 +36,9 @@ Ce bloc permet de faire tourner Eliobot à droite ou à gauche (90 degrés).
 
 Si tu veux faire tourner Eliobot.
 
-# Blocs de mouvements libres
+## Blocs de mouvements libres
 
-## Se déplacer vers l'avant
+### Se déplacer vers l'avant
 
 ![Move forward or backward](../../../static/img/elioblocs/blocs/movements/deplacer.png)
 
@@ -52,7 +52,7 @@ Ce bloc permet de déplacer Eliobot vers l'avant ou l'arrière.
 
 Si tu veux faire avancer ou reculer Eliobot.
 
-## Pivoter vers la droite
+### Pivoter vers la droite
 
 ![Turn freely](../../../static/img/elioblocs/blocs/movements/pivoter.png)
 
@@ -67,7 +67,7 @@ Ce bloc permet de faire pivoter Eliobot vers la droite ou la gauche (90 degrés)
 Si tu veux faire tourner Eliobot.
 
 
-## Pivoter d'un angle prédéfini
+### Pivoter d'un angle prédéfini
 
 ![Turn to an angle](../../../static/img/elioblocs/blocs/movements/pivoter-degres.png)
 
@@ -81,7 +81,7 @@ Ce bloc permet de faire pivoter Eliobot d'un angle précis.
 
 Si tu veux faire en sorte que Eliobot tourne légèrement à droite ou à gauche.
 
-## Arrêter les moteurs
+### Arrêter les moteurs
 
 ![Stop the motors](../../../static/img/elioblocs/blocs/movements/arreter-moteurs.png)
 
@@ -95,7 +95,7 @@ Ce bloc permet d'arrêter les moteurs d'Eliobot.
 
 Si tu veux arrêter Eliobot.
 
-## Faire tourner une seule roue
+### Faire tourner une seule roue
 
 ![Spin only one wheel](../../../static/img/elioblocs/blocs/movements/tourner-roue.png)
 
@@ -109,7 +109,7 @@ Ce bloc permet de faire tourner une seule roue d'Eliobot.
 
 Si tu veux faire tourner une seule roue d'Eliobot. C'est une alternative à la rotation.
 
-## Modifier la vitesse
+### Modifier la vitesse
 
 ![Change the speed](../../../static/img/elioblocs/blocs/movements/modifier-vitesse.png)
 
