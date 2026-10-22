@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Assembler Eliobot
+# Assembler Eliobot Maker Edition
+
+> This guide is for the Eliobot Maker Edition, which comes as a kit.
 
 ## Introduction
 
@@ -14,7 +16,7 @@ This video shows you the entire assembly of Eliobot, and you will find all the s
 
 > The video may no longer be up to date, check the steps below
 
-<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/YcfWWAqkqIs?si=hvlmNyHcUA_F4GI3" title="Assemblage Eliobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/TdLlA7gP8_w" title="Assemblage Eliobot Maker Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## The step-by-step tutorial:

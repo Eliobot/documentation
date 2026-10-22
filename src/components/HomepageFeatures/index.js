@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
@@ -7,7 +8,7 @@ const FeatureList = [
   {
     title: 'Elioblocs',
     Svg: require('@site/static/img/logos/elioblocs.svg').default,
-    link: 'https://learn.eliobot.com/elioblocs/',
+    link: 'https://app.eliobot.com',
     description: (
       <>
         <Translate id="homepage.features.elioblocs.description">
@@ -19,7 +20,7 @@ const FeatureList = [
   {
     title: 'Python',
     Svg: require('@site/static/img/logos/python.svg').default,
-    link: 'https://learn.eliobot.com/python/',
+    link: '/docs/python_lib/intro',
     description: (
       <>
         <Translate id="homepage.features.python.description">
@@ -43,7 +44,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description, link}) {
   return (
-      <a className={clsx('col col--4 featureCol')} href= {link}>
+      <Link className={clsx('col col--4 featureCol')} to={link}>
         <div className="text--center">
           <Svg className={styles.featureSvg} role="img" />
         </div>
@@ -51,7 +52,7 @@ function Feature({Svg, title, description, link}) {
           <Heading as="h3">{title}</Heading>
           <p>{description}</p>
         </div>
-      </a>
+      </Link>
   );
 }
 

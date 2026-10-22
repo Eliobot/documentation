@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Assembler Eliobot
+# Assembler Eliobot Maker Edition
+
+> Diese Anleitung gilt für den Eliobot Maker Edition, der als Bausatz geliefert wird.
 
 ## Einführung
 
@@ -14,7 +16,7 @@ Dieses Video zeigt Ihnen den gesamten Zusammenbau von Eliobot, alle Schritte fin
 
 > Das Video ist möglicherweise nicht mehr aktuell. Überprüfen Sie die folgenden Schritte
 
-<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/YcfWWAqkqIs?si=hvlmNyHcUA_F4GI3" title="Assemblage Eliobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/TdLlA7gP8_w" title="Assemblage Eliobot Maker Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Die Schritt-für-Schritt-Anleitung:

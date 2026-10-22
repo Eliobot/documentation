@@ -93,11 +93,6 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://learn.eliobot.com',
-            label: 'Tutoriels',
-            position: 'left',
-          },
-          {
             href: 'https://app.eliobot.com',
             label: 'Elioblocs',
             position: 'left',
@@ -130,7 +125,7 @@ const config = {
               },
               {
                 label: 'Tutoriels',
-                href: 'https://learn.eliobot.com',
+                href: 'https://app.eliobot.com',
               },
             ],
           },

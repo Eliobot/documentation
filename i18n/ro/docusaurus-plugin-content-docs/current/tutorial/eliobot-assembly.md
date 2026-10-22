@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Asamblați Eliobot
+# Asamblați Eliobot Maker Edition
+
+> Acest ghid este pentru Eliobot Maker Edition, livrat sub formă de kit.
 
 ## Introducere
 
@@ -14,7 +16,7 @@ Acest videoclip vă arată întregul ansamblu al lui Eliobot și veți găsi mai
 
 > Este posibil ca videoclipul să nu mai fie actualizat, verificați pașii de mai jos
 
-<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/YcfWWAqkqIs?si=hvlmNyHcUA_F4GI3" title="Assemblage Eliobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/TdLlA7gP8_w" title="Assemblage Eliobot Maker Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Tutorialul pas cu pas:

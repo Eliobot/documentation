@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Złóż Eliobota
+# Złóż Eliobota Maker Edition
+
+> Ten przewodnik dotyczy Eliobota Maker Edition, dostarczanego w zestawie do samodzielnego montażu.
 
 ## Wstęp
 
@@ -14,7 +16,7 @@ Ten film przedstawia cały montaż Eliobota, a wszystkie kroki znajdziesz krok p
 
 > Film może być już nieaktualny. Sprawdź poniższe kroki
 
-<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/YcfWWAqkqIs?si=hvlmNyHcUA_F4GI3" title="Assemblage Eliobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-iframe" width="100%" src="https://www.youtube.com/embed/TdLlA7gP8_w" title="Assemblage Eliobot Maker Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Samouczek krok po kroku:
