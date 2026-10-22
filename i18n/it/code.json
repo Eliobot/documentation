@@ -30,7 +30,7 @@
     "message": "Benvenuto"
   },
   "homepage.layout.description": {
-    "message": "Home page di Eliobot"
+    "message": "Documentazione ufficiale di Eliobot, il robot educativo per imparare a programmare: montaggio, Elioblocs, Python e Arduino."
   },
   "homepage.features.elioblocs.description": {
     "message": "Lo strumento di programmazione è a blocchi, ideale per sollevare qualsiasi dubbio sulle impostazioni del codice."

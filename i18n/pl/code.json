@@ -30,7 +30,7 @@
     "message": "Powitanie"
   },
   "homepage.layout.description": {
-    "message": "Strona główna Eliobota"
+    "message": "Oficjalna dokumentacja Eliobota, robota edukacyjnego do nauki programowania: montaż, Elioblocs, Python i Arduino."
   },
   "playground.codesandbox.description": {
     "message": "CodeSandbox to internetowy edytor kodu i środowisko programistyczne, które umożliwia programistom tworzenie, udostępnianie i współpracę przy projektach tworzenia stron internetowych w środowisku opartym na przeglądarce"

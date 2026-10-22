@@ -97,7 +97,7 @@ export default function Home() {
       })}
       description={translate({
         id: 'homepage.layout.description',
-        message: "Page d'accueil Eliobot",
+        message: "Documentation officielle d'Eliobot, le robot éducatif pour apprendre à coder : montage, Elioblocs, Python et Arduino.",
       })}>
       <HomepageHeader />
       <main>

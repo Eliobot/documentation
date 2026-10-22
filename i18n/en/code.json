@@ -386,7 +386,7 @@
     "message": "Home"
   },
   "homepage.layout.description": {
-    "message": "Eliobot homepage"
+    "message": "Official documentation for Eliobot, the educational robot for learning to code: assembly, Elioblocs, Python and Arduino."
   },
   "homepage.features.elioblocs.description": {
     "message": "A block-based programming tool, ideal for getting started without worrying about code syntax."

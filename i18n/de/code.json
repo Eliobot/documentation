@@ -30,7 +30,7 @@
     "message": "Startseite"
   },
   "homepage.layout.description": {
-    "message": "Eliobot-Startseite"
+    "message": "Offizielle Dokumentation von Eliobot, dem Lernroboter zum Programmierenlernen: Zusammenbau, Elioblocs, Python und Arduino."
   },
   "playground.codesandbox.description": {
     "message": "CodeSandbox ist ein Online-Codeeditor und eine Entwicklungsumgebung, mit der Entwickler Webprojekte direkt im Browser erstellen, teilen und gemeinsam bearbeiten können."
